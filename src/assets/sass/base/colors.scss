@@ -1,9 +1,9 @@
 
 :root {
-    --color-accent-1: #e86344;
+    --color-accent-1: #3529c6;
     --color-accent-2: #d04e30;
-    --color-dark-1: #090c0f;
-    --color-dark-2: #121416;
+    --color-dark-1: #04031e;
+    --color-dark-2: #202738;
     --color-light-1: #f8fbf9;
     --color-light-2: #f0f5f2;
     --color-light-3: #fff;
@@ -16,8 +16,8 @@
     :root {
     --color-dark-1: #f8fbf9;
     --color-dark-2: #f0f5f2;
-    --color-light-1: #090c0f;
-    --color-light-2: #121416;
+    --color-light-1: #04031e;
+    --color-light-2: #202738;
     --color-light-3: #08090b;
     --color-heading: #fff;
     --color-text: #bcbcbc;
@@ -26,8 +26,8 @@
   }
   
   .light {
-    --color-dark-1: #090c0f;
-    --color-dark-2: #121416;
+    --color-dark-1: #04031e;
+    --color-dark-2: #202738;
     --color-light-1: #f8fbf9;
     --color-light-2: #f0f5f2;
     --color-light-3: #fff;
@@ -39,8 +39,8 @@
   .dark {
     --color-dark-1: #f8fbf9;
     --color-dark-2: #f0f5f2;
-    --color-light-1: #090c0f;
-    --color-light-2: #121416;
+    --color-light-1: #04031e;
+    --color-light-2: #202738;
     --color-light-3: #08090b;
     --color-heading: #fff;
     --color-text: #bcbcbc;
@@ -57,27 +57,26 @@
     background-color: var(--color-light-2)
   }
   .bg-dark {
-    background-color: #121920
+    background-color: #04031e
+  }
+  .bg-accent-1 {
+    background-color: var(--color-accent-1)
   }
 
   .color-accent-1 {
     color: var(--color-accent-1)!important;
     text-shadow: none
   }
-
   .color-accent-2 {
     color: var(--color-accent-2)!important;
     text-shadow: none
   }
-
   .color-light {
-    color: #fff
+    color: #fff!important
   }
-
   .color-light-1 {
     color: var(--color-light-1)!important
   }
-
   .color-light-2 {
     color: var(--color-light-2)!important
   }

@@ -52,51 +52,13 @@
 .desktop-nav ul li span {
   display: block;
   margin-top: .2em;
-  font-size: 70%;
+  font-size: 66%;
   font-weight: 300;
   text-transform: uppercase;
   cursor: default
 }
 
-.button-header {
-  display: inline-block;
-  position: relative;
-  padding: .8em 1.5em 0.8em;
-  background-color: var(--color-accent-1);
-  font-size: .95rem;
-  font-weight: 500;
-  border: none;
-  border-radius: 28px;
-  overflow: hidden;
-  cursor: pointer
-}
-.button-header::before {
-  position: absolute;
-  content: "";
-  top: -1px;
-  bottom: -1px;
-  right: -1px;
-  width: 0;
-  border-radius: 28px;
-  background: var(--color-dark-1);
-  transition: 0.4s cubic-bezier(.79,0,.07,.88);
-  z-index: -1
-}
-.button-header span {
-  display: inline-block;
-  font-weight: 500;
-  color: #fff;
-  transition: .4s cubic-bezier(.79,0,.07,.88)
-}
-.button-header svg {
-  margin-left: 15px;
-  transform: rotate(45deg);
-  transition: .4s cubic-bezier(.79,0,.07,.88)
-}
-.button-header svg path {
-  stroke: #fff;
-  transition: .4s cubic-bezier(.79,0,.07,.88)
-}
+
 
 .menu-toggle {
   width: 44px;
@@ -133,11 +95,6 @@
 
 .menu-open .bl-2 {
   transform: rotate(-45deg) translateY(-.2em) translateX(.2em)
-}
-
-.fixed {
-  position: fixed;
-  width: 100%
 }
 
 .sticky {
@@ -245,13 +202,13 @@
 
 @media(min-width:767px) {
   .site-header {
-    padding-top: 1.3em;
+    padding-top: 1.5em;
     left: 7px; 
     top: 0;
     width: calc(100% - 7px)
   }
   .site-header .container:last-child {
-    padding-top: 1.3em
+    padding-top: 1.5em
   }    
   .logo img {
     max-width: 195px

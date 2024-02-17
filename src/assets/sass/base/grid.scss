@@ -32,9 +32,7 @@
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1020px;
-    padding-left: 8em;
-    padding-right: 8em;
+    max-width: 1120px;
   }
 }
 @media (min-width: 1400px) {
@@ -44,7 +42,7 @@
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1180px;
+    max-width: 1240px;
   }
 }
 .row {

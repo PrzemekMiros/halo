@@ -84,6 +84,18 @@ if (document.querySelector('.swiper')) {
 };
 
 
+  // Greeting
+  if (document.querySelector("#greeting")) {
+    const greeting = document.getElementById("greeting");
+    const hour = new Date().getHours();
+    const welcomeTypes = ["Dzień dobry !", "Dobry wieczór !"];
+    let welcomeText = "";
+    if (hour < 20) welcomeText = welcomeTypes[0];
+    else welcomeText = welcomeTypes[1];
+    greeting.innerHTML = welcomeText;
+  }
+
+
 if(document.querySelector('.multiform')) {
   
 const previousButton = document.querySelector('#prev')
@@ -178,10 +190,7 @@ function setButtonPermissions(input) {
     submitButton.removeAttribute('disabled')
   }
 }
-
 }
-
-
 
 
 const modals = document.querySelectorAll("[data-modal]");

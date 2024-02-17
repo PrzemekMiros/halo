@@ -59,7 +59,7 @@ function animationMain() {
       gsap.from(mySplitText.lines, {
         duration: 1,
         stagger: 0.05,
-        yPercent: 100,
+        yPercent: 110,
         ease: Power2.easeInOut,
         scrollTrigger: {
           scroller: ".scrollContainer",
@@ -78,7 +78,8 @@ function animationMain() {
       autoAlpha: 0,
       opacity: 0,
       y: 20,
-      duration: 1.3,
+      duration: 1,
+      delay: .2,
       scrollTrigger: {
         scroller: ".scrollContainer",
         trigger: fadeInItem,
@@ -127,28 +128,6 @@ function animationMain() {
     });
   }
 
-  if (window.matchMedia("(min-width: 767px)").matches) {
-    const paths = [...document.querySelectorAll("path.path-anim")];
-
-    paths.forEach((el) => {
-      const svgEl = el.closest(".separator");
-      const pathTo = el.dataset.pathTo;
-
-      gsap
-        .timeline({
-          scrollTrigger: {
-            trigger: svgEl,
-            start: "top bottom",
-            end: "bottom 40%",
-            scrub: true,
-          },
-        })
-        .to(el, {
-          ease: "none",
-          attr: { d: pathTo },
-        });
-    });
-  };
 
      // Nav menu
      const menuToggle = document.getElementById("menuToggle");
@@ -183,29 +162,6 @@ function animationMain() {
        // menuWrap.classList.toggle("active");
      });
 
-  // Loop text
-  const rows = document.querySelectorAll(".loop-text-row");
-
-rows.forEach(function (e, i) {
-	let row_width = e.getBoundingClientRect().width;
-	let row_item_width = e.children[0].getBoundingClientRect().width;
-	let initial_offset = ((2 * row_item_width) / row_width) * 100 * -1;
-	let x_translation = initial_offset * -1;
-	// console.log(x_translation);
-
-	gsap.set(e, {
-		xPercent: `${initial_offset}`
-	});
-
-	let duration = 40 * (i + 1);
-
-	gsap.to(e, {
-		ease: "none",
-		duration: duration,
-		xPercent: 0,
-		repeat: -1
-	});
-});
 
   // Magnetic
   if (document.querySelector(".magnetic")) {
@@ -261,17 +217,6 @@ rows.forEach(function (e, i) {
     }
   }
 
-  // Greeting
-  if (document.querySelector("#greeting")) {
-    const greeting = document.getElementById("greeting");
-    const hour = new Date().getHours();
-    const welcomeTypes = ["Dzień dobry !", "Dobry wieczór !"];
-    let welcomeText = "";
-    if (hour < 20) welcomeText = welcomeTypes[0];
-    else welcomeText = welcomeTypes[1];
-    greeting.innerHTML = welcomeText;
-  }
-
      // Scroll progress
      if (window.matchMedia("(min-width: 767px)").matches) {
       gsap.to(".scrollprogress", {
@@ -287,114 +232,7 @@ rows.forEach(function (e, i) {
      });
      };
 
-  // parallax
-  if (window.matchMedia("(min-width: 767px)").matches) {
-    gsap.utils.toArray(".parallax-wrap").forEach(function (container) {
-      let image = container.querySelector("picture img");
-      gsap.set(".parallax-wrap", {overflow: "hidden"});
 
-      let tl = gsap.timeline({
-        scrollTrigger: {
-          scroller: ".scrollContainer",
-          trigger: container,
-          scrub: true,
-          pin: false,
-        },
-      });
-      tl.from(image, {
-        yPercent: -6,
-        ease: "none",
-      }).to(image, {
-        yPercent: 6,
-        ease: "none",
-      });
-    });
-  };
-
-  // Acordion
-  if (document.querySelector(".accordion")) {
-    let t = document.getElementsByClassName("accordion");
-    for (let e = 0; e < t.length; e++)
-      t[e].addEventListener("click", function () {
-        let e = this.nextElementSibling;
-        if (e.style.maxHeight)
-          (e.style.maxHeight = null), this.classList.remove("open");
-        else {
-          for (let a = 0; a < t.length; a++)
-            t[a].classList.remove("open"),
-              (t[a].nextElementSibling.style.maxHeight = null);
-          (e.style.maxHeight = e.scrollHeight + "px"),
-            this.classList.toggle("open");
-        }
-      });
-  };
-
-  // Reveal images
-  function imageReveal() {
-    const revealContainers = document.querySelectorAll(".reveal");
-    revealContainers.forEach((container) => {
-      let clipPath;
-      if (container.classList.contains("reveal--left")) {
-        clipPath = "inset(0 0 0 100%)";
-      }
-      if (container.classList.contains("reveal--right")) {
-        clipPath = "inset(0 100% 0 0)";
-      }
-      if (container.classList.contains("reveal--top")) {
-        clipPath = "inset(0 0 100% 0)";
-      }
-      if (container.classList.contains("reveal--bottom")) {
-        clipPath = "inset(100% 0 0 0)";
-      }
-      const image = container.querySelector("img");
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: container,
-          scroller: ".scrollContainer",
-          start: "top bottom",
-          end: "bottom top",
-        },
-      });
-      tl.set(container, { autoAlpha: 1 });
-      tl.from(container, {
-        clipPath,
-        duration: 1,
-        delay: 0.2,
-        ease: Power4.easeInOut,
-      });
-      if (container.classList.contains("reveal--overlay")) {
-        tl.from(image, { clipPath, duration: 0.6, ease: Power4.easeOut });
-      }
-      tl.from(image, {
-        scale: 1.3,
-        duration: 1.2,
-        delay: -1,
-        ease: Power2.easeOut,
-      });
-    });
-    ScrollTrigger.refresh();
-  }
-  imageReveal();
-
-  // Circle image
-  const rotateImages = document.querySelectorAll('.center-rotate-image');
-const hoverColumns = document.querySelectorAll('.hover-col');
-
-hoverColumns.forEach((hoverCol, index) => {
-  hoverCol.addEventListener("mouseenter", () => {
-
-    hoverColumns.forEach((col) => {
-      col.classList.remove("active");
-    });
-
-    rotateImages.forEach((img) => {
-      img.classList.remove("active");
-    });
-
-    hoverCol.classList.add("active");
-    rotateImages[index].classList.add("active");
-  });
-});
 
   // End animation
 }
