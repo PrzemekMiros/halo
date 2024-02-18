@@ -56,7 +56,7 @@
 
 .slider .slide-track {
   display: flex;
-  width: 840%;
+  width: 870%;
 }
 
 .slider-left .slide-track {
@@ -81,5 +81,7 @@
 }
 
 .avatar {
+  display: inline-block;
   width: 90px;
+  margin-right: -8%
 }
