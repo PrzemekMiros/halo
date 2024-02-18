@@ -5,7 +5,7 @@
     --color-dark-1: #04031e;
     --color-dark-2: #202738;
     --color-light-1: #f8fbf9;
-    --color-light-2: #f0f5f2;
+    --color-light-2: #dfe8e3;
     --color-light-3: #fff;
     --color-heading: #101b2b;
     --color-text: #5e6265;
@@ -15,7 +15,7 @@
 @media (prefers-color-scheme:dark) {
     :root {
     --color-dark-1: #f8fbf9;
-    --color-dark-2: #f0f5f2;
+    --color-dark-2: #dfe8e3;
     --color-light-1: #04031e;
     --color-light-2: #202738;
     --color-light-3: #08090b;
@@ -29,7 +29,7 @@
     --color-dark-1: #04031e;
     --color-dark-2: #202738;
     --color-light-1: #f8fbf9;
-    --color-light-2: #f0f5f2;
+    --color-light-2: #dfe8e3;
     --color-light-3: #fff;
     --color-heading: #101b2b;
     --color-text: #74787b;
@@ -38,7 +38,7 @@
   
   .dark {
     --color-dark-1: #f8fbf9;
-    --color-dark-2: #f0f5f2;
+    --color-dark-2: #dfe8e3;
     --color-light-1: #04031e;
     --color-light-2: #202738;
     --color-light-3: #08090b;
@@ -48,7 +48,7 @@
 }
 
   .bg-light {
-    background-color: #fff
+    background-color: #f8fbf9
   }
   .bg-light-1 {
     background-color: var(--color-light-1)
