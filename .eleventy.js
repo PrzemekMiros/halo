@@ -8,16 +8,21 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/js");
     eleventyConfig.addPassthroughCopy("src/assets/img"); 
     eleventyConfig.addPassthroughCopy("src/assets/fonts");
+    eleventyConfig.addPassthroughCopy("src/content/klienci/img"); 
     eleventyConfig.addPassthroughCopy("src/static");
     eleventyConfig.addPassthroughCopy("src/admin");
     eleventyConfig.addWatchTarget("src/assets/sass");
 
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
 
+        // Collection clients
+        eleventyConfig.addCollection("clients", function(collectionApi) {
+          return collectionApi.getFilteredByGlob('src/content/klienci/**/*.md');
+        });
+      
         // Date
         eleventyConfig.addFilter('dateDisplay', require('./src/filters/date-display.js'));
         eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-    
     
         eleventyConfig.addNunjucksAsyncShortcode('Image', async (src, alt) => {
           if (!alt) {
