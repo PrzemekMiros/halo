@@ -71,13 +71,13 @@ if (document.querySelector('.swiper')) {
         slidesPerView: 2
       },
       991: {
-        slidesPerView: 3
+        slidesPerView: 2
       },
       1024: {
-        slidesPerView: 3
+        slidesPerView: 2
       },
       1200: {
-        slidesPerView: 4
+        slidesPerView: 2
       }
     }
   });

@@ -71,27 +71,28 @@ function animationMain() {
     });
   };
 
-  if (document.querySelector(".split-lines")) {
-  const splitText = new SplitText(".text-highlight", {
-    type: "lines, chars",
-    charsClass: "char-highlight"
+  const textHighlights = document.querySelectorAll(".text-highlight");
+  textHighlights.forEach((textHighlight) => {
+    const splitText = new SplitText(textHighlight, {
+      type: "lines, chars",
+      charsClass: "char-highlight"
+    });
+  
+    const tlh = gsap.timeline({
+      scrollTrigger: {
+        trigger: textHighlight,
+        scrub: 2,
+        start: "top 75%",
+        end: "bottom 75%"
+      }
+    });
+  
+    tlh.to(".char-highlight", {
+      "--highlight-offset": "100%",
+      stagger: 0.2
+    });
   });
   
-  const tlh = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".text-highlight",
-      scrub: 2,
-      start: "top 75%",
-      end: "bottom 75%"
-    }
-  });
-  tlh.to(".char-highlight", {
-    "--highlight-offset": "100%",
-    stagger: 0.2
-  });
-};
-  
-
   // Fade in
   const fadeIn = gsap.utils.toArray(".fade-in");
   fadeIn.forEach((fadeInItem) => {
@@ -148,7 +149,6 @@ function animationMain() {
       },
     });
   }
-
 
      // Nav menu
      const menuToggle = document.getElementById("menuToggle");
