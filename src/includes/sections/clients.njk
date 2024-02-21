@@ -1,13 +1,63 @@
 <section class="pb-large" data-scroll-section>
-    <div class="container">
-        <div class="row g-3">
-            {% for post in collections.clients %}
-            <div class="col-4 col-md-3">
-              <div class="p-5 fade-in">
-                <img src="{{ post.data.logo }}" alt="">     
-              </div>
-            </div>
-            {% endfor %}
+  <div class="css-blurry-gradient"></div>
+
+  <div class="container">
+    <div class="row g-0">
+      {% for post in collections.clients %}
+      <div class="col-4 col-md-3 client-card">
+        <div class="fade-in">
+          <img src="{{ post.data.logo }}" alt="" />
         </div>
+      </div>
+      {% endfor %}
     </div>
-  </section>
+  </div>
+</section>
+
+<style>
+  .client-card {
+    padding: 6em 3em;
+    border: 1px solid #9999993e;
+  }
+  .client-card:nth-child(1) {
+    border-top: none;
+    border-left: none;
+  }
+  .client-card:nth-child(2),
+  .client-card:nth-child(3) {
+    border-top: none;
+  }
+  .client-card:nth-child(4) {
+    border-top: none;
+    border-right: none;
+  }
+  .client-card:nth-child(5) {
+    border-bottom: none;
+    border-left: none;
+  }
+  .client-card:nth-child(6),
+  .client-card:nth-child(7) {
+    border-bottom: none;
+  }
+  .client-card:nth-child(8) {
+    border-bottom: none;
+    border-right: none;
+  }
+
+  .css-blurry-gradient {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 65rem;
+    height: 65rem;
+    border-radius: 50% 120% 40% 80%;
+    filter: blur(50px);
+    background: radial-gradient(
+      circle at 50% 50%,
+      rgba(76, 0, 255, 1),
+      rgba(76, 0, 255, 0)
+    );
+    opacity: 0.2;
+  }
+</style>
