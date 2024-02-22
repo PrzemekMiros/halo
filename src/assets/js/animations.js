@@ -82,8 +82,8 @@ function animationMain() {
       scrollTrigger: {
         trigger: textHighlight,
         scrub: 2,
-        start: "top 75%",
-        end: "bottom 75%"
+        start: "top 65%",
+        end: "bottom 65%"
       }
     });
   

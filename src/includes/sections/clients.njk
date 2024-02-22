@@ -60,4 +60,14 @@
     );
     opacity: 0.2;
   }
+
+  .dark .client-card img {
+    filter: brightness(0) invert(1);
+  }
+  @media (prefers-color-scheme:dark) {
+    .client-card img {
+    filter: brightness(0) invert(1);
+  }
+  }
+
 </style>

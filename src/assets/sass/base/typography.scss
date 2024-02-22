@@ -194,7 +194,7 @@ strong,
   background-clip: text;
   color: transparent;
   --highlight-offset: 0%;
-  background-image: linear-gradient(90deg, var(--color-dark-2) var(--highlight-offset), rgba(125, 125, 125, 0.4) var(--highlight-offset));
+  background-image: linear-gradient(90deg, var(--color-dark-1) var(--highlight-offset), rgba(125, 125, 125, 0.4) var(--highlight-offset));
 }
 
 .line-parent {
