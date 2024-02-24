@@ -48,15 +48,15 @@
   }
 }
 
-.slider {
+.slider-hero {
   margin-bottom: 20px;
   overflow: hidden;
   position: relative;
 }
 
-.slider .slide-track {
+.slider-hero .slide-track {
   display: flex;
-  width: 870%;
+  width: 985%;
 }
 
 .slider-left .slide-track {
@@ -69,14 +69,8 @@
           animation: scrollRight 25s linear infinite;
 }
 
-.slider .slide {
-  aspect-ratio: 16/11;
-  height: 100%;
+.slider-hero .slide {
   margin-right: 20px;
-}
-
-.slider .slide img {
-  height: 100%;
 }
 
 .avatar {

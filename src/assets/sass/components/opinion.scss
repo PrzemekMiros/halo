@@ -3,7 +3,7 @@
     background-image: url('/assets/img/opinion/opinion-bg.svg');
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
@@ -35,4 +35,9 @@
     margin-top: 0;
     margin-bottom: 0;
     opacity: .5;
+}
+@media(min-width:767px) {
+    .opinion-card {
+        background-size: cover;
+    }
 }
