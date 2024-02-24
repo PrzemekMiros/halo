@@ -2,25 +2,23 @@
 .service-wrap {
     position: relative;
     border-radius: 25px;
+    border-top-left-radius: 0;
 }
 
 .service-wrap-svg {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: -27px;
+    z-index: 9;
 }
 
 .service-card {
     border-radius: 20px;
-    min-height: 120px;
+    min-height: 150px;
     background: var(--color-light-1);
 }
 
 .service-card img {
     display: inline-block;
     width: 55px;
-}
-
-.service-card svg {
-  
 }

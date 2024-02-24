@@ -1,0 +1,38 @@
+.opinion-card {
+    width: 100%;
+    background-image: url('/assets/img/opinion/opinion-bg.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.opinion-card-content {
+    padding: 2.8em;
+    min-height: 360px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.opinion-card .line-x {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+.opinion-card img {
+    margin-right: 1em;
+    width: 50px;
+    height: 50px;
+}
+.opinion-card .name,
+.opinion-card .company {
+    font-size: 90%;
+}
+.opinion-card .name {
+    margin-top: 0;
+    margin-bottom: .1em;
+}
+.opinion-card .company {
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: .5;
+}

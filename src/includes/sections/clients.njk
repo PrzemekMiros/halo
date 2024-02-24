@@ -1,6 +1,4 @@
 <section class="pb-xlarge" data-scroll-section>
-  <div class="css-blurry-gradient"></div>
-
   <div class="container">
     <div class="row g-0">
       {% for post in collections.clients %}
@@ -49,16 +47,16 @@
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-    width: 65rem;
-    height: 65rem;
+    width: 80rem;
+    height: 80rem;
     border-radius: 50% 120% 40% 80%;
     filter: blur(50px);
     background: radial-gradient(
       circle at 50% 50%,
-      rgba(76, 0, 255, 1),
+      #422f7e,
       rgba(76, 0, 255, 0)
     );
-    opacity: 0.2;
+    opacity: 0.75;
   }
 
   .dark .client-card img {

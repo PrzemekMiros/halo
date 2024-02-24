@@ -76,22 +76,8 @@ video {
   opacity: 1
 } 
 
-.client-image {
-  position: relative;
-}
-
-.client-image .image-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #f8f8f6;
-  border-radius: 8px
-}
-
-.client-image-placeholder svg {
-  width: 100%;
-  height: auto;
+.border {
+  border-radius: 35px;
 }
 
 .blend-mode {
