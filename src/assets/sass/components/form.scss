@@ -1,3 +1,54 @@
+  .bg-border-right {
+      position: relative;
+      background-image: url('/assets/img/bg-border-left.svg');
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: right top;
+   } 
+
+   .bg-br-2 {
+    position: relative;
+    background-image: url('/assets/img/bg-border-left-2.svg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    z-index: 9;
+ } 
+
+   .bg-border-right::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background: var(--color-light-2);
+    border-radius: 25px;
+    z-index: -1;
+ } 
+
+ .bg-border-right.bg-br-2::before {
+  background: var(--color-light-1);
+  z-index: 0
+} 
+
+  .contact-list {
+      margin-top: 1.9em
+  }
+
+  .contact-list li {
+      margin-bottom: .8em
+  }
+
+  .contact-list li a {
+      display: flex;
+      align-items: center
+  }
+
+  .contact-list li a svg {
+      margin-right: 1em
+  }
+
 .floating-label {
     position: relative
     }
@@ -10,14 +61,14 @@
     
     .floating-input,
     .floating-select {
-    padding: 1.2em;
+    padding: 1.3em 1.3em 1.3em 0;
     display: block; 
     max-width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
     background-color: transparent;
-    border-radius: 10px;
-    border: 1px solid #8282827a;
+    border: none;
+    border-bottom: 1px solid #8282827a;
     font-size: 14px;
     color: var(--color-text)
     }
@@ -25,17 +76,16 @@
     .floating-input:focus,
     .floating-select:focus {
     outline: 0;
-    border: 1px solid var(--color-accent-1)
+    border-bottom: 1px solid var(--color-accent-1)
     }
     
     .floating-label label {
     color: var(--color-text);
     font-size: 14px;
     font-weight: 400;
-    left: 5px;
-    padding: .7em;
-      top: 1.9em;
-      transform: translateY(-50%);
+    left: 0;
+    top: 1.9em;
+    transform: translateY(-50%);
     transition: .2s;
     -moz-transition: .2s;
     -webkit-transition: .2s
@@ -46,11 +96,9 @@
     .floating-select:focus~label,
     .floating-select:not([value=""]):valid~label {
         top: 0;
-        padding: .2em .9em;
         font-size: 75%;
         color: var(--color-heading);
         background: var(--color-light-2);
-        border-radius: 8px;
     }
     
     .floating-input:focus~.bar:after,
@@ -63,7 +111,7 @@
     .floating-textarea {
     overflow: hidden;
     overflow-x: hidden
-    }
+    } 
     
     .highlight {
     height: 50%;
@@ -73,59 +121,6 @@
     opacity: .5
     }
     
-    
-    .contact-list {
-        margin-top: 2.5em
-    }
-
-    .contact-list li {
-        margin-bottom: 1em
-    }
-
-    .contact-list li a {
-        display: flex;
-        align-items: center
-    }
-
-    .contact-list li a svg {
-        margin-right: 1em
-    }
-
-
-
-.btn {
-  border: 0;
-  background: transparent;
-  padding: .9rem 2em;
-  border-radius: 25px; 
-  border: 2px solid var(--color-accent-1);
-  color: var(--color-dark-1);
-  font-size: .95rem;
-  line-height: 1.4;
-  cursor: pointer;
-  transition: ease-in-out .3s all
-}
-
-.btn[disabled] {
-  opacity: .5;
-  pointer-events: none;
-}
-
-.btn:hover {
-  background: var(--color-accent-1);
-  color: #fff
-}
-
-.pagination {
-  margin-top: 2rem;
-  display: flex
-}
-
-.pagination .btn {
-  width: 100%;
-  text-align: center;
-  margin: 0 6px;
-}
 
 .tab-status {
   display: flex;
