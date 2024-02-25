@@ -83,13 +83,13 @@ function animationMain() {
         trigger: textHighlight,
         scrub: 2,
         start: "top 90%",
-        end: "bottom 60%"
+        end: "bottom 55%"
       }
     });
   
     tlh.to(".char-highlight", {
       "--highlight-offset": "100%",
-      stagger: 0.2
+      stagger: 0.1
     });
   });
   
