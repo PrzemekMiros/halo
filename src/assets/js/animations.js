@@ -81,7 +81,7 @@ function animationMain() {
     const tlh = gsap.timeline({
       scrollTrigger: {
         trigger: textHighlight,
-        scrub: 2,
+        scrub: 1,
         start: "top 90%",
         end: "bottom 55%"
       }
@@ -89,7 +89,7 @@ function animationMain() {
   
     tlh.to(".char-highlight", {
       "--highlight-offset": "100%",
-      stagger: 0.1
+      stagger: 0.3
     });
   });
   

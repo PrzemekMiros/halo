@@ -24,10 +24,10 @@
 
 .hero-card-content-image {
   position: absolute;
-  top: 3.5em;
+  top: 47%;
   right: 0;
   width: 28%;
-  animation: upDown 3s infinite cubic-bezier(.79,0,.07,.88)
+  transform: translateY(-50%);
 }
 
 @keyframes scrollLeft {

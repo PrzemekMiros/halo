@@ -1,7 +1,7 @@
   .bg-border-right {
       position: relative;
       background-image: url('/assets/img/bg-border-left.svg');
-      background-size: auto 100%;
+      background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: right top;
    } 
@@ -9,19 +9,19 @@
    .bg-br-2 {
     position: relative;
     background-image: url('/assets/img/bg-border-left-2.svg');
-    background-size: auto 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: 0 0;
     z-index: 9;
  } 
 
    .bg-border-right::before {
     position: absolute;
     content: "";
-    top: 0;
+    bottom: 0;
     left: 0;
-    height: 100%;
-    width: 75%;
+    height: 80%;
+    width: 100%;
     background: var(--color-light-2);
     border-radius: 25px;
     z-index: -1;
@@ -191,6 +191,24 @@ input[type=checkbox] + label {
   }
   
   @media(min-width:767px) {
+    .bg-border-right {
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: right top;
+   } 
+
+   .bg-br-2 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    z-index: 9;
+ } 
+
+ .bg-border-right::before {
+  bottom: 0;
+  height: 100%;
+  width: 75%;
+} 
     .tab-status {
       display: block
     }

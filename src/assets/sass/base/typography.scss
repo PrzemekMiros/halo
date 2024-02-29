@@ -172,8 +172,7 @@ strong,
 }
 
 .text-highlight span {
-  display: inline-block;
-  margin-left: 26%;
+  display: none
 }
 
 @media (min-width: 767px) {
@@ -185,6 +184,10 @@ strong,
   }
   .text-md-center {
     text-align: center;
+  }
+  .text-highlight span {
+    display: inline-block;
+    margin-left: 26%;
   }
 }
 

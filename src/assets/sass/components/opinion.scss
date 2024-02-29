@@ -3,12 +3,11 @@
     background-image: url('/assets/img/opinion/opinion-bg.svg');
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-bottom-right-radius: 25px;
+    background-size: auto 100%;
+    border-bottom-right-radius: 25px; 
     border-bottom-left-radius: 25px;
 }
 .opinion-card-content {
-    padding: 2.8em;
     min-height: 360px; 
     display: flex;
     flex-direction: column;
