@@ -19,8 +19,11 @@
 }
 .opinion-card img {
     margin-right: 1em;
-    width: 50px;
+    width: 50px; 
     height: 50px;
+}
+.opinion-card-content .content {
+    font-size: 95%;
 }
 .opinion-card .name,
 .opinion-card .company {
