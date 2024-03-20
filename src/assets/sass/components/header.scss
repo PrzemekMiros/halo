@@ -3,15 +3,18 @@
   left: 0; 
   top: 0;
   width: 100%;
-  padding-top: 1em;
+  padding-top: .5em;
   background: var(--color-light-1);
   transform: translateY(0);
   transition: .4s ease-in-out;
   z-index: 9999
 }
 
+.site-header .container:first-child {
+  padding-bottom: .8em
+}
 .site-header .container:last-child {
-  padding-top: 1em
+  padding-top: .5em
 }
 
 .site-header.scrolled {
@@ -202,13 +205,13 @@
 
 @media(min-width:767px) {
   .site-header {
-    padding-top: 1.5em;
+    padding-top: 1.2em;
     left: 7px; 
     top: 0;
     width: calc(100% - 7px)
   }
   .site-header .container:last-child {
-    padding-top: 1.5em
+    padding-top: 1em
   }    
   .logo img {
     max-width: 195px
