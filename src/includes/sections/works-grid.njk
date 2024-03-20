@@ -7,30 +7,17 @@ description: Zobacz wybrane prace
 <section class="pb-large" data-scroll-section>
   <div class="container" id="faq-sidebar">
     <div class="row gx-5">
-        <div class="col-md-4 pt-large ps-md-5">
-
-            <div data-scroll data-scroll-sticky data-scroll-target="#faq-sidebar">
-
-            <img src="/assets/img/hero/avatar.png" class="avatar" width="90px" height="90px" alt="">
-            
-            <button class="modal-play-btn magnetic" data-strength="40" data-modal="modal-one">
-            <svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="100%" height="100%">
-              <path d="M13.9 7.35a.7.7 0 0 1 0 1.213l-8.4 4.85a.7.7 0 0 1-1.05-.606v-9.7a.7.7 0 0 1 1.05-.606l8.4 4.85Z"></path>
-            </svg>
-            </button>
-
-            </div>
-  
-        </div>
-      <div class="col-md-8 pt-large">
+      <div class="offset-md-4 col-md-8 pt-large">
         <div class="pb-large">
             <p class="h1 mt-md-0 text-highlight">
                 <span>&nbsp;</span> Pomogłem ponad 50 firmom lepiej wykorzystać ich potencjał i mogę zrobić to też dla Ciebie! Zobacz moje realizacje
             </p>
         </div>
-        <div class="row gx-4">
+      </div>
+    </div>
+    <div class="row gx-4">
         {% for post in collections.works.slice(0, 6) %}
-        <div class="works-grid-item col-md-6 mb-5">
+        <div class="works-grid-item col-md-4 mb-5">
           <div class="portfolio-item fade-in">
             <div class="parallax-wrap aspect_16-13">
               {% workImage "src/" + post.data.thumbnail, post.data.title %}
@@ -75,8 +62,6 @@ description: Zobacz wybrane prace
           </a>
         </div>
         {% endfor %}
-        </div>
-      </div>
     </div>
   </div>
 </section>

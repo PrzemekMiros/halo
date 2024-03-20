@@ -1,6 +1,6 @@
 :root {
   --easing-1: 0.5s cubic-bezier(0.79, 0, 0.07, 0.88);
-  --radius-1: 8px;
+  --radius-1: 25px;
 }
 
 body {
@@ -92,6 +92,10 @@ video {
   aspect-ratio: 16/13;
 }
 
+.aspect_16-12 {
+  aspect-ratio: 16/12;
+}
+
 .aspect_16-10 {
   aspect-ratio: 16/10;
 }
@@ -173,6 +177,9 @@ ol li {
   }
   .aspect_md_16-13 {
     aspect-ratio: 16/13;
+  }
+  .aspect_md_16-12 {
+    aspect-ratio: 16/12;
   }
   .aspect_md_16-10 {
     aspect-ratio: 16/10;
