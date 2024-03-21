@@ -2,17 +2,12 @@
 </div>
 <!-- Scripts -->
 <script src="/assets/js/vendor.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
 <script src="/assets/js/animations.js"></script>
 <script src="/assets/js/script.js"></script>
 <script>
-  // Init locomotive
-  const locoScroll = new LocomotiveScroll({
-    el: document.querySelector(".scrollContainer"),
-    smooth: true,
-    reloadOnContextChange: !0,
-    multiplier: .65,
-    lerp: .1,
-    touchMultiplier: 4,
+  window.addEventListener('load', function(){
+  appMain(); animationMain()
   });
   // Swup init
   const swup = new Swup({
@@ -24,22 +19,18 @@
   });
   // Swup events re-init scripts
   document.addEventListener("swup:animationInStart", () => {
-    locoScroll.destroy(), locoScroll.init(), scrollTo(top), document.querySelector(".site-header").classList.remove("scrolled")
+    scrollTo(top)
   });
   document.addEventListener("swup:animationInDone", () => {
     appMain(); animationMain()
   }), console.clear(); 
 
-window.addEventListener('load', function(){
-  appMain(); animationMain()
-  });
 </script>
 
 <!--
 <script src="/assets/js/cookieconsent.js" defer></script>
 <script src="/assets/js/cookieconsent-init.js" defer></script>
 -->
-
 
 
 <script type="application/ld+json">
