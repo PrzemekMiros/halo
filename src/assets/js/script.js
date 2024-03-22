@@ -77,7 +77,7 @@ if (document.querySelector('.swiper')) {
         slidesPerView: 2
       },
       1200: {
-        slidesPerView: 2
+        slidesPerView: 3
       }
     }
   });
