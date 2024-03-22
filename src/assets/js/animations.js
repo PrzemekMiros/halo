@@ -1,48 +1,31 @@
 function animationMain() {
   gsap.registerPlugin(ScrollTrigger);
-  locoScroll.on("scroll", ScrollTrigger.update);
-  ScrollTrigger.scrollerProxy(".scrollContainer", {
-    scrollTop(value) {
-      return arguments.length
-        ? locoScroll.scrollTo(value, 0, 0)
-        : locoScroll.scroll.instance.scroll.y;
-    },
-    getBoundingClientRect() {
-      return {
-        top: 0,
-        left: 0,
-        width: window.innerWidth,
-        height: window.innerHeight,
-      };
-    },
-    pinType: document.querySelector(".scrollContainer").style.transform
-      ? "transform"
-      : "fixed",
-  });
-  ScrollTrigger.defaults({ scroller: ".scrollContainer" });
-  ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-  ScrollTrigger.refresh();
-  new ResizeObserver(() => locoScroll.update()).observe(
-    document.querySelector(".scrollContainer")
-  );
 
-  // Header scrolled
-  let lastScrollPos = 0;
-  locoScroll.on("scroll", (position) => {
-    const currentScrollPos = position.scroll.y;
-
-    if (currentScrollPos > 50) {
-      if (currentScrollPos > lastScrollPos) {
-        document.querySelector(".site-header").classList.add("scrolled");
-      } else {
-        document.querySelector(".site-header").classList.remove("scrolled");
-      }
-    } else {
-      document.querySelector(".site-header").classList.remove("scrolled");
-    }
-
-    lastScrollPos = currentScrollPos;
-  });
+  const lenis = new Lenis({
+  duration: 1,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  direction: "vertical",
+  gestureDirection: "vertical",
+  lerp: 0.15,
+  smooth: 2,
+  smoothTouch: false,
+  touchMultiplier: 2,
+  wheelMultiplier: 1,
+  infinite: false,
+  autoResize: true
+  })
+  
+  lenis.on('scroll', (e) => {
+    console.log(e)
+  })
+  
+  lenis.on('scroll', ScrollTrigger.update)
+  
+  gsap.ticker.add((time)=>{
+    lenis.raf(time * 1000)
+  })
+  
+  gsap.ticker.lagSmoothing(0)
 
   // Paragraph --------------------------------------------------------------
   if (document.querySelector(".split-lines")) {
@@ -62,7 +45,6 @@ function animationMain() {
         yPercent: 110,
         ease: Power2.easeInOut,
         scrollTrigger: {
-          scroller: ".scrollContainer",
           trigger: element,
           start: "top 95%",
           //toggleActions: 'restart pause reverse pause',
@@ -71,6 +53,33 @@ function animationMain() {
     });
   };
 
+
+  const textHighlights = document.querySelectorAll(".text-highlight");
+
+  textHighlights.forEach((textHighlight) => {
+    const splitText = new SplitText(textHighlight, {
+      type: "lines, chars",
+      charsClass: "char-highlight"
+    });
+  
+    const tlh = gsap.timeline({
+      scrollTrigger: {
+        trigger: textHighlight, 
+        scrub: 1,
+        start: "top 70%", 
+        end: "bottom 80%" 
+      }
+    });
+  
+    tlh.from(".char-highlight", {
+      opacity: 0.2,
+      stagger: 0.3
+    });
+  });
+  
+
+  /*
+  
   const textHighlights = document.querySelectorAll(".text-highlight");
   textHighlights.forEach((textHighlight) => {
     const splitText = new SplitText(textHighlight, {
@@ -92,6 +101,8 @@ function animationMain() {
       stagger: 0.3
     });
   });
+  */
+
   
   // Fade in
   const fadeIn = gsap.utils.toArray(".fade-in");
@@ -103,7 +114,6 @@ function animationMain() {
       duration: 1,
       delay: .2,
       scrollTrigger: {
-        scroller: ".scrollContainer",
         trigger: fadeInItem,
         start: "top 90%",
       },
@@ -118,7 +128,6 @@ function animationMain() {
       duration: 1,
       ease: Power2.easeInOut,
       scrollTrigger: {
-        scroller: ".scrollContainer",
         trigger: lineXItem,
         start: "top 90%",
       },
@@ -130,7 +139,6 @@ function animationMain() {
     gsap.from(".footer-parallax", {
       y: "-25%",
       scrollTrigger: {
-        scroller: ".scrollContainer",
         trigger: ".site-footer",
         start: "top 95%",
         end: "bottom 80%",
@@ -141,7 +149,6 @@ function animationMain() {
     gsap.from(".footer-parallax", {
       y: "-15%",
       scrollTrigger: {
-        scroller: ".scrollContainer",
         trigger: ".site-footer",
         start: "top 95%",
         end: "bottom 90%",
@@ -244,7 +251,7 @@ function animationMain() {
        height: "100vh",
        ease: 'none',
        scrollTrigger: { 
-         scroller: ".scrollContainer",
+
          trigger: ".scrollContainer",
          start: "top 0%",
          end: "bottom 99%",

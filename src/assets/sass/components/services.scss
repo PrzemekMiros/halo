@@ -7,19 +7,28 @@
 
 .service-wrap-svg {
     position: relative;
+    margin-bottom: -.5em;
     width: 100%;
     height: auto;
-    margin-bottom: -1.5em;
     z-index: 9;
 }
 
 .service-card {
     border-radius: 20px;
-    min-height: 150px;
-    background: var(--color-light-1);
+    background: var(--color-light-2);
 }
 
 .service-card img {
     display: inline-block;
     width: 55px;
+}
+
+@media(min-width:767px) {
+    .service-wrap-svg {
+        margin-bottom: -1.5em
+    }
+    .service-card {
+        min-height: 150px;
+        background: var(--color-light-1);
+    }
 }

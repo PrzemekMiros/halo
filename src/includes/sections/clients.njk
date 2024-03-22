@@ -1,4 +1,4 @@
-<section class="pb-xlarge" data-scroll-section>
+<section class="pb-small pb-md-large" data-scroll-section>
   <div class="container">
     <div class="row g-0">
       {% for post in collections.clients %}
@@ -11,67 +11,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .client-card {
-    padding: 3em 1em;
-    border: 1px solid #9999993e;
-  }
-  .css-blurry-gradient {
-    position: fixed;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    width: 80rem;
-    height: 80rem;
-    border-radius: 50% 120% 40% 80%;
-    filter: blur(50px);
-    background: radial-gradient(
-      circle at 50% 50%,
-      #422f7e,
-      rgba(76, 0, 255, 0)
-    );
-    opacity: 0.75;
-  }
-
-  .dark .client-card img {
-    filter: brightness(0) invert(1);
-  }
-  @media (prefers-color-scheme:dark) {
-    .client-card img {
-    filter: brightness(0) invert(1);
-  }
-  }
-
-  @media(min-width:767px) {
-    .client-card {
-    padding: 6em 3em;
-  }
-  .client-card:nth-child(1) {
-    border-top: none;
-    border-left: none;
-  }
-  .client-card:nth-child(2),
-  .client-card:nth-child(3) {
-    border-top: none;
-  }
-  .client-card:nth-child(4) {
-    border-top: none;
-    border-right: none;
-  }
-  .client-card:nth-child(5) {
-    border-bottom: none;
-    border-left: none;
-  }
-  .client-card:nth-child(6),
-  .client-card:nth-child(7) {
-    border-bottom: none;
-  }
-  .client-card:nth-child(8) {
-    border-bottom: none;
-    border-right: none;
-  }
-
-  }
-
-</style>

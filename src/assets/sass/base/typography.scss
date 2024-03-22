@@ -61,7 +61,7 @@ h6,
 
 .xxl {
   margin-bottom: 0.5em;
-  font-size: clamp(44px, 6.2vw, 90px);
+  font-size: clamp(40px, 6.2vw, 90px);
   line-height: 1.1;
 }
 
@@ -187,17 +187,14 @@ strong,
   }
   .text-highlight span {
     display: inline-block;
-    margin-left: 26%;
+    margin-left: 24%;
   }
 }
 
 .char-highlight {
   position: relative;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  --highlight-offset: 0%;
-  background-image: linear-gradient(90deg, var(--color-dark-1) var(--highlight-offset), rgba(125, 125, 125, 0.4) var(--highlight-offset));
+  color: var(--color-dark-1); 
+  transition: opacity 0.3s; 
 }
 
 .line-parent {

@@ -1,0 +1,67 @@
+---
+layout: "layouts/front.njk"
+title: Realizacje
+description: Zobacz wybrane prace
+---
+
+<section class="pb-large" data-scroll-section>
+  <div class="container" id="faq-sidebar">
+    <div class="row gx-5">
+      <div class="offset-md-4 col-md-8 pt-large">
+        <div class="pb-large">
+            <p class="h1 mt-md-0 text-highlight">
+                <span>&nbsp;</span> Pomogłem ponad 50 firmom lepiej wykorzystać ich potencjał i mogę zrobić to też dla Ciebie! Zobacz moje realizacje
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="row gx-4">
+        {% for post in collections.works.slice(0, 6) %}
+        <div class="works-grid-item col-md-4 mb-5">
+          <div class="portfolio-item fade-in">
+            <div class="parallax-wrap aspect_16-13">
+              {% workImage "src/" + post.data.thumbnail, post.data.title %}
+            </div>
+          </div>
+          <p class="split-lines color-accent-1 bold mt-4 mb-2">
+            {{ post.data.client }}
+          </p>
+          <h3 class="archive-post-title split-lines my-3">
+            {{ post.data.title }}
+          </h3>
+          <a
+            href="{{ post.url }}"
+            title="Zobacz więcej"
+            class="button magnetic fade-in mt-1 mb-2"
+            data-strength="100"
+            data-strength-text="50"
+          >
+            <span>Zobacz więcej</span>
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 1L1 13"
+                stroke="var(--color-accent-1)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M3 1H13V11"
+                stroke="var(--color-accent-1)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>

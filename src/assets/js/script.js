@@ -41,6 +41,7 @@ if (theme === "light") {
 if (document.querySelector('.swiper')) {
   var swiper = new Swiper(".swiper", {
     grabCursor: true,
+    slidesPerView: 1.25,
     spaceBetween: 20,
     lazyPreloadPrevNext: 1,
     centeredSlides: false,
@@ -65,10 +66,10 @@ if (document.querySelector('.swiper')) {
     mousewheel: false,
     breakpoints: {
       460: {
-        slidesPerView: 1
+        slidesPerView: 1.5
       },
       768: {
-        slidesPerView: 2
+        slidesPerView: 1.8
       },
       991: {
         slidesPerView: 2
@@ -77,7 +78,7 @@ if (document.querySelector('.swiper')) {
         slidesPerView: 2
       },
       1200: {
-        slidesPerView: 3
+        slidesPerView: 2
       }
     }
   });
