@@ -1,6 +1,7 @@
 function animationMain() {
   gsap.registerPlugin(ScrollTrigger);
- 
+
+  /*
   const lenis = new Lenis({
   duration: 1.2,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -27,7 +28,7 @@ function animationMain() {
   })
   
   gsap.ticker.lagSmoothing(0)
- 
+ */
 
   // Paragraph --------------------------------------------------------------
   if (document.querySelector(".split-lines")) {
