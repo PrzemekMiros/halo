@@ -20,9 +20,9 @@ description: Zobacz wybrane prace
                  <img class="fade-in" src="/assets/img/hero/woman.png" alt="">
               </div>
               --->
-              <p class="h3 split-lines my-3 color-light">Zobacz</p>
+              <p class="h3 split-lines my-3 color-light">Wypełnij krótki brief</p>
               <h1 class="xxl split-lines my-4 uppercase color-light">
-              Wybrane realizacje
+              Darmowa wycena
               </h1>
               <div class="pt-xxsmall pb-xsmall">
                 <div class="line-x"></div>
@@ -89,23 +89,7 @@ description: Zobacz wybrane prace
             </p>
         </div>
         <div class="row gx-4">
-        {% for post in collections.works %}
-        <div class="works-grid-item col-md-6 mb-5">
-          <div class="portfolio-item fade-in">
-            <div class="parallax-wrap aspect_16-13">
-              {% workImage "src/" + post.data.thumbnail, post.data.title %}
-            </div>
-          </div>
 
-          <p class="split-lines color-dark-2 bold mt-4 mb-2">
-            {{ post.data.client }}
-          </p>
-          <h3 class="h2 archive-post-title split-lines my-3">
-            {{ post.data.title }}
-          </h3>
-
-        </div>
-        {% endfor %}
         </div>
       </div>
     </div>
