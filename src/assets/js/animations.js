@@ -2,11 +2,11 @@ function animationMain() {
   gsap.registerPlugin(ScrollTrigger);
 
   const lenis = new Lenis({
-  duration: 1,
+  // duration: 1,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   direction: "vertical",
   gestureDirection: "vertical",
-  lerp: 0.15,
+  lerp: 0.12,
   smooth: 2,
   smoothTouch: false,
   touchMultiplier: 2,
@@ -192,7 +192,6 @@ function animationMain() {
 
 
   // Magnetic
-  if (document.querySelector(".magnetic")) {
     var magnets = document.querySelectorAll(".magnetic");
     var magnetText = document.querySelectorAll(".btn-text");
     if (window.innerWidth > 767) {
@@ -243,7 +242,6 @@ function animationMain() {
         });
       }
     }
-  }
 
      // Scroll progress
      if (window.matchMedia("(min-width: 767px)").matches) {

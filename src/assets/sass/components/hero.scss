@@ -25,10 +25,10 @@
 
 .hero-card-content-image {
   position: absolute;
-  top: 47%;
-  right: 0;
+  top: 35%;
+  right: 4%;
   width: 28%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(21deg);
 }
 
 @keyframes scrollLeft {

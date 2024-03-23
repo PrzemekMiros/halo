@@ -6,21 +6,26 @@
     padding: 4.5em 1em;
   }
 
+  .css-blurry-gradient-wrap {
+    position: relative;
+    height: 100%;
+  }
+
   .css-blurry-gradient {
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 10%;
     left: 75%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
     width: 80rem;
     height: 80rem;
     border-radius: 50% 120% 40% 80%;
     filter: blur(50px);
     background: radial-gradient(
       circle at 50% 50%,
-      #5e2f7e,
+      #4616bf,
       rgba(76, 0, 255, 0)
     );
-    opacity: 0.25;
+    opacity: 0.15;
   }
 
   .dark .client-card img {
@@ -70,7 +75,7 @@
 
   @media(min-width:1024px) {
     .client-card {
-    padding: 6em 2em;
+    padding: 6em 3em;
   }
 }
 

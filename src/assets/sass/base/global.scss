@@ -1,6 +1,7 @@
 :root {
   --easing-1: 0.5s cubic-bezier(0.79, 0, 0.07, 0.88);
   --radius-1: 25px;
+  --radius-2: 15px;
 }
 
 body {
@@ -32,6 +33,10 @@ body::after {
 */
 .scrollContainer {
   background-color: var(--color-light-1);
+}
+
+.main {
+  overflow-x: hidden;
 }
 
 img,
@@ -67,7 +72,6 @@ video {
   height: 100%;
   object-fit: cover;
   object-position: top;
-  border-radius: var(--radius-1);
   transition: opacity .5s cubic-bezier(.79,0,.07,.88);
   opacity: 0
 }
@@ -105,14 +109,19 @@ video {
 }
 
 .parallax-wrap {
-  border-radius: var(--radius-1)
+  overflow: hidden;
+  border-radius: var(--radius-2)
 }
 
 .parallax-wrap .image-wrapper {
   height: 100%
 }
 
-
+.sticky {
+  position: sticky;
+  top: 120px;
+  z-index: 999
+}
 
 a {
   text-decoration: none;
@@ -150,12 +159,12 @@ ol li {
   height: 0;
   width: 100%;
   background-color: var(--color-accent-1); 
-  transition: var(--easing-1);
+  transition: .2s ease-in-out;
   z-index: -1
 }
 
 .link-hover:hover::before {
-  height: 66%;
+  height: 33%;
 }
 
 .pagination-link {

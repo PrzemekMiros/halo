@@ -1,5 +1,25 @@
+.works-grid-svg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 9;
+}
+
+.portfolio-item {
+    border-radius: 15px;
+}
+
+.works-item-svg {
+    position: absolute;
+    top: 0;
+    width: 4em;
+    height: 4em;
+    z-index: 1;
+}
+
 @media(min-width:767px) {
     .works-grid-item {
-        background-color: var(--color-light-1);
+
     }
 }
