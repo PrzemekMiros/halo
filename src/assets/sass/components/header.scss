@@ -3,10 +3,9 @@
   left: 0; 
   top: 0;
   width: 100%;
-  padding-top: .5em;
   background: var(--color-light-1);
-  transform: translateY(0);
-  transition: .4s ease-in-out;
+  transform: translateY(1em);
+  transition: all .2s ease-in-out;
   z-index: 9999
 }
 
@@ -15,14 +14,14 @@
 }
 
 .site-header .container:first-child {
-  padding-bottom: .8em
+  padding-bottom: 0.8em;
 }
 .site-header .container:last-child {
   padding-top: 1em
 }
 
 .site-header.scrolled {
-  transform: translateY(-.75em);
+  transform: translateY(0);
 }
 
 .logo {
@@ -133,7 +132,7 @@
   }
 
   .fullpage-menu {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -145,7 +144,7 @@
   
   .menu-bg {
     display: flex;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     height: 100%;
@@ -197,13 +196,9 @@
 
 @media(min-width:767px) {
   .site-header {
-    padding-top: 1.2em;
     left: 7px; 
     top: 0;
     width: calc(100% - 7px)
-  }
-  .site-header.scrolled {
-    transform: translateY(-1.25em);
   }
   .site-header .container:last-child {
     padding-top: 1em

@@ -1556,7 +1556,8 @@
 }
 
 .p-relative {
-  position: relative
+  position: relative;
+  z-index: 9;
 }
 @media (min-width: 576px) {
   .d-sm-inline {

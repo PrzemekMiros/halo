@@ -78,6 +78,9 @@
   .color-dark {
     color: #131314!important
   }
+  .color-dark-1 {
+    color: var(--color-dark-1)!important
+  }
 
   @media(min-width:767px) {
     .bg-md-light-1 {
