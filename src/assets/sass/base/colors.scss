@@ -76,3 +76,9 @@
     color: var(--color-light-2)!important
   }
 
+  @media(min-width:767px) {
+    .bg-md-light-1 {
+      background-color: var(--color-light-1)
+    }
+  }
+

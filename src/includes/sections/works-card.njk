@@ -2,7 +2,7 @@
   <!--
   <div class="css-blurry-gradient"></div>
   -->
-  <div class="container">
+  <div class="container-md">
     <svg class="service-wrap-svg" width="1359" height="67" viewBox="0 0 1359 67" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_3617_58)">
         <path d="M0 33.3591V66.5581L564.5 66.5581C511.05 66.5581 507.063 0.647538 442.5 0.19917C389.621 -0.168058 126.527 0.0665279 33.0351 0.16346C14.7152 0.182454 0 15.0393 0 33.3591Z" fill="var(--color-light-2)"/>
@@ -13,12 +13,12 @@
       {% for post in collections
         .works
         .slice(0, 3) %}
-        <div class="works-grid-item bg-light-1 border mb-5">
+        <div class="works-grid-item border mb-5">
           <div class="row g-0 flex-md-row-reverse align-items-center">
             <div class="col-lg-6 col-xl-6">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
                 <div class="portfolio-item fade-in">
-                  <svg class="works-item-svg" width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="works-item-svg d-none d-md-block" width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_3629_8)">
                       <path d="M0 0.000350952H97L0 93.5859V0.000350952Z" fill="var(--color-light-1)"/>
                       <path d="M0.000786304 93.1081V106C0.698628 96.9279 3.49 90.7207 7.32812 86.4234L0.000786304 93.1081Z" fill="var(--color-light-1)"/>
@@ -31,7 +31,7 @@
                     </defs>
                   </svg>
 
-                  <div class="parallax-wrap aspect_md_16-12">
+                  <div class="parallax-wrap aspect_md_16-13">
                     {% workImage "src/" + post.data.thumbnail,
                     post.data.title %}
                   </div>

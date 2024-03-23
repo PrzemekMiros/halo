@@ -15,7 +15,7 @@
 
 .service-card {
     border-radius: 20px;
-    background: var(--color-light-2);
+    background: var(--color-light-1);
 }
 
 .service-card img {
@@ -26,9 +26,5 @@
 @media(min-width:767px) {
     .service-wrap-svg {
         margin-bottom: -1.5em
-    }
-    .service-card {
-        min-height: 150px;
-        background: var(--color-light-1);
     }
 }
