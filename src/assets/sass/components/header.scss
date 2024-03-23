@@ -1,5 +1,5 @@
 .site-header {
-  position: absolute;
+  position: fixed;
   left: 0; 
   top: 0;
   width: 100%;
@@ -10,6 +10,10 @@
   z-index: 9999
 }
 
+.site-header.hide {
+  opacity: 0;
+}
+
 .site-header .container:first-child {
   padding-bottom: .8em
 }
@@ -18,15 +22,9 @@
 }
 
 .site-header.scrolled {
-  background: transparent;
-  pointer-events: none;
-  transform: translateY(-70%);
-  opacity: 0
+  transform: translateY(-.75em);
 }
-.site-header.scrolled .menu-toggle,
-.site-header.scrolled .logo-wrap {
-  pointer-events: none;
-}
+
 .logo {
   display: inline-block
 }
@@ -203,6 +201,9 @@
     left: 7px; 
     top: 0;
     width: calc(100% - 7px)
+  }
+  .site-header.scrolled {
+    transform: translateY(-1.25em);
   }
   .site-header .container:last-child {
     padding-top: 1em

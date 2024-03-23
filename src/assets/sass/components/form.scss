@@ -48,8 +48,14 @@
   }
 
   .contact-list li a svg {
-      margin-right: 1em
+      margin-right: 1em;
+      border-radius: 50%;
+      background-color: #f3efe9
   }
+
+  .contact-list li a svg path {
+    fill: var(--color-accent-1);
+}
 
 .floating-label {
     position: relative
@@ -145,7 +151,7 @@
 
 .tab-status span.active {
   background-color: var(--color-accent-1);
-  color: #111;
+  color: #fff;
 }
 
 .hidden {

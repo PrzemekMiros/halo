@@ -126,6 +126,20 @@
     border: none;
     cursor: pointer
   }
+  .swiper-button-next circle,
+  .swiper-button-prev circle,
+  .swiper-button-next path,
+  .swiper-button-prev path  {
+    transition: .3s ease-in-out;
+  }
+  .swiper-button-next:hover circle,
+  .swiper-button-prev:hover circle {
+    fill: #fff;
+  }
+  .swiper-button-next:hover path,
+  .swiper-button-prev:hover path {
+    stroke: var(--color-accent-1);
+  }
   .swiper-button-next.swiper-button-disabled,
   .swiper-button-prev.swiper-button-disabled {
     cursor: auto;

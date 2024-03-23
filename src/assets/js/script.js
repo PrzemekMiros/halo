@@ -42,7 +42,7 @@ if (document.querySelector('.swiper')) {
   var swiper = new Swiper(".swiper", {
     grabCursor: true,
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 15,
     lazyPreloadPrevNext: 1,
     centeredSlides: false,
     loop: true,
@@ -66,8 +66,7 @@ if (document.querySelector('.swiper')) {
     mousewheel: false,
     breakpoints: {
       460: {
-        slidesPerView: 1.25,
-        spaceBetween: 10,
+        slidesPerView: 1.25
       },
       768: {
         slidesPerView: 1.8
@@ -124,6 +123,67 @@ if (document.querySelector('.swiper-works')) {
     else welcomeText = welcomeTypes[1];
     greeting.innerHTML = welcomeText;
   }
+
+
+
+  (function(){
+
+    var doc = document.documentElement;
+    var w   = window;
+    var curScroll;
+    var prevScroll = w.scrollY || doc.scrollTop;
+    var curDirection = 0;
+    var prevDirection = 0;
+    var header = document.querySelector('.site-header');
+    var toggled;
+    var threshold = 200;
+
+    var checkScroll = function() {
+        curScroll = w.scrollY || doc.scrollTop;
+        if(curScroll > prevScroll) {
+            // scrolled down
+            curDirection = 2;
+        }
+        else {
+            // scrolled up
+            curDirection = 1;
+        }
+
+        if(curDirection !== prevDirection) {
+            toggled = toggleHeader();
+        }
+
+        // Add or remove 'scrolled' class based on scroll position
+        if (curScroll > 0) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+
+        prevScroll = curScroll;
+        if(toggled) {
+            prevDirection = curDirection;
+        }
+    };
+
+    var toggleHeader = function() { 
+        toggled = true;
+        if(curDirection === 2 && curScroll > threshold) {
+            header.classList.add('hide');
+        }
+        else if (curDirection === 1) {
+            header.classList.remove('hide');
+        }
+        else {
+            toggled = false;
+        }
+        return toggled;
+    };
+
+    window.addEventListener('scroll', checkScroll);
+
+})();
+
 
 
 if(document.querySelector('.multiform')) {
