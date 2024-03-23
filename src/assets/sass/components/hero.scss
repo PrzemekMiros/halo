@@ -1,3 +1,7 @@
+.hero {
+  position: relative;
+  z-index: 1;
+}
 .hero-card {
   position: relative;
   height: 100%;
@@ -57,7 +61,7 @@
 
 .slider-hero .slide-track {
   display: flex;
-  width: 850%;
+  width: 783%;
 }
 
 .slider-left .slide-track {

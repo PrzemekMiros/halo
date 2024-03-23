@@ -136,7 +136,7 @@ if (document.querySelector('.swiper-works')) {
     var prevDirection = 0;
     var header = document.querySelector('.site-header');
     var toggled;
-    var threshold = 200;
+    var threshold = 50;
 
     var checkScroll = function() {
         curScroll = w.scrollY || doc.scrollTop;
