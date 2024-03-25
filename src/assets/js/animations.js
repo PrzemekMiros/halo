@@ -193,7 +193,7 @@ function animationMain() {
 
   // Magnetic
   var magnets = document.querySelectorAll('.magnetic');
-  var magnetText = document.querySelectorAll(".btn-text");
+  var magnetText = document.querySelectorAll("xt");
   var strength = 100;
 
   if(window.innerWidth > 767){

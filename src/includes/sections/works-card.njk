@@ -1,7 +1,5 @@
 <section class="pt-small pb-medium pb-md-large" data-scroll-section>
-  <img src="/assets/img/bg-gradient-1.svg" alt=""
-   style="position:absolute; transform: translateY(-10%); opacity:0.2; pointer-events:none"
-   >
+
   <div class="container-md">
     <svg class="service-wrap-svg" width="1359" height="67" viewBox="0 0 1359 67" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_3617_58)">
@@ -13,11 +11,10 @@
       {% for post in collections
         .works
         .slice(0, 3) %}
-        <div class="works-grid-item border">
-          <div class="row g-0 flex-md-row-reverse align-items-center">
+          <div class="works-grid-item border row g-0 flex-md-row-reverse align-items-center">
             <div class="col-lg-6 col-xl-6">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
-                <div class="portfolio-item fade-in">
+                <div class="portfolio-item">
                   <svg class="works-item-svg d-none d-md-block" width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_3629_8)">
                       <path d="M0 0.000350952H97L0 93.5859V0.000350952Z" fill="var(--color-light-1)"/>
@@ -26,7 +23,7 @@
                     </g>
                     <defs>
                       <clipPath id="clip0_3629_8">
-                        <rect width="106" height="106" fill="white" transform="matrix(1 0 0 -1 0 106)"/>
+                        <rect width="106" height="106" fill="var(--color-light-1)" transform="matrix(1 0 0 -1 0 106)"/>
                       </clipPath>
                     </defs>
                   </svg>
@@ -39,17 +36,17 @@
               </a>
             </div>
             <div class="col-lg-6 col-xl-6 p-md-5">
-              <p class="split-lines color-dark-2 bold mt-4 mt-md-0 mb-2">
+              <p class="color-dark-2 bold mt-4 mt-md-0 mb-2">
                 {{ post.data.client }}
               </p>
-              <h2 class="archive-post-title split-lines h2 my-3">
+              <h2 class="archive-post-title h2 my-3">
                 {{ post.data.title }}
               </h2>
-              <p class="line-clamp-3 split-lines mt-4 mb-4">
+              <p class="line-clamp-3 mt-4 mb-4">
                 {{ post.data.description }}
               </p>
 
-              <a href="{{ post.data.link }}" class="button-anim fade-in"
+              <a href="{{ post.data.link }}" class="button-anim"
                   data-strength="100"
                   target="_blank">
                 <div class="button-anim-text magnetic">
@@ -66,7 +63,6 @@
 
             </div>
           </div>
-        </div>
         <div class="pb-small"></div>
       {% endfor %}
     </div>

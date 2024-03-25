@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/img"); 
     eleventyConfig.addPassthroughCopy("src/assets/fonts");
     eleventyConfig.addPassthroughCopy("src/content/klienci/img"); 
+    eleventyConfig.addPassthroughCopy("src/content/blog/img"); 
     eleventyConfig.addPassthroughCopy("src/static");
     eleventyConfig.addPassthroughCopy("src/admin");
     eleventyConfig.addWatchTarget("src/assets/sass");
@@ -23,6 +24,11 @@ module.exports = function(eleventyConfig) {
               const orderB = b.data.order || 0;
               return orderA - orderB;
             });
+          });
+
+        // Collections blog
+        eleventyConfig.addCollection('blog', function(collectionApi) {
+          return collectionApi.getFilteredByGlob('src/content/blog/**/*.md').reverse();
           });
 
         // Collection clients
