@@ -66,9 +66,9 @@
         <div class="row g-0">
             <div class="col-md-12">
                 <div class="post-navigation pt-xsmall">
-                    {%- if collections.posts %}
-                    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-                    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+                    {%- if collections.blog %}
+                    {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+                    {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
                     {%- if nextPost or previousPost %}
                     <ul class="d-flex flex-wrap fade-in">
                         {%- if previousPost %}

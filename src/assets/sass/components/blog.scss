@@ -7,7 +7,30 @@
 }
 
 .post-thumb {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
 
+.post-thumb-svg {
+  position: absolute;
+  top: 0;
+  width: 67%;
+  height: auto;
+  z-index: 9;
+  right: 0;
+}
+
+.post-thumb::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2304ba;
+    mix-blend-mode: multiply;
+    z-index: 1;
 }
 
 .post-thumb img {
