@@ -1,3 +1,8 @@
+  .works-grid-item .hover-img-wrap {
+    overflow: hidden;
+    border-radius: var(--radius-2)
+  }
+
 .works-grid-svg {
     position: absolute;
     top: 0;
@@ -15,12 +20,18 @@
     position: absolute;
     top: 0;
     width: 4em;
-    height: 4em;
+    height: 4em;  
     z-index: 1;
 }
 
 @media(min-width:767px) {
     .works-grid-item {
         background-color: var(--color-light-1);
+    }
+    .works-grid-item:hover .image-wrapper img {
+        transform: scale(1.05);
+    }
+    .hover-img-wrap .image-wrapper img {
+        transition: .4s ease-in-out;
     }
 }

@@ -110,9 +110,8 @@ function animationMain() {
     gsap.from(fadeInItem, {
       autoAlpha: 0,
       opacity: 0,
-      y: 20,
       duration: 1,
-      delay: .2,
+      delay: .1,
       scrollTrigger: {
         trigger: fadeInItem,
         start: "top 90%",

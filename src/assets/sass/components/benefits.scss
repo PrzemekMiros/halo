@@ -3,6 +3,14 @@
     height: 100%;
 }
 
+.bc-light {
+    z-index: 1
+}
+
+.bc-light  .benefit-card-svg {
+   z-index: -1;
+}
+
 .benefit-card::before {
     position: absolute;
     content: "";
@@ -14,7 +22,7 @@
     border-top: none;
     border-bottom-left-radius: var(--radius-2);
     border-bottom-right-radius: var(--radius-2);
-    z-index: -1;
+    z-index: 0;
 }
 
 .bc-light::before {
@@ -36,5 +44,5 @@
     left: 0;
     width: 100%;
     height: auto;
-    z-index: -1;
+    z-index: 0;
 }
