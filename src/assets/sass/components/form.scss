@@ -1,38 +1,3 @@
-  /*
-  .bg-border-right {
-      position: relative;
-      background-image: url('/assets/img/bg-border-left.svg');
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      background-position: right top;
-   } 
-
-   .bg-br-2 {
-    position: relative;
-    background-image: url('/assets/img/bg-border-left-2.svg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    z-index: 9;
- } 
-
-   .bg-border-right::before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    height: 80%;
-    width: 100%;
-    background: var(--color-light-2);
-    border-radius: 25px;
-    z-index: -1;
- } 
-
- .bg-border-right.bg-br-2::before {
-  background: var(--color-light-1);
-  z-index: 0
-} 
-*/
 
   .contact-list {
       margin-top: 1.9em
@@ -69,14 +34,14 @@
     
     .floating-input,
     .floating-select {
-    padding: 1.3em 1.3em 1.3em 0;
+    padding: 1.3em 1.3em;
     display: block; 
     max-width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #8282827a;
+    background-color: var(--color-light-1);
+    border-radius: 8px;
+    border: 1px solid #8282827a;
     font-size: 14px;
     color: var(--color-text)
     }
@@ -84,14 +49,14 @@
     .floating-input:focus,
     .floating-select:focus {
     outline: 0;
-    border-bottom: 1px solid var(--color-accent-1)
+    border: 1px solid var(--color-accent-1)
     }
     
     .floating-label label {
     color: var(--color-text);
     font-size: 14px;
     font-weight: 400;
-    left: 0;
+    left: 1.3em;
     top: 1.9em;
     transform: translateY(-50%);
     transition: .2s;
@@ -130,94 +95,146 @@
     }
     
 
-.tab-status {
-  display: flex;
-  align-items: center
+  :root {
+    --errorColor: red;
+    --stepNumber: 5;
+    --containerWidth: 600px;
+    --bgColor: #333;
 }
 
-.tab-status span {
-  appearance: none;
-  background: transparent;
-  border: none;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  margin-right: .5rem;
-  border: 2px solid var(--color-accent-1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.form-outer {
+    overflow: hidden;
 }
 
-.tab-status span.active {
-  background-color: var(--color-accent-1);
-  color: #fff;
+.form-outer form {
+    display: flex;
+    width: calc(100% * var(--stepNumber));
+    overflow: hidden;
+}
+.form-outer form .page {
+    width: calc(100% / var(--stepNumber));
+    transition: margin-left 0.3s ease-in-out;
+}
+.form-outer form .page .title {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+form .page .field .label {
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+}
+form .page .field input.invalid-input {
+    border-color: var(--errorColor);
+}
+form .page .field select {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
-.hidden {
-  display: none;
+.progress-bar {
+    display: flex;
+    margin: 1em 0 .5em;
+    justify-content: left;
+    user-select: none;
 }
-
-
-
-
-input[type=checkbox] + label {
-    display: block;
-    margin: 0.2em;
-    cursor: pointer;
-    padding: 0.2em;
-  }
-  
-  input[type=checkbox] {
-    display: none;
-  }
-  
-  input[type=checkbox] + label:before {
-    content: "✔";
-    border: 0.1em solid var(--color-dark-2);
-    border-radius: 0.2em;
+.progress-bar .step {
+    width: 100%;
+    position: relative;
+}
+.progress-bar .step p {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.progress-bar .step .bullet {
+    height: 25px;
+    width: 25px;
+    border: 2px solid var(--color-border);
     display: inline-block;
-    width: 1em;
-    height: 1em;
-    padding-left: 0.3em;
-    padding-bottom: 0.3em;
-    margin-right: 0.5em;
-    vertical-align: bottom;
-    color: transparent;
+    border-radius: 50%;
+    position: relative;
     transition: 0.2s;
-    transform: translateY(-2px)
-  }
-  
-  input[type=checkbox] + label:active:before {
-    transform: scale(0);
-  }
-  
-  input[type=checkbox]:checked + label:before {
-    background-color: var(--color-accent-1);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+.progress-bar .step .bullet.active {
     border-color: var(--color-accent-1);
-    color: var(--color-light-1)
-  }
-  
-  @media(min-width:767px) {
-    .bg-border-right {
-      background-size: auto 100%;
-      background-repeat: no-repeat;
-      background-position: right top;
-   } 
+    background: var(--color-accent-1);
+}
+.progress-bar .step .bullet span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.progress-bar .step .bullet:before,
+.progress-bar .step .bullet:after {
+    position: absolute;
+    content: "";
+    bottom: 11px;
+    left: 50%;
+    height: 2px;
+    width: 3em;
+    background: var(--color-border);
+    transform: translateX(50%);
+}
+.progress-bar .step .bullet:after {
+    width: 0;
+}
+.progress-bar .step .bullet.active:after {
+    background: var(--color-accent-1);
+    width: 3em;
+    transition: 0.3s ease-in-out;
+}
 
-   .bg-br-2 {
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right top;
-    z-index: 9;
- } 
+.progress-bar .step:last-child .bullet:before,
+.progress-bar .step:last-child .bullet:after {
+    display: none;
+}
 
- .bg-border-right::before {
-  bottom: 0;
-  height: 100%;
-  width: 75%;
-} 
-    .tab-status {
-      display: block
+.progress-bar .step .check {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.progress-bar .step .check.active {
+    display: block;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --containerWidth: 400px;
     }
-  }
+    .progress-bar .step p {
+        display: none;
+    }
+    .progress-bar .step .bullet::after,
+    .progress-bar .step .bullet::before {
+        display: none;
+    }
+    .progress-bar .step .bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar .step .check {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 15px;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+    .step {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

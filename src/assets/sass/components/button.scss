@@ -60,6 +60,10 @@
     transform: scale(0);
     transition: .5s cubic-bezier(.79,0,.07,.88)
   }
+
+  .icon-arrow {
+    stroke: #fff
+  }
   
   .icon-line {
     position: absolute;
@@ -137,5 +141,8 @@
       .button-anim:hover .button-anim-icon .icon-link polygon,
       .button-anim:hover .button-anim-icon .icon-dollar path {
         fill: var(--color-accent-1)
+      }
+      .button-anim:hover .button-anim-icon .icon-arrow {
+        stroke: var(--color-accent-1)
       }
 }
