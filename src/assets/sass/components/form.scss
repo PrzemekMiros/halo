@@ -105,20 +105,16 @@
         display:none
       }
       input[type=checkbox]+label:before {
-        content:"✔";
-        border:.1em solid var(--color-dark-2);
-        width:1em;
-        height:1em;
-        vertical-align:bottom;
-        color:transparent;
-        border-radius:.2em;
-        margin-right:.5em;
-        padding-bottom:.3em;
-        padding-left:.3em;
-        transition:all .2s;
-        display:inline-block;
-        -webkit-transform:translateY(-2px);
-        transform:translateY(-2px)
+        content: "✔";
+        border: 0.1em solid var(--color-dark-2);
+        vertical-align: bottom;
+        color: transparent;
+        border-radius: 2em;
+        margin-right: 0.5em;
+        padding: 0.13em 0.5em;
+        transition: all 0.2s;
+        display: inline-block;
+        transform: translateY(0.15em);
       }
       input[type=checkbox]+label:active:before {
         -webkit-transform:scale(0);
@@ -178,7 +174,7 @@ form .page .invalid-input {
 .progress-bar .step .bullet {
     height: 30px;
     width: 30px;
-    border: 2px solid var(--color-border);
+    border: 1px solid var(--color-border);
     border-radius: 50%;
     position: relative;
     transition: 0.2s;
@@ -203,7 +199,7 @@ form .page .invalid-input {
     content: "";
     bottom: 15px;
     left: 80%;
-    height: 2px;
+    height: 1px;
     width: 3em;
     background: var(--color-border);
     transform: translateX(50%);
