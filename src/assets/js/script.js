@@ -192,7 +192,6 @@ if(document.querySelector('.form-outer')) {
   function initMultiStepForm() {
       const progressNumber = document.querySelectorAll(".step").length;
       const slidePage = document.querySelector(".slide-page");
-      const submitBtn = document.querySelector(".submit");
       const progressCheck = document.querySelectorAll(".step .check");
       const bullet = document.querySelectorAll(".step .bullet");
       const pages = document.querySelectorAll(".page");
@@ -239,11 +238,6 @@ if(document.querySelector('.form-outer')) {
               current -= 1;
           });
       }
-      submitBtn.addEventListener("click", function () {
-        
-          inputsValid = validateInputs(this);
-
-      });
   
       function validateInputs(ths) {
           let inputsValid = true;
@@ -264,32 +258,6 @@ if(document.querySelector('.form-outer')) {
   }
   
 }
-
-
-const modals = document.querySelectorAll("[data-modal]");
-
-modals.forEach(function (trigger) {
-  trigger.addEventListener("click", function (event) {
-    event.preventDefault();
-    const modal = document.getElementById(trigger.dataset.modal);
-    const video = modal.querySelector("#modalVideo");
-
-    modal.classList.add("open");
-
-    const exits = modal.querySelectorAll(".modal-exit");
-    exits.forEach(function (exit) {
-      exit.addEventListener("click", function (event) {
-        event.preventDefault();
-        modal.classList.remove("open");
-        // Pauzuj wideo po zamknięciu popupu
-        video.pause();
-      });
-    });
-
-    // Startuj wideo po otwarciu popupu
-    video.play();
-  });
-});
 
 
 function handleSubmit(formId, redirectUrl) {
@@ -323,6 +291,36 @@ function handleSubmit(formId, redirectUrl) {
 
 handleSubmit('briefForm', '/wyslano-formularz');
 handleSubmit('contactForm', '/wyslano-formularz');
+
+
+
+
+const modals = document.querySelectorAll("[data-modal]");
+
+modals.forEach(function (trigger) {
+  trigger.addEventListener("click", function (event) {
+    event.preventDefault();
+    const modal = document.getElementById(trigger.dataset.modal);
+    const video = modal.querySelector("#modalVideo");
+
+    modal.classList.add("open");
+
+    const exits = modal.querySelectorAll(".modal-exit");
+    exits.forEach(function (exit) {
+      exit.addEventListener("click", function (event) {
+        event.preventDefault();
+        modal.classList.remove("open");
+        // Pauzuj wideo po zamknięciu popupu
+        video.pause();
+      });
+    });
+
+    // Startuj wideo po otwarciu popupu
+    video.play();
+  });
+});
+
+
 
 
 };
