@@ -156,19 +156,13 @@
     font-size: 25px;
     font-weight: 500;
 }
-form .page .field .label {
+form .page .label {
     position: absolute;
     top: -30px;
     font-weight: 500;
 }
-form .page .field input.invalid-input {
+form .page .invalid-input {
     border-color: var(--errorColor);
-}
-form .page .field select {
-    width: 100%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
 }
 
 .progress-bar {

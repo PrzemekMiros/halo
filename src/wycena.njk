@@ -229,33 +229,33 @@ description: Wypełnij krótki brief żeby otrzymać bezpłatną wycenę. Dobry 
                 <div class="page">
                   <h3 class="my-4"> Dane kontaktowe</h3>
                   <div class="row g-3 mt-3">
-                    <div class="col-md-6">
-                      <div class="field floating-label">
-                        <input class="form-input floating-input" required type="text" name="url_one" placeholder="">
-                        <span class="highlight"></span>
-                        <label>Imię i nazwisko</label>
+                      <div class="col-md-6">
+                        <div class="floating-label">
+                            <input class="form-input floating-input required" type="text" name="imie_i_nazwisko" required placeholder="">
+                            <span class="highlight"></span>
+                            <label>Imię i nazwisko</label>
+                        </div>
                       </div>
+                      <div class="col-md-6">
+                        <div class="floating-label">
+                            <input type="text" name="adres_email" class="form-input floating-input required" required placeholder="">
+                            <span class="highlight"></span>
+                            <label>Adres email</label>
+                        </div>                 
+                      </div>
+                      <div class="col-md-6">
+                        <div class="floating-label">
+                            <input type="text" name="numer_telefonu" class="form-input floating-input" placeholder="">
+                            <span class="highlight"></span>
+                            <label>Numer telefonu</label>
+                        </div> 
                     </div>
                     <div class="col-md-6">
-                      <div class="field floating-label">
-                        <input class="form-input floating-input" required type="text" name="url_one" placeholder="">
-                        <span class="highlight"></span>
-                        <label>Adres email</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="field floating-label">
-                        <input class="form-input floating-input" type="text" name="url_one" placeholder="">
-                        <span class="highlight"></span>
-                        <label>Numer telefonu</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="field floating-label">
-                        <input class="form-input floating-input" type="text" name="url_one" placeholder="">
-                        <span class="highlight"></span>
-                        <label>Adres strony www</label>
-                      </div>
+                        <div class="floating-label">
+                            <input type="text" name="nazwa_firmy" class="form-input floating-input required" placeholder="">
+                            <span class="highlight"></span>
+                            <label>Nazwa firmy</label>
+                        </div>
                     </div>
                   </div>
                   <div class="pt-xsmall pb-xsmall">
@@ -308,9 +308,17 @@ description: Wypełnij krótki brief żeby otrzymać bezpłatną wycenę. Dobry 
                         </svg>
                       </div>
                     </button>
-
-
-                     <input class="btn btn-submit hidden" id="submit" type="submit" value="Wyślij">
+                    <button class="button-anim submit" id="submit" type="submit">
+                      <div class="button-anim-text">
+                        <span>Wyślij</span>
+                        <span>Wyślij</span>
+                      </div>
+                      <div class="button-anim-icon">
+                        <svg class="icon-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11 16L15 12M15 12L11 8M15 12H3M4.51555 17C6.13007 19.412 8.87958 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C8.87958 3 6.13007 4.58803 4.51555 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </button>
                     
                   </div>
                 </div>
