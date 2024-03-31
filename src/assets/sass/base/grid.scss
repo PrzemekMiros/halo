@@ -180,6 +180,15 @@
 .offset-11 {
   margin-left: 91.6666666667%;
 }
+.gap-2 {
+  grid-column-gap: 1em;
+}
+.gap-3 {
+  grid-column-gap: 1.5em;
+}
+.gap-4 {
+  grid-column-gap: 2em;
+}
 .g-0,
 .gx-0 {
   --bs-gutter-x: 0;
