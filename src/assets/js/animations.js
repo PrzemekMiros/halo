@@ -136,11 +136,12 @@ function animationMain() {
   // Footer parallax
   if (window.matchMedia("(min-width: 767px)").matches) {
     gsap.from(".footer-parallax", {
+      opacity: 0,
       y: "-25%",
       scrollTrigger: {
         trigger: ".site-footer",
-        start: "top 95%",
-        end: "bottom 80%",
+        start: "top 90%",
+        end: "bottom 85%",
         scrub: true,
       },
     });
