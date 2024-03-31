@@ -10,10 +10,10 @@
 .step-card::before {
     position: absolute;
     content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    top: 2%;
+    left: 2%;
+    bottom: 2%;
+    right: 2%;
     border: 1px solid #8e8e8e;
     border-radius: 50%;
     opacity: .5;

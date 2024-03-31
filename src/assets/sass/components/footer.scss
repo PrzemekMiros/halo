@@ -12,7 +12,7 @@
   width: 100%;
   height: 10em;
   z-index: 9
-}
+} 
 .separator path {
   fill: var(--color-light-1);
 } 
@@ -28,105 +28,43 @@
   opacity: .6;
 }
 .footer-card li {
-  margin-bottom: 0;
-  font-size: 17px;
-  color: var(--color-dark-1)
+  margin-bottom: .8em;
+  color: var(--color-dark-1);
+  opacity: .75;
 }
-.footer-card svg {
-  width: 44px;
-  height: auto
-}
-
 .footer-list li {
   margin-bottom: .6em
 }
 
-.button-footer {
-  display: inline-block;
+.svg-social-link {
   position: relative;
-  padding: 1em 1.3em 0.9em;
-  background-color: var(--color-accent-1);
-  font-size: .95rem;
-  font-weight: 500;
-  border: none;
-  border-radius: 28px;
-  overflow: hidden;
-  cursor: pointer
-}
-
-.button-footer::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  right: -1px;
-  width: 0;
-  border-radius: 26px;
-  background: var(--color-dark-1);
-  transition: 0.4s cubic-bezier(.79,0,.07,.88);
-  z-index: -1
-}
-
-.button-footer span {
   display: inline-block;
-  font-weight: 500;
-  color: #fff;
-  transition: .4s cubic-bezier(.79,0,.07,.88)
+  margin-right: 1.3em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--color-dark-1);
 }
 
-.button-footer svg {
-  margin-left: 10px;
-  transform: rotate(45deg);
-  transition: .4s cubic-bezier(.79,0,.07,.88)
+.svg-social-link svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.button-footer svg path {
-  stroke: #fff;
-  transition: .4s cubic-bezier(.79,0,.07,.88)
-}
-
-.social-link svg,
-.social-link svg path {
-  transition: fill .2s ease-in-out
+.copyright {
+  font-size: 90%;
+  opacity: .75;
 }
 
 @media(min-width:767px) {
   .site-footer {
     z-index: 0
   }
-  .border-footer {
-    position: relative;
-    height: 100%;
-  }
-  .border-footer::before {
-    position: absolute;
-    content: "";
-    top: 6.5em;
-    left: 50%;
-    bottom: 2em;
-    width: 1px;
-    background-color: var(--color-dark-2);
-    opacity: .5
-  }
-  .footer-card li {
-    font-size: 14px
-  }
   .footer-card svg {
     width: 34px
   }
-  .button-footer:hover::before {
-    width: 101% 
-}
-
-.button-footer:hover span {
-    color: var(--color-light-1)
-}
-.button-footer:hover svg {
-    transform: rotate(360deg)
-}
-.button-footer:hover svg path {
-    stroke: var(--color-light-1)
-}
 .social-link:hover svg {
   fill: var(--color-accent-1)
 }

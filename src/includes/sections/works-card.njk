@@ -14,7 +14,7 @@
           <div class="works-grid-item border row g-0 flex-md-row-reverse align-items-center">
             <div class="col-lg-6 col-xl-6">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
-                <div class="portfolio-item">
+                <div class="portfolio-item fade-in">
                   <svg class="works-item-svg d-none d-md-block" width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_3629_8)">
                       <path d="M0 0.000350952H97L0 93.5859V0.000350952Z" fill="var(--color-light-1)"/>
@@ -36,17 +36,17 @@
               </a>
             </div>
             <div class="col-lg-6 col-xl-6 p-md-5">
-              <p class="color-dark-2 bold mt-4 mt-md-0 mb-2">
+              <p class="color-dark-2 bold mt-4 mt-md-0 mb-2 fade-in">
                 {{ post.data.client }}
               </p>
-              <h2 class="archive-post-title h2 my-3">
+              <h2 class="archive-post-title h2 my-3 fade-in">
                 {{ post.data.title }}
               </h2>
-              <p class="line-clamp-3 mt-4 mb-4">
+              <p class="line-clamp-3 mt-4 mb-4 split-lines">
                 {{ post.data.description }}
               </p>
 
-              <a href="{{ post.data.link }}" class="button-anim magnetic"
+              <a href="{{ post.data.link }}" class="button-anim magnetic fade-in"
                   data-strength="60"
                   target="_blank">
                 <div class="button-anim-text">
