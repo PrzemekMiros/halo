@@ -17,6 +17,7 @@
   bottom: 0;
   background-color: var(--color-light-1);
   transition: all .3s ease-in-out;
+  opacity: .95;
   z-index: -1
 }
 
@@ -34,6 +35,14 @@
 
 .site-header.scrolled {
   transform: translateY(-1.1em);
+}
+
+.menu-open .site-header.hide {
+  opacity: 1;
+}
+
+.menu-open .site-header.scrolled {
+  transform: translateY(0);
 }
 
 .logo {
@@ -186,7 +195,7 @@
   }
   .main-menu li a {
     position: relative;
-    font-size: 28px;
+    font-size: 8vw;
     color: var(--color-heading);
     text-decoration: none;
     font-family: var(--font-primary);

@@ -20,6 +20,11 @@
   width: clamp(23px, 2.6vw, 36px);
   height: auto
 }
+
+.footer-card {
+  margin-bottom: 2em
+} 
+
 .footer-card ul {
   margin-top: 0;
 } 
@@ -54,8 +59,8 @@
 }
 
 .copyright {
-  font-size: 90%;
-  opacity: .75;
+  font-size: 85%;
+  opacity: .8;
 }
 
 @media(min-width:767px) {

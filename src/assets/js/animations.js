@@ -145,18 +145,9 @@ function animationMain() {
         scrub: true,
       },
     });
-  } else {
-    gsap.from(".footer-parallax", {
-      y: "-15%",
-      scrollTrigger: {
-        trigger: ".site-footer",
-        start: "top 95%",
-        end: "bottom 90%",
-        scrub: true,
-      },
-    });
-  }
+  };
 
+  
      // Nav menu
      const menuToggle = document.getElementById("menuToggle");
      const menuBar = gsap.timeline();
