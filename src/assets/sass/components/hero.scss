@@ -62,21 +62,17 @@
 
 .slider-hero .slide-track {
   display: flex;
-  width: 783%;
+  width: 600%;
 }
 
 .slider-left .slide-track {
-  -webkit-animation: scrollLeft 20s linear infinite;
-          animation: scrollLeft 20s linear infinite;
+  -webkit-animation: scrollLeft 5s linear infinite;
+          animation: scrollLeft 5s linear infinite;
 }
 
 .slider-right .slide-track {
-  -webkit-animation: scrollRight 25s linear infinite;
-          animation: scrollRight 25s linear infinite;
-}
-
-.slider-hero .slide {
-  margin-right: 20px;
+  -webkit-animation: scrollRight 5s linear infinite;
+          animation: scrollRight 5s linear infinite;
 }
 
 .slider-hero .slide img {
