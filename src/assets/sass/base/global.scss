@@ -10,6 +10,7 @@ body {
   height: 100%;
   text-rendering: optimizeLegibility;
   font-family: var(--font-primary);
+  line-height: 1.2;
   color: var(--color-text);
   background: var(--color-light-2);
 }
@@ -105,6 +106,7 @@ video {
 }
 
 .parallax-wrap {
+  position: relative;
   overflow: hidden;
   border-radius: var(--radius-2)
 }

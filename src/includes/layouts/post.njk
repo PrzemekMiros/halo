@@ -73,10 +73,8 @@
                     <ul class="d-flex flex-wrap fade-in">
                         {%- if previousPost %}
                         <li class="col-md-6 prev d-none d-md-block">
-                            <p class="mb-4">
-                                <small class="color-accent-2 bold">
-                                    Poprzedni:
-                                </small>
+                            <p class="mb-4 color-accent-2 bold">                         
+                                Poprzedni:
                             </p>
                             <a href="{{ previousPost.url | url }}" title="{{ previousPost.data.client }}"
                                 class="h3">{{ previousPost.data.title }}
@@ -85,10 +83,8 @@
                         {% endif %}
                         {%- if nextPost %}
                         <li class="col-md-6 next">
-                            <p class="mb-4">
-                                <small class="color-accent-2 bold">
+                            <p class="mb-4 color-accent-2 bold">
                                     Kolejny:
-                                </small>
                             </p>
                             <a href="{{ nextPost.url | url }}" title="{{ nextPost.data.client }}"
                                 class="h3">{{ nextPost.data.title }}

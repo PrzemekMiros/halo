@@ -62,22 +62,22 @@
 
 .slider-hero .slide-track {
   display: flex;
-  width: 600%;
+  gap: 20px;
+  width: 195em;
 }
 
 .slider-left .slide-track {
-  -webkit-animation: scrollLeft 5s linear infinite;
-          animation: scrollLeft 5s linear infinite;
+  -webkit-animation: scrollLeft 15s linear infinite;
+          animation: scrollLeft 15s linear infinite;
 }
 
 .slider-right .slide-track {
-  -webkit-animation: scrollRight 5s linear infinite;
-          animation: scrollRight 5s linear infinite;
+  -webkit-animation: scrollRight 15s linear infinite;
+          animation: scrollRight 15s linear infinite;
 }
 
 .slider-hero .slide img {
-  width: 230px;
-  height: 150px;
+  width: 15em
 }
 
 .avatar {
