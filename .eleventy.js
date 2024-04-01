@@ -34,7 +34,12 @@ module.exports = function(eleventyConfig) {
         // Collection clients
         eleventyConfig.addCollection("clients", function(collectionApi) {
           return collectionApi.getFilteredByGlob('src/content/klienci/**/*.md');
-        });
+          });
+
+        // Collection faq
+        eleventyConfig.addCollection("faq", function(collectionApi) {
+          return collectionApi.getFilteredByGlob('src/content/faq/**/*.md');
+          });
       
         // Date
         eleventyConfig.addFilter('dateDisplay', require('./src/filters/date-display.js'));

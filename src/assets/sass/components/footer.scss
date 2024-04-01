@@ -29,8 +29,8 @@
 }
 .footer-card li {
   margin-bottom: .8em;
+  font-size: 110%;
   color: var(--color-dark-1);
-  opacity: .75;
 }
 .footer-list li {
   margin-bottom: .6em
@@ -39,9 +39,9 @@
 .svg-social-link {
   position: relative;
   display: inline-block;
-  margin-right: 1.3em;
-  width: 44px;
-  height: 44px;
+  margin-right: .8em;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 1px solid var(--color-dark-2);
 }
@@ -64,6 +64,10 @@
   }
   .footer-card svg {
     width: 34px
+  }
+  .svg-social-link {
+    width: 44px;
+    height: 44px;
   }
 .social-link:hover svg {
   fill: var(--color-accent-1)

@@ -1,11 +1,16 @@
 {% include "partials/header.njk" %}
 
-<section class="pt-large pt-md-xlarge pb-small" data-scroll-section>
-    <div class="container">
+<section class="pb-small" data-scroll-section>
 
-        <div class="row">
-            <div class="offset-md-2 offset-xl-3 col-md-8 col-xl-6">
-                <div class="single-post-title-wrap pb-xsmall pb-md-small">
+
+        <div class="hero-post">
+
+            <div class="hero-post-image-wrap aspect_16-9 fade-in">
+                {% blogImage "src/" + thumbnail, title, "hero-post-image img-fluid" %}
+            </div>
+            <div class="container">
+                 <div class="p-relative offset-md-3 col-md-6">
+                 <div class="single-post-title-wrap pt-xlarge pb-medium">
                     <div class="breadcrumbs small mt-3 fade-in">
                         <a href="/" title="Strona główna">
                             Główna
@@ -44,15 +49,12 @@
                         </span>
                     </div>
                 </div>
-            </div>
-
-            <div class="offset-md-1 col-md-10">
-                <div class="parallax-wrap aspect_16-9 fade-in mb-4 mb-lg-5">
-                     {% blogImage "src/" + thumbnail, title, "single-post-image img-fluid" %}
-                </div>
+                 </div>
             </div>
         </div>
 
+    <div class="pt-medium">
+    <div class="container">
         <div class="content row fade-in" id="pinShare">
             <div class="offset-md-2 offset-xl-3 col-md-8 col-xl-6">
                 {{ content | safe}}
@@ -103,6 +105,8 @@
         </div>
 
     </div>
+    </div>
+
 </section>
 
 {% include "partials/footer.njk" %}

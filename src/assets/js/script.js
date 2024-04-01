@@ -185,6 +185,25 @@ if (document.querySelector('.swiper-works')) {
 })();
 
 
+  // Acordion
+  if (document.querySelector(".accordion")) {
+    let t = document.getElementsByClassName("accordion");
+    for (let e = 0; e < t.length; e++)
+      t[e].addEventListener("click", function () {
+        let e = this.nextElementSibling;
+        if (e.style.maxHeight)
+          (e.style.maxHeight = null), this.classList.remove("open");
+        else {
+          for (let a = 0; a < t.length; a++)
+            t[a].classList.remove("open"),
+              (t[a].nextElementSibling.style.maxHeight = null);
+          (e.style.maxHeight = e.scrollHeight + "px"),
+            this.classList.toggle("open");
+        }
+      });
+  };
+
+
 
 if(document.querySelector('.form-outer')) {
   initMultiStepForm();
