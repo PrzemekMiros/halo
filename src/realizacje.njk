@@ -4,7 +4,7 @@ title: Realizacje
 description: Zobacz wybrane prace
 ---
 
-<section class="hero pt-large pt-md-xlarge pb-small" data-scroll-section>
+<section class="hero pt-large pt-md-xlarge pb-large" data-scroll-section>
   <div class="container">
     <div class="row g-4">
       <div class="col-md-6">
@@ -37,12 +37,10 @@ description: Zobacz wybrane prace
       </div>
       <div class="col-md-6">
           <div class="hero-card bg-light-2 d-md-flex align-items-center">
-            <div class="p-2">
-                <div class="parallax-item">
-                <video autoplay loop >
+            <div class="p-2 fade-in">
+                <video autoplay loop poster="/assets/img/video/movie-5-poster.png">
                   <source src="/assets/img/video/movie-5.webm">
                 </video>
-                </div>
             </div>
           </div>
       </div>
@@ -53,17 +51,10 @@ description: Zobacz wybrane prace
 <section class="pb-large" data-scroll-section>
   <div class="container">
     <div class="row gx-0">
-      <div class="col-md-3 pt-large d-none d-md-block">
-        <div class="sticky">
-          <img src="/assets/img/hero/avatar.png" class="avatar" width="90px" height="90px" alt="">
-          <button class="modal-play-btn magnetic" data-strength="40" data-modal="modal-one">
-            <svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="100%" height="100%">
-              <path d="M13.9 7.35a.7.7 0 0 1 0 1.213l-8.4 4.85a.7.7 0 0 1-1.05-.606v-9.7a.7.7 0 0 1 1.05-.606l8.4 4.85Z"></path>
-            </svg>
-          </button>
-        </div>
+      <div class="col-md-3">
+
       </div>
-      <div class="col-md-9 pt-medium">
+      <div class="col-md-9">
         <div class="pb-medium">
           <p class="h1 mt-md-0 text-highlight">
             <span>&nbsp;</span> Pomogłem wielu firmom lepiej wykorzystać ich potencjał i mogę zrobić to też dla Ciebie! Zobacz moje realizacje żeby wiedzieć czego możesz sie spodziewać
@@ -71,12 +62,12 @@ description: Zobacz wybrane prace
         </div>
         <div class="row gx-4 overflow-hidden">
           {% for post in collections.works %}
-            <div class="works-grid-item col-md-6 mb-5">
+            <div class="works-grid-item col-md-6 pb-small">
               <div class="portfolio-item fade-in overflow-hidden">
 
                 <svg class="works-grid-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="black"/>
-                  <path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="black"/>
+                  <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)"/>
+                  <path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="var(--color-light-1)"/>
                 </svg>
 
                 <div class="hover-img-wrap aspect_16-13">

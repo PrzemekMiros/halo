@@ -1,10 +1,10 @@
 ---
-layout: "layouts/base.njk"
+layout: "layouts/front.njk"
 title: Blog
 description: Artykuły i ciekawostki
 pagination: 
-    data: collections.blog
-    size: 15
+    data: collections.posts
+    size: 9
     alias: blog
 ---
 
@@ -17,7 +17,7 @@ pagination:
             <path d="M0 0V53C0 53 3.96649 35 28.2612 35C52.556 35 570.005 34.98 606.695 34.98C643.385 34.98 651 0 651 0H0Z" fill="var(--color-light-1)" />
             <path d="M690.717 0C645.947 0 648.377 21.6981 625.99 29.2453C625.99 29.2453 612.849 0 634.262 0H690.717Z" fill="var(--color-light-1)" />
           </svg>
-          <div class="hero-card-content p-4 p-md-5">
+          <div class="hero-card-content p-4 p-md-5"> 
             <!---
               <div class="hero-card-content-image"><img class="fade-in" src="/assets/img/hero/woman.png" alt=""></div>
               --->
@@ -41,12 +41,10 @@ pagination:
       </div>
       <div class="col-md-6">
           <div class="hero-card bg-light-2 d-md-flex align-items-center">
-            <div class="p-2">
-                <div class="parallax-item">
-                <video autoplay loop >
+            <div class="p-2 fade-in">
+                <video autoplay loop poster="/assets/img/video/movie-5-poster.png">
                   <source src="/assets/img/video/movie-5.webm">
                 </video>
-                </div>
             </div>
           </div>
       </div>
@@ -57,6 +55,11 @@ pagination:
 <section class="pb-large" data-scroll-section>
   <div class="container">
     <div class="row gx-4 pb-medium d-none d-md-flex justify-content-center">
+      <div class="col-auto">
+        <a href="/blog/" class="category-btn magnetic fadeIn" data-strength="50" title="Strony www">
+            <span class="btn-text">Wszystkie </span>
+        </a>
+      </div>
       <div class="col-auto">
         <a href="/blog/strony-www/" class="category-btn magnetic fadeIn" data-strength="50" title="Strony www">
             <span class="btn-text"> Strony www </span>
@@ -82,29 +85,24 @@ pagination:
               <span class="btn-text"> Poradniki </span>
           </a>
       </div>
-      <div class="col-auto">
-          <a href="/blog/poradniki/" class="category-btn magnetic fadeIn" data-strength="50" title="Wordpress">
-              <span class="btn-text"> Ostatnia kategoria </span>
-          </a>
-      </div>
     </div>
     <div class="row gx-4"> 
-      {% for post in collections.blog %} 
-      <div class="col-md-4 pb-xsmall"> 
+      {% for post in blog %} 
+      <div class="col-md-4 pb-small"> 
         <a href="{{ post.url }}" title="{{ post.data.title }}">
-                      <div class="post-thumb fadeIn">
-                        <svg class="post-thumb-svg" width="197" height="27" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M197 0V25.9811C197 25.9811 195.293 17.82 182.358 17.82C169.423 17.82 64.4217 17.82 44.8867 17.82C25.3518 17.82 21.2973 0 21.2973 0H197Z" fill="var(--color-light-1)"/>
-                          <path d="M0.15101 0C23.988 0 22.6942 11.0537 34.6138 14.8985C34.6138 14.8985 41.6104 0 30.2095 0H0.15101Z" fill="var(--color-light-1)"/>
-                          </svg>                          
+                      <div class="post-thumb fadeIn">       
+                        <svg class="post-thumb-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)"/>
+                          <path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="var(--color-light-1)"/>
+                        </svg>                  
                           {% blogImage "src/" + post.data.thumbnail, post.data.title %}
                       </div>
                       </a>
-                      <p class="archive-category mb-3 fadeIn">
+                      <p class="archive-category mt-4 mb-3 fadeIn">
                           {{ post.data.tags }}
                       </p>
                       <a href="{{ post.url }}" title="{{ post.data.title }}">
-                          <h3 class="split-text-lines line-clamp-2 mt-0 mb-4">
+                          <h3 class="h4 split-text-lines line-clamp-2 mt-0 mb-4">
                               {{ post.data.title }}
                           </h3>
                       </a>
@@ -118,7 +116,6 @@ pagination:
                                   stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
                       </a>
-                      <div class="line-x lx-1 lx-op mt-5"></div>
     </div> 
     {% endfor %} 
   </div>
