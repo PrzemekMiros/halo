@@ -23,30 +23,16 @@
       new SwupBodyClassPlugin()
     ]
   });
-
   // Swup events re-init scripts
-
   swup.hooks.on('page:view', () => {
        appMain(); animationMain()
   }, { before: true });
-  
-  /*
-  document.addEventListener("swup:animationInStart", () => {
-    scrollTo(top)
-  });
-  document.addEventListener("swup:animationInDone", () => {
-    appMain(); animationMain()
-  }), console.clear(); 
-  */
 
 </script>
-
 <!--
 <script src="/assets/js/cookieconsent.js" defer></script>
 <script src="/assets/js/cookieconsent-init.js" defer></script>
 -->
-
-
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
@@ -60,6 +46,5 @@
     }
   }
 </script>   
-<script src="//code.tidio.co/qwtvsvj8vo6cvmhosoc6vxxotl4qekvu.js" async></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
 ---
 title: Dystrybutor rur
-logo: /content/klienci/img/logo-ecotech.png
+logo: /content/klienci/img/logo-ecotech.webp
 ---

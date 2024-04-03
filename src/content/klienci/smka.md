@@ -1,4 +1,4 @@
 ---
 title: Preparaty dla rolnictwa
-logo: /content/klienci/img/smka.png
+logo: /content/klienci/img/smka.webp
 ---
