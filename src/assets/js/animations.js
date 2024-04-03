@@ -245,12 +245,14 @@ function animationMain() {
      });
      };
 
+     if (document.querySelector('.send-icon-big')) {
      gsap.from('.send-icon-big', {
       yPercent: 120,
       xPercent: -100,
       duration: .7,
       delay: .45
-     })
+     });
+    };
 
 
   // End animation
