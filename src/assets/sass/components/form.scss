@@ -62,7 +62,7 @@
     font-size: 14px;
     font-weight: 400;
     left: 1.3em;
-    top: 1.9em;
+    top: 2em;
     transform: translateY(-50%);
     transition: .2s;
     -moz-transition: .2s;
@@ -88,7 +88,7 @@
     
     .floating-textarea {
     overflow: hidden;
-    overflow-x: hidden
+    margin-bottom: .3em;
     } 
     
     .highlight {
@@ -128,7 +128,7 @@
         padding: 0.13em 0.5em;
         transition: all 0.2s;
         display: inline-block;
-        transform: translateY(0.15em);
+        transform: translateY(0.25em);
         line-height: 1.5;
         z-index: 999;
       }

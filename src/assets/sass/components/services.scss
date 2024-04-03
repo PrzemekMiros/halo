@@ -20,7 +20,11 @@
 
 .service-card img {
     display: inline-block;
-    width: 55px;
+    width: 50px;
+    padding: .4em;
+    border-radius: 50%;
+    background: var(--color-accent-1);
+    filter: saturate(80%) brightness(150%);
 }
 
 @media(min-width:767px) {
