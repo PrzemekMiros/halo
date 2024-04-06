@@ -1,4 +1,4 @@
-<section class="pt-small pb-xlarge" data-scroll-section>
+<section class="pt-small pb-large" data-scroll-section>
   <!--
   <div class="css-blurry-gradient"></div>
   -->
@@ -10,28 +10,23 @@
     </svg>
     <div class="service-wrap p-4 p-md-5 pt-md-0 pb-md-3 bg-light-2">
       <h2 class="xl split-lines mt-3 mb-5">Realizacje</h2>
-          {% for post in collections.works %}
-            <div class="works-grid-item mb-5">
+          {% for post in collections.works.slice(0, 3) %}
+            <div class="pb-small">
               <div class="portfolio-item fade-in">
-
-                <svg class="works-grid-svg" width="861" height="53" viewBox="0 0 861 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="works-grid-svg-big" width="861" height="53" viewBox="0 0 861 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0V51C0 51 3.20529 34.98 27.5 34.98C51.7948 34.98 249.005 34.98 285.695 34.98C322.385 34.98 330 0 330 0H0Z" fill="var(--color-light-2)"/>
                   <path d="M369.717 0C324.947 0 327.377 21.6981 304.99 29.2453C304.99 29.2453 291.849 0 313.262 0H369.717Z" fill="var(--color-light-2)"/>
                 </svg>
-
-                <div class="hover-img-wrap aspect_16-13">
-                  {% workImage "src/" + post.data.thumbnail,
-                  post.data.title %}
-                </div>
+                <img src="/assets/img/1.avif" class="border" alt="">
               </div>
-
-              <p class="split-lines color-dark-2 bold mt-4 mb-2">
-                {{ post.data.client }}
-              </p>
-              <h3 class="h3 archive-post-title split-lines my-3">
-                {{ post.data.title }}
-              </h3>
-
+              <div class="d-none">
+                <p class="split-lines color-dark-2 bold mt-4 mb-2">
+                  {{ post.data.client }}
+                </p>
+                <h3 class="h3 archive-post-title split-lines my-3">
+                  {{ post.data.title }}
+                </h3>
+              </div>
             </div>
           {% endfor %}
     </div>

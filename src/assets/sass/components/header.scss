@@ -203,6 +203,9 @@
     display: inline-block;
     line-height: 1.2
   }
+  .main-menu li a.link-active {
+    color: var(--color-accent-1);
+  }
   .main-menu ul li a::before {
     content: "0" counter(li);
     counter-increment: li;
@@ -214,6 +217,29 @@
     color: var(--color-dark-2);
     opacity: .6
   }
+
+  
+.link-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.link-hover::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background-color: var(--color-accent-1); 
+  transition: .2s ease-in-out;
+  z-index: -1
+}
+
+.link-hover:hover::before,
+.link-active::before {
+  height: 33%;
+}
 
 @media(min-width:767px) {
   .site-header {
@@ -246,19 +272,4 @@
 .button-header:hover svg path {
     stroke: var(--color-light-1);
 }
-}
-
-
-
-.snipcart-test-banner {
-  border-top: 4px solid #ff6435!important;
-}
-
-.snipcart-test-banner__message {
-  background-color: #ff6435!important;
-  color: #fff;
-}
-
-.snipcart-button-primary {
-  background-color: #ff6435!important;
 }
