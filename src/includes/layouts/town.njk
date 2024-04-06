@@ -1,3 +1,5 @@
+{% include "partials/header.njk" %}
+
 <section class="hero pt-large pt-md-xlarge pb-xsmall pb-md-large" data-scroll-section>
   <div class="container">
     <div class="row g-4">
@@ -12,7 +14,7 @@
 
             <p class="h3 split-lines my-3 color-light" id="greeting"></p>
             <h1 class="xxl split-lines my-4 mb-md-2 uppercase color-light">
-            Pokaż się z najlepszej strony www
+              {{ title }}
             </h1>
             <div class="pt-md-xxsmall pt-md-xsmall pb-xxsmall pb-md-xsmall">
               <div class="line-x"></div>
@@ -148,3 +150,42 @@
   </div>
 </section>
 
+{% include 'sections/description.njk' %}
+{% include 'sections/steps.njk' %}
+{% include 'sections/services.njk' %}
+{% include 'sections/clients.njk' %}
+{% include 'sections/opinion.njk' %}
+{% include 'sections/works-card.njk' %}
+{% include 'sections/benefits.njk' %}
+{% include 'sections/form.njk' %}
+
+<section class="pb-medium" data-scroll-section>
+  <div class="container">
+    {{ content | safe}}
+  </div>
+</section>
+
+<section class="pb-medium" data-scroll-section>
+  <div class="container">
+      <div class="row gx-5">
+         <div class="col-md-3">
+          <h3 class="split-lines mt-3 mb-4">
+              Stwórzmy stronę która pozyska dla Ciebie nowych klientów! 
+          </h3>
+            <p class="mt-4 mt-md-5 mb-md-5 bold split-lines">
+               Specjalizuje się w tworzeniu wysokiej jakości stron internetowych dla firm z {{ town }}
+            </p>
+        </div>
+        <div class="col-md-8">
+            <p class="split-lines">
+                Dlaczego warto skorzystać z moich usług? Przede wszystkim, posiadam duże doświadczenie w branży, a każdy projekt traktuje indywidualnie, tak aby spełnił oczekiwania klienta. Tworzę strony responsywne, które są dostosowane do różnych urządzeń, co zwiększa komfort przeglądania strony i wpływa na korzyści biznesowe.
+            </p>
+            <p class="split-lines">
+              Jeśli chcesz wyróżnić swoją firmę na rynku lokalnym, niezbędna jest atrakcyjna i funkcjonalna strona www. Dlatego zachęcam do skorzystania z moich usług. Gwarantuje wysoką jakość wykonania oraz atrakcyjne ceny. Skontaktuj się ze mną, żeby poznać szczegóły oferty i rozpocząć owocną współpracę!
+            </p>
+        </div>
+      </div>
+  </div>
+</section>
+
+{% include "partials/footer.njk" %}
