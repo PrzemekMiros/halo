@@ -35,7 +35,7 @@ description: Zobacz wybrane prace
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 d-none d-md-block">
           <div class="hero-card bg-light-2 d-md-flex align-items-center">
             <div class="p-1 fade-in">
                 <video autoplay loop poster="/assets/img/video/movie-6-poster.png">
@@ -51,7 +51,7 @@ description: Zobacz wybrane prace
 <section class="pb-large" data-scroll-section>
   <div class="container">
     <div class="row g-md-0">
-      <div class="col-md-3">
+      <div class="col-md-3 d-none d-md-block">
         <div class="works-sidebar">
           <div class="works-filter p-3 py-5 p-md-4">
             <button class="filter-button large uppercase">
@@ -100,7 +100,7 @@ description: Zobacz wybrane prace
         <div class="row gx-4 overflow-hidden">
           {% for post in collections.works %}
             <div class="works-grid-item col-md-6 pb-small">
-              <a href="{{ post.data.client }}" class="fade-in" title="{{ post.data.client }}" rel="nofollow" target="_blank">
+              <a href="{{ post.data.link }}" class="fade-in" title="{{ post.data.client }}" rel="nofollow" target="_blank">
               <div class="portfolio-item overflow-hidden">
                 <svg class="works-grid-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)"/>

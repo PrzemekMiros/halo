@@ -12,7 +12,7 @@ link: https://twojekonsultacje.pl/
 imageMobile: /content/realizacje/img/konsultacje-mobile.jpg
 category:
   - Strona internetowa
-order: 17
+order: 27
 ---
 
 ## Platforma konsultingowa

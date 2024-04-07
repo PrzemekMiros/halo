@@ -1,18 +1,15 @@
 ---
-client: C7Med
-title: Centrum Rehabilitacji
+client: Nail Dersign
+title: Kursy stylizacji paznokci
 description: Strona internetowa dla centrum rehabilitacji w Pruszczu Gdańskim. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
 date: 2021-04-20
 author: Przemek Miros
-thumbnail: /content/realizacje/img/c7med-thumb-big.jpg
-imageMain: /content/realizacje/img/c7med-thumb-big.jpg
-imageMobile: /content/realizacje/img/c7med-mobile.jpg
-imageGridOne: /content/realizacje/img/c7med-1.jpg
-imageGridTwo: /content/realizacje/img/c7med-2.jpg
+thumbnail: /content/realizacje/img/nail-thumb-big.jpg
+imageMain: /content/realizacje/img/nail-thumb-big.jpg
 category: 
   - Strona internetowa
-link: https://c7med.pl/
-order: 16
+link: https://naildesign.com.pl/
+order: 6
 ---
 
 ## Centrum Rehabilitacji
