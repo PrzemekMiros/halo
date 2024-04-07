@@ -125,6 +125,35 @@ li {
   color: var(--color-text);
 }
 
+ol li {
+  margin-bottom: 1em;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 2em;
+  border-left: 3px solid var(--color-accent-1);
+}
+
+small,
+.small {
+  font-size: 3vw;
+  line-height: 1.2;
+}
+
+.large {
+  font-size: 6vw;
+  line-height: 1.2;
+}
+
+.subheading {
+  margin-bottom: 1em;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 @media(min-width:459px) {
   .xxl {
     font-size: clamp(40px, 6.2vw, 90px);
@@ -168,32 +197,17 @@ li {
   .paragraph,
   li {
     margin-bottom: 2em;
-    font-size: clamp(16px, 1.2vw, 18px);
+    font-size: clamp(16px, 1.1vw, 17px);
   }
+  small,
+  .small {
+    font-size: clamp(10px, .9vw, 12px);
 }
 
-ol li {
-  margin-bottom: 1em;
+.large {
+  font-size: clamp(18px, 1.4vw, 21px);
 }
 
-blockquote {
-  margin-left: 0;
-  padding-left: 2em;
-  border-left: 3px solid var(--color-accent-1);
-}
-
-small,
-.small {
-  font-size: 11px;
-  line-height: 1.2;
-}
-
-.subheading {
-  margin-bottom: 1em;
-  font-size: 16px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 blockquote p {
