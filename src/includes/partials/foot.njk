@@ -6,6 +6,7 @@
 <script src="/assets/js/libs/swup.js"></script>
 <script src="/assets/js/libs/swup-progress.js"></script>
 <script src="/assets/js/libs/swup-body.js"></script>
+<script src="https://unpkg.com/@swup/fragment-plugin@1"></script>
 <script src="/assets/js/libs/gsap.js"></script>
 <script src="/assets/js/libs/scroll-trigger.js"></script>
 <script src="/assets/js/libs/lenis.js"></script> 
@@ -20,7 +21,16 @@
     animateHistoryBrowsing: true, 
     plugins: [
       new SwupProgressPlugin(),
-      new SwupBodyClassPlugin()
+      new SwupBodyClassPlugin(),
+      new SwupFragmentPlugin({
+        rules: [
+         {
+          from: '/users/:filter?',
+          to: '/users/:filter?',
+          containers: ['#users']
+         }
+      ]
+    })
     ]
   });
   // Swup events re-init scripts
