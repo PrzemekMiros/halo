@@ -63,17 +63,17 @@ description: Zobacz wybrane prace
             <button class="filter-button large uppercase">
               Według branży
             </button>
-            <ul class="filter-buttons my-4">
+            <ul class="my-4">
               <li class="filter-btn" data-filter="all">
                   Wszystkie
               </li>
-              <li class="filter-btn option" data-filter="category:Strona internetowa">
+              <li class="filter-btn" data-filter="Strona internetowa">
                  Strony www
               </li>
-              <li class="filter-btn option" data-filter="category:Sklep internetowy">
+              <li class="filter-btn" data-filter="Sklep internetowy">
                  Sklepy internetowe
               </li>
-              <li class="filter-btn option" data-filter="category:Portal internetowy">
+              <li class="filter-btn" data-filter="Portal internetowy">
                  Portale informacyjne
               </li>
             </ul>
@@ -103,13 +103,10 @@ description: Zobacz wybrane prace
             <span>&nbsp;</span> Pomogłem wielu firmom lepiej wykorzystać ich potencjał i mogę zrobić to też dla Ciebie! Zobacz moje realizacje żeby wiedzieć czego możesz sie spodziewać
             </p>
         </div>
-
-        <div class="projects">
-  
-        <div class="projects-inner fade-in">
+        <div class="row gx-4 overflow-hidden" id="works-grid">
           {% for post in collections.works %}
-            <div class="works-grid-item project pb-small" data-category="{{ post.data.category }}">
-              <a href="{{ post.data.link }}" title="{{ post.data.client }}" rel="nofollow" target="_blank">
+            <div class="works-grid-item col-md-6 pb-small" data-category="{{ post.data.category }}">
+              <a href="{{ post.data.link }}" class="fade-in" title="{{ post.data.client }}" rel="nofollow" target="_blank">
               <div class="portfolio-item overflow-hidden">
                 <svg class="works-grid-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)"/>

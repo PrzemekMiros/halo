@@ -12,10 +12,15 @@
   .filter-button {
     padding: 0;
     border: none;
-    background-color: transparent;
+    background-color: transparent; 
     color: var(--color-heading);
   }
-  
+
+
+.works-grid-item.hidden {
+  display: none
+}
+
   .works-grid-item .hover-img-wrap {
     overflow: hidden;
     border-radius: var(--radius-2)
@@ -61,3 +66,20 @@
         transition: .4s ease-in-out;
     }
 }
+
+
+
+
+
+.projects .filter_button .option.is_active {
+  font-weight: bold;
+}
+.projects .projects-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects .projects-inner .project {
+  width: calc(50% - 2rem);
+  margin-right: 2em;
+}
+

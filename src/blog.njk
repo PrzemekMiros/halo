@@ -1,12 +1,12 @@
----
-layout: "layouts/front.njk"
-title: Blog
-description: Artykuły i ciekawostki
+--- 
+layout: "layouts/base.njk" 
+title: Blog 
+description: Artykuły i ciekawostki 
 pagination: 
-    data: collections.posts
-    size: 9
-    alias: blog
----
+    data: collections.posts 
+    size: 9 
+    alias: blog 
+--- 
 
 <section class="hero pt-large pt-md-xlarge pb-medium" data-scroll-section>
   <div class="container">
@@ -17,7 +17,7 @@ pagination:
             <path d="M0 0V53C0 53 3.96649 35 28.2612 35C52.556 35 570.005 34.98 606.695 34.98C643.385 34.98 651 0 651 0H0Z" fill="var(--color-light-1)" />
             <path d="M690.717 0C645.947 0 648.377 21.6981 625.99 29.2453C625.99 29.2453 612.849 0 634.262 0H690.717Z" fill="var(--color-light-1)" />
           </svg>
-          <div class="hero-card-content p-4 p-md-5"> 
+          <div class="hero-card-content p-4 p-md-5">
             <!---
               <div class="hero-card-content-image"><img class="fade-in" src="/assets/img/hero/woman.png" alt=""></div>
               --->
@@ -28,25 +28,23 @@ pagination:
             </div>
             <div class="row align-items-center">
               <div class="col-3 col-md-2">
-                 <img src="/assets/img/hero/avatar.png" style="width:55px; height:55px;" alt="">
+                <img src="/assets/img/hero/avatar.png" style="width:55px; height:55px;" alt="">
               </div>
               <div class="col-9 col-md-8">
-                <p class="h4 fade-in my-0 color-light">
-                  Wypełnij formularz żeby otrzymać wstępną wycenę
-                </p>
+                <p class="h4 fade-in my-0 color-light"> Wypełnij formularz żeby otrzymać wstępną wycenę </p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-block">
-          <div class="hero-card bg-light-2 d-md-flex align-items-center">
-            <div class="p-2 fade-in">
-                <video autoplay loop poster="/assets/img/video/movie-5-poster.png">
-                  <source src="/assets/img/video/movie-5.webm">
-                </video>
-            </div>
+        <div class="hero-card bg-light-2 d-md-flex align-items-center">
+          <div class="p-2 fade-in">
+            <video autoplay loop poster="/assets/img/video/movie-5-poster.png">
+              <source src="/assets/img/video/movie-5.webm">
+            </video>
           </div>
+        </div>
       </div>
     </div>
   </div>
@@ -57,78 +55,72 @@ pagination:
     <div class="row gx-4 pb-medium d-none d-md-flex justify-content-center">
       <div class="col-auto">
         <a href="/blog/" class="category-btn magnetic fadeIn" data-strength="50" title="Strony www">
-            <span class="btn-text">Wszystkie </span>
+          <span class="btn-text">Wszystkie </span>
         </a>
       </div>
       <div class="col-auto">
         <a href="/blog/strony-www/" class="category-btn magnetic fadeIn" data-strength="50" title="Strony www">
-            <span class="btn-text"> Strony www </span>
+          <span class="btn-text"> Strony www </span>
         </a>
       </div>
       <div class="col-auto">
         <a href="/blog/pozycjonowanie/" class="category-btn magnetic fadeIn" data-strength="50" title="Pozycjonowanie">
-            <span class="btn-text"> Pozycjonowanie </span>
+          <span class="btn-text"> Pozycjonowanie </span>
         </a>
       </div>
       <div class="col-auto">
         <a href="/blog/marketing/" class="category-btn magnetic fadeIn" data-strength="50" title="Marketing">
-            <span class="btn-text"> Marketing </span>
+          <span class="btn-text"> Marketing </span>
         </a>
       </div>
       <div class="col-auto">
         <a href="/blog/wordpress/" class="category-btn magnetic fadeIn" data-strength="50" title="Wordpress">
-            <span class="btn-text"> Wordpress </span>
+          <span class="btn-text"> Wordpress </span>
         </a>
       </div>
       <div class="col-auto">
-          <a href="/blog/poradniki/" class="category-btn magnetic fadeIn" data-strength="50" title="Wordpress">
-              <span class="btn-text"> Poradniki </span>
-          </a>
+        <a href="/blog/poradniki/" class="category-btn magnetic fadeIn" data-strength="50" title="Wordpress">
+          <span class="btn-text"> Poradniki </span>
+        </a>
       </div>
     </div>
     <div class="row gx-4"> 
       {% for post in blog %} 
-      <div class="col-md-4 pb-small"> 
+      <div class="col-md-4 pb-small">
         <a href="{{ post.url }}" title="{{ post.data.title }}">
-                      <div class="post-thumb fadeIn">       
-                        <svg class="post-thumb-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)"/>
-                          <path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="var(--color-light-1)"/>
-                        </svg>                  
-                          {% blogImage "src/" + post.data.thumbnail, post.data.title %}
-                      </div>
-                      </a>
-                      <p class="archive-category uppercase mt-4 mb-2 fadeIn">
-                          {{ post.data.tags }}
-                      </p>
-                      <a href="{{ post.url }}" title="{{ post.data.title }}">
-                          <h3 class="split-text-lines line-clamp-2 mt-0 mb-4">
-                              {{ post.data.title }}
-                          </h3>
-                      </a>
-                      <a href="{{ post.url }}" title="Czytaj" class="button magnetic fadeIn mt-3" data-strength="100" data-strength-text="50">
-                          <span>Czytaj</span>
-                          <svg width="11" height="11" viewBox="0 0 14 14" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path d="M13 1L1 13" stroke="var(--color-accent-1)" stroke-width="2"
-                                  stroke-linecap="round" stroke-linejoin="round"></path>
-                              <path d="M3 1H13V11" stroke="var(--color-accent-1)" stroke-width="2"
-                                  stroke-linecap="round" stroke-linejoin="round"></path>
-                          </svg>
-                      </a>
-    </div> 
-    {% endfor %} 
-  </div>
+          <div class="post-thumb fadeIn">
+            <svg class="post-thumb-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)" />
+              <path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="var(--color-light-1)" />
+            </svg> {% blogImage "src/" + post.data.thumbnail, post.data.title %}
+          </div>
+        </a>
+        <p class="archive-category uppercase mt-4 mb-2 fadeIn">
+          {{ post.data.tags }}
+        </p>
+        <a href="{{ post.url }}" title="{{ post.data.title }}">
+          <h3 class="split-text-lines line-clamp-2 mt-0 mb-4">
+            {{ post.data.title }}
+          </h3>
+        </a>
+        <a href="{{ post.url }}" title="Czytaj" class="button magnetic fadeIn mt-3" data-strength="100" data-strength-text="50">
+          <span>Czytaj</span>
+          <svg width="11" height="11" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13 1L1 13" stroke="var(--color-accent-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M3 1H13V11" stroke="var(--color-accent-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+      </div> 
+      {% endfor %} 
+    </div>
     <div class="row gx-4">
       <div class="col-md-6">
         <nav>
-          <ul class="pagination d-flex fadeIn"> {%- for pageEntry in pagination.pages %} 
-            <li class="pagination-item">
+          <ul class="pagination d-flex fadeIn"> {%- for pageEntry in pagination.pages %} <li class="pagination-item">
               <a class="pagination-link" title="Paginacja" href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="active" {% endif %}>{{ loop.index }}</a>
             </li> {%- endfor %} </ul>
         </nav>
       </div>
     </div>
-  </div>
   </div>
 </section>

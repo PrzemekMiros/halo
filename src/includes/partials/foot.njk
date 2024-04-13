@@ -6,9 +6,9 @@
 <script src="/assets/js/libs/swup.js"></script>
 <script src="/assets/js/libs/swup-progress.js"></script>
 <script src="/assets/js/libs/swup-body.js"></script>
-<script src="https://unpkg.com/@swup/fragment-plugin@1"></script>
 <script src="/assets/js/libs/gsap.js"></script>
 <script src="/assets/js/libs/scroll-trigger.js"></script>
+<script src="/assets/js/libs/gsap-flip.js"></script>
 <script src="/assets/js/libs/lenis.js"></script> 
 <script src="/assets/js/animations.js"></script>
 <script src="/assets/js/script.js"></script>
@@ -21,16 +21,7 @@
     animateHistoryBrowsing: true, 
     plugins: [
       new SwupProgressPlugin(),
-      new SwupBodyClassPlugin(),
-      new SwupFragmentPlugin({
-        rules: [
-         {
-          from: '/',
-          to: '/o-mnie/:filter?',
-          containers: ['#users']
-         }
-      ]
-    })
+      new SwupBodyClassPlugin()
     ]
   });
   // Swup events re-init scripts
@@ -38,7 +29,7 @@
        appMain(); animationMain()
   }, { before: true });
 
-</script>
+</script> 
 <!--
 <script src="/assets/js/cookieconsent.js" defer></script>
 <script src="/assets/js/cookieconsent-init.js" defer></script>
