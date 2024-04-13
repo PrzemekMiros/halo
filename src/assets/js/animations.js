@@ -305,6 +305,12 @@ function animationMain() {
         clearProps: "height",
         duration: flip.duration()
       }, 0);
+
+        // Scroll to ".portfolio" after filtering
+  var portfolioElement = document.querySelector('.portfolio');
+  if (portfolioElement) {
+    portfolioElement.scrollIntoView({ behavior: 'smooth' });
+  }
     
     }
     

@@ -69,16 +69,14 @@
 
 
 
-
-
-.projects .filter_button .option.is_active {
-  font-weight: bold;
+.filter-buttons .filter-btn.is_active {
+  color: var(--color-accent-1);
 }
-.projects .projects-inner {
+.portfolio .projects-inner {
   display: flex;
   flex-wrap: wrap;
 }
-.projects .projects-inner .project {
+.portfolio .projects-inner .project {
   width: calc(50% - 2rem);
   margin-right: 2em;
 }
