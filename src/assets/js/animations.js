@@ -73,17 +73,34 @@ function animationMain() {
   });
   
   // Fade in
+  /*
   const fadeIn = gsap.utils.toArray(".fade-in");
   fadeIn.forEach((fadeInItem) => {
     gsap.from(fadeInItem, {
-      autoAlpha: 0,
       opacity: 0,
       duration: 1,
       delay: .1,
       scrollTrigger: {
         trigger: fadeInItem,
-        start: "top 90%",
+        start: "top 95%",
       },
+    });
+  });
+  */
+  const boxes = gsap.utils.toArray('.fade-in');
+
+  boxes.forEach((fadeElement, i) => {
+    const anim = gsap.fromTo(fadeElement, {
+      autoAlpha: 0, 
+      y: 50}, {
+        duration: 1, 
+        autoAlpha: 1, 
+        y: 0
+      });
+    ScrollTrigger.create({
+      trigger: fadeElement,
+      animation: anim,
+      once: true,
     });
   });
 

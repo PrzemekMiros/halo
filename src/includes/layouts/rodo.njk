@@ -5,9 +5,9 @@
     <div class="row g-4">
       <div class="col-md-6">
         <div class="hero-card hero-card-shape bg-accent-1">
-          <svg class="hero-card-shape-svg" viewbox="0 0 691 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="m0 0v53c0 53 3.96649 35 28.2612 35c52.556 35 570.005 34.98 606.695 34.98c643.385 34.98 651 0 651 0h0z" fill="var(--color-light-1)"/>
-            <path d="m690.717 0c645.947 0 648.377 21.6981 625.99 29.2453c625.99 29.2453 612.849 0 634.262 0h690.717z" fill="var(--color-light-1)"/>
+          <svg class="hero-card-shape-svg" viewBox="0 0 691 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0V53C0 53 3.96649 35 28.2612 35C52.556 35 570.005 34.98 606.695 34.98C643.385 34.98 651 0 651 0H0Z" fill="var(--color-light-1)" />
+            <path d="M690.717 0C645.947 0 648.377 21.6981 625.99 29.2453C625.99 29.2453 612.849 0 634.262 0H690.717Z" fill="var(--color-light-1)" />
           </svg>
           <div class="hero-card-content p-4 py-5 p-md-5">
             <div class="breadcrumbs mt-3 color-light">
@@ -20,7 +20,7 @@
             <div class="pt-xxsmall pb-xxsmall pb-md-xsmall">
               <div class="line-x"></div>
             </div>
-            <div class="row align-items-center">
+            <div class="row g-3 align-items-center">
               <div class="col-3 col-md-2">
                 <img src="/assets/img/hero/avatar.png" style="width:55px; height:55px;" alt="">
               </div>
@@ -49,26 +49,7 @@
 <section class="pb-medium" >
   <div class="container">
     <div class="row g-md-0">
-      <div class="col-md-3">
-        <div class="sidebar">
-          <ul class="filter-buttons my-4">
-            <li class="filter-btn" data-filter="all">
-                  Wszystkie
-              </li>
-            <li class="filter-btn option" data-filter="category:strona internetowa">
-                 Strony www
-              </li>
-            <li class="filter-btn option" data-filter="category:sklep internetowy">
-                 Sklepy internetowe
-              </li>
-            <li class="filter-btn option" data-filter="category:portal internetowy">
-                 Portale informacyjne
-              </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-8">
+      <div class="offset-md-1 col-md-10">
         <div class="border p-4 p-md-5 bg-light-2">
           {{ content | safe}}
         </div>

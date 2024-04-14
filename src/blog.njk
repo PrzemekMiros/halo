@@ -51,32 +51,32 @@ pagination:
   <div class="container">
     <div class="row gx-4 pb-medium d-none d-md-flex justify-content-center">
       <div class="col-auto">
-        <a href="/blog/" class="category-btn magnetic fadeIn" data-strength="50" title="Strony www">
+        <a href="/blog/" class="category-btn magnetic link-active" data-strength="50" title="Strony www">
           <span class="btn-text">Wszystkie </span>
         </a>
       </div>
       <div class="col-auto">
-        <a href="/blog/strony-www/" class="category-btn magnetic fadeIn" data-strength="50" title="Strony www">
+        <a href="/blog/strony-www/" class="category-btn magnetic" data-strength="50" title="Strony www">
           <span class="btn-text"> Strony www </span>
         </a>
       </div>
       <div class="col-auto">
-        <a href="/blog/pozycjonowanie/" class="category-btn magnetic fadeIn" data-strength="50" title="Pozycjonowanie">
+        <a href="/blog/pozycjonowanie/" class="category-btn magnetic" data-strength="50" title="Pozycjonowanie">
           <span class="btn-text"> Pozycjonowanie </span>
         </a>
       </div>
       <div class="col-auto">
-        <a href="/blog/marketing/" class="category-btn magnetic fadeIn" data-strength="50" title="Marketing">
+        <a href="/blog/marketing/" class="category-btn magnetic" data-strength="50" title="Marketing">
           <span class="btn-text"> Marketing </span>
         </a>
       </div>
       <div class="col-auto">
-        <a href="/blog/wordpress/" class="category-btn magnetic fadeIn" data-strength="50" title="Wordpress">
+        <a href="/blog/wordpress/" class="category-btn magnetic" data-strength="50" title="Wordpress">
           <span class="btn-text"> Wordpress </span>
         </a>
       </div>
       <div class="col-auto">
-        <a href="/blog/poradniki/" class="category-btn magnetic fadeIn" data-strength="50" title="Wordpress">
+        <a href="/blog/poradniki/" class="category-btn magnetic" data-strength="50" title="Wordpress">
           <span class="btn-text"> Poradniki </span>
         </a>
       </div>
@@ -93,7 +93,7 @@ pagination:
             {% blogImage "src/" + post.data.thumbnail, post.data.title %}
           </div>
         </a>
-        <p class="archive-category uppercase mt-4 mb-2 fadeIn">
+        <p class="archive-category uppercase mt-4 mb-2">
           {{ post.data.tags }}
         </p>
         <a href="{{ post.url }}" title="{{ post.data.title }}">
@@ -101,7 +101,7 @@ pagination:
             {{ post.data.title }}
           </h3>
         </a>
-        <a href="{{ post.url }}" title="Czytaj" class="button magnetic fadeIn mt-3" data-strength="100" data-strength-text="50">
+        <a href="{{ post.url }}" title="Czytaj" class="button magnetic mt-3" data-strength="100" data-strength-text="50">
           <span>Czytaj</span>
           <svg width="11" height="11" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M13 1L1 13" stroke="var(--color-accent-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -114,7 +114,7 @@ pagination:
     <div class="row gx-4">
       <div class="col-md-6">
         <nav>
-          <ul class="pagination d-flex fadeIn"> {%- for pageEntry in pagination.pages %} <li class="pagination-item">
+          <ul class="pagination d-flex"> {%- for pageEntry in pagination.pages %} <li class="pagination-item">
               <a class="pagination-link" title="Paginacja" href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="active" {% endif %}>{{ loop.index }}</a>
             </li> {%- endfor %} </ul>
         </nav>
