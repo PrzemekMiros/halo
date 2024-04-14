@@ -15,7 +15,7 @@ description: Zobacz wybrane realizacje stron, sklepów i portali internetowych k
           </svg>
           <div class="hero-card-content p-4 py-5 p-md-5">
             <p class="h4 split-lines my-3 color-light">Główna | {{ title }}</p>
-            <h1 class="xxl split-lines my-3 my-md-4 uppercase color-light">Wybrane realizacje </h1>
+            <h1 class="xxl split-lines my-2 my-md-4 uppercase color-light">Wybrane realizacje </h1>
             <div class="pt-xxsmall pb-xxsmall pb-md-xsmall">
               <div class="line-x"></div>
             </div>
@@ -25,7 +25,7 @@ description: Zobacz wybrane realizacje stron, sklepów i portali internetowych k
               </div>
               <div class="col-9 col-md-8">
                 <p class="h4 fade-in my-0 color-light">
-                  Zobacz strony, sklepy i portale internetowe które wykonałem.
+                  Zobacz strony, sklepy i portale internetowe które wykonałem
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@ description: Zobacz wybrane realizacje stron, sklepów i portali internetowych k
       <div class="col-md-1"></div>
       <div class="col-md-8">
         <div>
-          <p class="h1 mt-md-0 text-highlight">
+          <p class="h1 mt-0 text-highlight">
             <span>&nbsp;</span> Pomogłem wielu firmom lepiej wykorzystać ich potencjał i mogę zrobić to też dla Ciebie! Zobacz moje realizacje żeby wiedzieć czego możesz sie spodziewać
             </p>
         </div>
@@ -114,6 +114,13 @@ description: Zobacz wybrane realizacje stron, sklepów i portali internetowych k
               <h3 class="h2 archive-post-title my-3">
                 {{ post.data.title }}
               </h3>
+              </a>
+              <a href="{{ post.url }}" title="Czytaj" class="button fadeIn mt-3">
+                <span>Zobacz online</span>
+                <svg width="11" height="11" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 1L1 13" stroke="var(--color-accent-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M3 1H13V11" stroke="var(--color-accent-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
               </a>
             </div>
           {% endfor %}
