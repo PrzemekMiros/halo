@@ -47,7 +47,7 @@ pagination:
   </div>
 </section>
 
-<section class="pb-xxsmall pb-md-large" data-scroll-section>
+<section class="pb-xxsmall pb-md-small" data-scroll-section>
   <div class="container">
     <div class="row gx-4 pb-medium d-none d-md-flex justify-content-center">
       <div class="col-auto">
@@ -85,11 +85,12 @@ pagination:
       {% for post in blog %} 
       <div class="col-md-4 pb-xsmall pb-md-small">
         <a href="{{ post.url }}" title="{{ post.data.title }}">
-          <div class="post-thumb fadeIn">
+          <div class="post-thumb">
             <svg class="post-thumb-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)" />
               <path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="var(--color-light-1)" />
-            </svg> {% blogImage "src/" + post.data.thumbnail, post.data.title %}
+            </svg> 
+            {% blogImage "src/" + post.data.thumbnail, post.data.title %}
           </div>
         </a>
         <p class="archive-category uppercase mt-4 mb-2 fadeIn">
