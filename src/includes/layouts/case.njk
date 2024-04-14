@@ -1,12 +1,12 @@
 {% include "partials/header.njk" %}
 
-<section class="pt-large pt-md-xlarge pb-small" data-scroll-section>
+<section class="pt-large pt-md-xlarge pb-xxsmall pb-md-small" data-scroll-section>
   <div class="container">
 
     <div class="row">
       <div class="offset-md-2 offset-xl-3 col-md-8 col-xl-6">
         <div class="pb-xsmall pb-md-small">
-                    <div class="breadcrumbs mt-4 small fade-in">
+                    <div class="breadcrumbs mt-3 small fade-in">
                         <a href="/" title="Strona główna">
                             Główna
                         </a>
@@ -74,11 +74,11 @@
       </div>
     </div>
 
-    <div class="pt-small pt-md-medium fade-in">
+    <div class="pt-xsmall pt-md-medium fade-in">
       <div class="line-x lx-op"></div>
     </div>
 
-    <div class="post-navigation pt-xsmall">
+    <div class="post-navigation pt-xxsmall pt-md-xsmall">
       {%- if collections.works %} {%- set nextPost = collections.works |
       getNextCollectionItem(page) %} {%- set previousPost = collections.works |
       getPreviousCollectionItem(page) %} {%- if nextPost or previousPost %}

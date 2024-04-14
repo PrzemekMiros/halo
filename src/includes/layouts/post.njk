@@ -1,6 +1,6 @@
 {% include "partials/header.njk" %}
 
-<section class="pt-large pt-md-xlarge pb-small" data-scroll-section>
+<section class="pt-large pt-md-xlarge pb-xxsmall pb-md-small" data-scroll-section>
     <div class="container">
 
         <div class="row">
@@ -56,13 +56,13 @@
             </div>
         </div>
 
-        <div class="pt-small pt-md-medium fade-in">
+        <div class="pt-xsmall pt-md-medium fade-in">
             <div class="line-x lx-op"></div>
         </div>
 
         <div class="row g-0">
             <div class="col-md-12">
-                <div class="post-navigation pt-xsmall">
+                <div class="post-navigation pt-xxsmall pt-md-xsmall">
                     {%- if collections.posts %}
                     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
                     {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}

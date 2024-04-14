@@ -215,7 +215,10 @@
     color: var(--color-dark-2);
     opacity: .6
   }
-
+  .main-menu ul li a.link-active::before {
+    color: var(--color-accent-1);
+    opacity: .8
+  }
   
 .link-hover {
   position: relative;
