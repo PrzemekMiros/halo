@@ -23,6 +23,8 @@ function animationMain() {
   });
   
 
+  if (window.matchMedia("(min-width: 767px)").matches) {
+
   // Paragraph --------------------------------------------------------------
   if (document.querySelector(".split-lines")) {
     let splitTextLines = [...document.querySelectorAll(".split-lines")];
@@ -51,13 +53,11 @@ function animationMain() {
 
 
   const textHighlights = document.querySelectorAll(".text-highlight");
-
   textHighlights.forEach((textHighlight) => {
     const splitText = new SplitText(textHighlight, {
       type: "lines, chars",
       charsClass: "char-highlight"
     });
-  
     const tlh = gsap.timeline({
       scrollTrigger: {
         trigger: textHighlight, 
@@ -66,39 +66,11 @@ function animationMain() {
         end: "bottom 80%" 
       }
     });
-  
     tlh.from(".char-highlight", {
       opacity: 0.2,
       stagger: 0.3
     });
   });
-  
-
-  /*
-  
-  const textHighlights = document.querySelectorAll(".text-highlight");
-  textHighlights.forEach((textHighlight) => {
-    const splitText = new SplitText(textHighlight, {
-      type: "lines, chars",
-      charsClass: "char-highlight"
-    });
-  
-    const tlh = gsap.timeline({
-      scrollTrigger: {
-        trigger: textHighlight,
-        scrub: 1,
-        start: "top 90%",
-        end: "bottom 55%"
-      }
-    });
-  
-    tlh.to(".char-highlight", {
-      "--highlight-offset": "100%",
-      stagger: 0.3
-    });
-  });
-  */
-
   
   // Fade in
   const fadeIn = gsap.utils.toArray(".fade-in");
@@ -130,53 +102,16 @@ function animationMain() {
   });
 
   // Footer parallax
-  if (window.matchMedia("(min-width: 767px)").matches) {
     gsap.from(".footer-parallax", {
       opacity: 0,
       y: "-25%",
       scrollTrigger: {
         trigger: ".footer-parallax",
-        start: "top 90%",
+        start: "top bottom",
         end: "bottom 85%",
         scrub: true,
       },
     });
-  };
-
-  
-     // Nav menu
-     const menuToggle = document.getElementById("menuToggle");
-     const menuBar = gsap.timeline();
-     var tl = gsap.timeline({ paused: true});
-     tl.to('.fullpage-menu', {
-         duration: 0,
-         display: "block",
-         ease: 'Expo.easeInOut',
-     });
-     tl.from('.menu-bg', {
-         duration: .8,
-         opacity: 0,
-         ease: 'Expo.easeInOut'
-     });
-     tl.from('.main-menu li a', {
-         duration: 1.3,
-         y:"110%",
-         stagger: 0.1,
-         ease: 'Expo.easeInOut'
-     }, "-=0.6");
-     tl.from('.line-xh', {
-      duration: 1,
-      stagger: .1,
-      width: "0",
-      ease: 'Expo.easeInOut'
-     }, "-=1.3");
-     tl.reverse();
-     menuToggle.addEventListener('click', function(){
-         menuBar.reversed(!menuBar.reversed());
-         tl.reversed(!tl.reversed());
-       // menuWrap.classList.toggle("active");
-     });
-
 
   // Magnetic
   var magnets = document.querySelectorAll('.magnetic');
@@ -241,13 +176,7 @@ function animationMain() {
      });
      };
 
-     if (document.querySelector('.send-icon-big')) {
-     gsap.from('.send-icon-big', {
-      yPercent: 120,
-      xPercent: -100,
-      duration: .7,
-      delay: .45
-     });
+    // End if window min 767px
     };
 
 
@@ -307,10 +236,10 @@ function animationMain() {
       }, 0);
 
         // Scroll to ".portfolio" after filtering
-  var portfolioElement = document.querySelector('.portfolio');
-  if (portfolioElement) {
-    portfolioElement.scrollIntoView({ behavior: 'smooth' });
-  }
+        var portfolioElement = document.querySelector('.portfolio');
+        if (portfolioElement) {
+        portfolioElement.scrollIntoView({ behavior: 'smooth' });
+        }
     
     }
     
@@ -318,6 +247,7 @@ function animationMain() {
       button.querySelectorAll('.option').forEach(function(option) {
         option.addEventListener('click', function(event) {
           is_active = false;
+          ScrollTrigger.refresh();
           button.querySelectorAll('.option').forEach(function(option2) {
             if(option2.classList.contains('is_active')) {
               option2.classList.remove('is_active');
@@ -335,6 +265,47 @@ function animationMain() {
       });
     });
 
+         // Nav menu
+         const menuToggle = document.getElementById("menuToggle");
+         const menuBar = gsap.timeline();
+         var tl = gsap.timeline({ paused: true});
+         tl.to('.fullpage-menu', {
+             duration: 0,
+             display: "block",
+             ease: 'Expo.easeInOut',
+         });
+         tl.from('.menu-bg', {
+             duration: .8,
+             opacity: 0,
+             ease: 'Expo.easeInOut'
+         });
+         tl.from('.main-menu li a', {
+             duration: 1.3,
+             y:"110%",
+             stagger: 0.1,
+             ease: 'Expo.easeInOut'
+         }, "-=0.6");
+         tl.from('.line-xh', {
+          duration: 1,
+          stagger: .1,
+          width: "0",
+          ease: 'Expo.easeInOut'
+         }, "-=1.3");
+         tl.reverse();
+         menuToggle.addEventListener('click', function(){
+             menuBar.reversed(!menuBar.reversed());
+             tl.reversed(!tl.reversed());
+           // menuWrap.classList.toggle("active");
+         });
+
+         if (document.querySelector('.send-icon-big')) {
+          gsap.from('.send-icon-big', {
+           yPercent: 120,
+           xPercent: -100,
+           duration: .7,
+           delay: .45
+          });
+         };
 
   // End animation
 }

@@ -11,7 +11,7 @@
       {% for post in collections
         .works
         .slice(0, 3) %}
-          <div class="works-grid-item border row g-0 flex-md-row-reverse align-items-center">
+          <div class="works-grid-item border bg-light-1 row g-0 flex-md-row-reverse align-items-center">
             <div class="col-lg-6 col-xl-6">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
                 <div class="portfolio-item fade-in">
@@ -35,8 +35,8 @@
                 </div>
               </a>
             </div>
-            <div class="col-lg-6 col-xl-6 p-md-5">
-              <p class="color-dark-2 bold mt-4 mt-md-0 mb-2 fade-in">
+            <div class="col-lg-6 col-xl-6 p-3 p-md-5">
+              <p class="color-dark-2 bold mt-3 mt-md-0 mb-2 fade-in">
                 {{ post.data.client }}
               </p>
               <h2 class="archive-post-title h2 my-3 fade-in">
@@ -60,7 +60,7 @@
                   </svg>
                 </div>
               </a>
-
+              <div class="pb-xxsmall d-md-none"></div>
             </div>
           </div>
         <div class="pb-small"></div>

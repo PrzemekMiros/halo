@@ -13,8 +13,10 @@
   }
 
   .contact-list li a svg {
-      min-width: 52px;
-      margin-right: 1em;
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      margin-right: .5em;
       border-radius: 50%;
       background-color: #f3efe9
   }
@@ -100,6 +102,12 @@
     }
 
     @media(min-width:767px) {
+        .contact-list li a svg {
+            width: 52px;
+            height: 52px;
+            min-width: 52px;
+            margin-right: 1em;
+        }
         .floating-input,
         .floating-select {
         padding: 1.3em 1.3em
@@ -130,10 +138,6 @@
         display: inline-block;
         transform: translateY(0.25em);
         line-height: 1.5;
-        z-index: 999;
-      }
-      input[type=checkbox]+label:active:before {
-
       }
       input[type=checkbox]:checked+label:before {
         background-color:var(--color-accent-1);
@@ -145,8 +149,6 @@
   :root {
     --errorColor: red;
     --stepNumber: 5;
-    --containerWidth: 600px;
-    --bgColor: #333;
 }
 
 .form-outer {
