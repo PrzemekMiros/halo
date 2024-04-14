@@ -64,7 +64,7 @@
     font-size: 14px;
     font-weight: 400;
     left: 1.3em;
-    top: 2em;
+    top: 1.8em;
     transform: translateY(-50%);
     transition: .2s;
     -moz-transition: .2s;
@@ -112,6 +112,9 @@
         .floating-select {
         padding: 1.3em 1.3em
         }
+        .floating-label label {
+            top: 2em;
+            }
     }
 
 /* Checkbox
