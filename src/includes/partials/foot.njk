@@ -1,6 +1,5 @@
 </div>
 </div>
-<!-- Scripts -->
 <script src="/assets/js/libs/split-text.js"></script>
 <script src="/assets/js/libs/swiper.js"></script>
 <script src="/assets/js/libs/swup.js"></script>
@@ -16,7 +15,6 @@
   window.addEventListener('load', function() {
   appMain(); animationMain()
   });
-  // Swup init
   const swup = new Swup({
     animateHistoryBrowsing: true, 
     plugins: [
@@ -24,16 +22,12 @@
       new SwupBodyClassPlugin()
     ]
   });
-  // Swup events re-init scripts
   swup.hooks.on('page:view', () => {
        appMain(); animationMain()
   }, { before: true });
-
 </script> 
-<!--
 <script src="/assets/js/cookieconsent.js" defer></script>
 <script src="/assets/js/cookieconsent-init.js" defer></script>
--->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
