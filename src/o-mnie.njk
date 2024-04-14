@@ -1,7 +1,7 @@
 ---
-layout: "layouts/front.njk"
-title: Realizacje
-description: Zobacz wybrane prace
+layout: "layouts/base.njk"
+title: O mnie
+description: Tworzę strony internetowe które pozyskują klientów. Dbam o użyteczność, atrakcyjną formę i szybkość ładowania, żeby jak najlepiej zrealizować cel biznesowy.
 ---
 
 <section class="hero pt-xlarge pb-medium pb-md-large" data-scroll-section>
@@ -14,8 +14,8 @@ description: Zobacz wybrane prace
             <path d="M690.717 0C645.947 0 648.377 21.6981 625.99 29.2453C625.99 29.2453 612.849 0 634.262 0H690.717Z" fill="var(--color-light-1)" />
           </svg>
           <div class="hero-card-content p-4 p-md-5">
-            <p class="h3 split-lines my-3 color-light">Zobacz</p>
-            <h1 class="xxl split-lines my-3 my-md-4 uppercase color-light">Czym się zajmuje </h1>
+            <p class="h4 split-lines my-3 color-light">Główna | {{ title }}</p>
+            <h1 class="xxl split-lines my-3 my-md-4 uppercase color-light">Czym się zajmuję </h1>
             <div class="pt-xxsmall pb-xxsmall pb-md-xsmall">
               <div class="line-x"></div>
             </div>
@@ -25,7 +25,7 @@ description: Zobacz wybrane prace
               </div>
               <div class="col-9 col-md-8">
                 <p class="h4 fade-in my-0 color-light">
-                  Wypełnij formularz żeby otrzymać wstępną wycenę
+                  Kilka słów o mnie i o tym co robię
                 </p>
               </div>
             </div> 
@@ -49,7 +49,8 @@ description: Zobacz wybrane prace
         </div>
         <div class="col-md-9">
             <p class="h1 mt-md-0 text-highlight">
-                <span>&nbsp;</span> Pomogłem wielu firmom lepiej wykorzystać ich potencjał i mogę zrobić to też dla Ciebie! Zobacz moje realizacje żeby wiedzieć czego możesz sie spodziewać
+                <span>&nbsp;</span> Rozmawiam, planuje, szkicuje, tropie nowinki techniczne, depcze po piętach najnowszym trendom. Do każdego zlecenia podchodzę z dużym
+zaangażowaniem oraz z dbałością o każdy szczegół. 
             </p>
         </div>
     </div>
@@ -57,3 +58,4 @@ description: Zobacz wybrane prace
 </section>
 
 {% include 'sections/steps.njk' %}
+{% include 'sections/form.njk' %}
