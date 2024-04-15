@@ -57,24 +57,26 @@
     <div class="row fade-in">
       <div class="offset-md-2 offset-xl-3 col-md-8 col-xl-6">
         {{ content | safe }}
-      </div>
-      <div class="col-md-1">
-        <a
-        href="{{ link }}"
-        title="Zobacz online"
-        class="magnetic mt-4"
-        target="_blank"
-        rel="nofollow"
-        data-strength="100"
-        data-strength-text="50"
-      >
-          <svg width="55px" height="55px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-            <g><path fill="var(--color-dark-1)" d="M83.3,79.7c0,2-1.6,3.6-3.6,3.6H20.3c-2,0-3.6-1.6-3.6-3.6V20.3c0-2,1.6-3.6,3.6-3.6h23.4V9.5H20.3   c-6,0-10.8,4.8-10.8,10.8v59.4c0,6,4.8,10.8,10.8,10.8h59.4c6,0,10.8-4.8,10.8-10.8V56.3h-7.2V79.7z"/><polygon fill="var(--color-dark-1)" points="56.3,9.5 56.3,16.7 78.2,16.7 49.9,45 55,50.1 83.3,21.8 83.3,43.7 90.5,43.7 90.5,9.5  "/></g></svg>
-      </a>
+        <div>
+        <a href="{{ link }}" title="{{ title }}" class="button-anim magnetic fade-in"
+          data-strength="60"
+          target="_blank">
+        <div class="button-anim-text">
+          <span>Zobacz online</span>
+          <span>Zobacz online</span>
+        </div>
+
+        <div class="button-anim-icon">
+          <svg class="icon-link" width="18" height="18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+            <g><path fill="#fff" d="M83.3,79.7c0,2-1.6,3.6-3.6,3.6H20.3c-2,0-3.6-1.6-3.6-3.6V20.3c0-2,1.6-3.6,3.6-3.6h23.4V9.5H20.3   c-6,0-10.8,4.8-10.8,10.8v59.4c0,6,4.8,10.8,10.8,10.8h59.4c6,0,10.8-4.8,10.8-10.8V56.3h-7.2V79.7z"/><polygon fill="#fff" points="56.3,9.5 56.3,16.7 78.2,16.7 49.9,45 55,50.1 83.3,21.8 83.3,43.7 90.5,43.7 90.5,9.5  "/></g>
+          </svg>
+        </div>
+        </a>
+        </div>
       </div>
     </div>
 
-    <div class="pt-xsmall pt-md-medium fade-in">
+    <div class="pt-small pt-md-medium fade-in">
       <div class="line-x lx-op"></div>
     </div>
 
