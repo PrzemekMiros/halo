@@ -92,11 +92,11 @@ description: Zobacz wybrane realizacje stron, sklepów i portali internetowych k
           </p>
         </div>
 
-        <div class="portfolio pt-small pt-md-medium">
+        <div class="portfolio pt-xsmall pt-md-medium">
   
         <div class="projects-inner fade-in">
           {% for post in collections.works %}
-            <div class="works-grid-item project pb-small" data-category="{{ post.data.category }}">
+            <div class="works-grid-item project pb-xsmall pb-md-small" data-category="{{ post.data.category }}">
               <a href="{{ post.url }}" title="{{ post.data.client }}">
               <div class="portfolio-item overflow-hidden">
                 <svg class="works-grid-svg" viewBox="0 0 197 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,10 +108,10 @@ description: Zobacz wybrane realizacje stron, sklepów i portali internetowych k
                   post.data.title %}
                 </div>
               </div>
-              <p class="color-dark-2 uppercase small mt-4 mb-2">
+              <p class="mb-2 mt-4 archive-category uppercase">
                 {{ post.data.client }}
               </p>
-              <h3 class="h2 archive-post-title my-3">
+              <h3 class="h2 archive-post-title mt-0">
                 {{ post.data.title }}
               </h3>
               </a>
