@@ -9,7 +9,7 @@ imageMain: /content/realizacje/img/triland-thumb-big.jpg
 category: 
   - Strona internetowa
 link: https://triland.pl/
-order: 7
+order: 11
 ---
 
 ## Centrum Rehabilitacji

@@ -118,6 +118,27 @@ function animationMain() {
     });
   });
 
+    // Parallax
+      gsap.utils.toArray(".parallax-wrap").forEach(function (container) {
+        let image = container.querySelector("picture img");
+        gsap.set(".parallax-wrap", {overflow: "hidden"});
+  
+        let tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: container,
+            scrub: true,
+            pin: false,
+          },
+        });
+        tl.from(image, {
+          yPercent: -9,
+          ease: "none",
+        }).to(image, {
+          yPercent: 9,
+          ease: "none",
+        });
+      });
+
   // Footer parallax
     gsap.from(".footer-parallax", {
       opacity: 0,

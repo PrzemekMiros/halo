@@ -9,7 +9,7 @@
       <h2 class="xl split-lines mt-3 mb-5">Realizacje</h2>
       {% for post in collections
         .works
-        .slice(0, 3) %}
+        .slice(0, 5) %}
           <div class="works-grid-item border bg-light-1 row g-0 flex-md-row-reverse align-items-center">
             <div class="col-lg-6 col-xl-6">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
