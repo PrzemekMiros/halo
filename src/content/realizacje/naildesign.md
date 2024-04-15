@@ -1,5 +1,5 @@
 ---
-client: Nail Dersign
+client: Nail Design
 title: Kursy stylizacji paznokci
 description: Strona internetowa dla centrum rehabilitacji w Pruszczu Gdańskim. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
 date: 2021-04-20
