@@ -6,7 +6,7 @@ function animationMain() {
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   direction: "vertical",
   gestureDirection: "vertical",
-  lerp: 0.12,
+  lerp: 0.2,
   smooth: 2,
   smoothTouch: false,
   touchMultiplier: 2,
@@ -38,10 +38,10 @@ function animationMain() {
         linesClass: "line-parent",
       });
       gsap.from(mySplitText.lines, {
-        duration: 1,
+        duration: .8,
+        delay: .3,
         stagger: 0.05,
         yPercent: 110,
-        ease: Power2.easeInOut,
         scrollTrigger: {
           trigger: element,
           start: "top 95%",
@@ -93,7 +93,8 @@ function animationMain() {
     const anim = gsap.fromTo(fadeElement, {
       autoAlpha: 0, 
       y: 50}, {
-        duration: 1, 
+        duration: .8, 
+        delay: .3,
         autoAlpha: 1, 
         y: 0
       });
@@ -109,7 +110,8 @@ function animationMain() {
   lineX.forEach((lineXItem) => {
     gsap.from(lineXItem, {
       width: "0",
-      duration: 1,
+      duration: .8,
+      delay: .3,
       ease: Power2.easeInOut,
       scrollTrigger: {
         trigger: '.line-x',
