@@ -25,7 +25,7 @@ CookieConsent.run({
         marketing: {}
     },
     language: {
-        default: "en",
+        default: "pl",
         autoDetect: "browser",
         translations: {
             en: {
