@@ -1,7 +1,7 @@
 
 .transition-blur {
   opacity: 1;
-	transition: .3s ease-in-out
+	transition: .2s ease-in-out
 }
   
 html.is-animating .transition-blur {
@@ -16,11 +16,4 @@ html.is-rendering .transition-blur {
     height: 4px;
     background-color: var(--color-accent-1);
     z-index: 999999
-  }
-
-  #users.is-changing {
-    transition: opacity 250ms;
-  }
-  #users.is-animating {
-    opacity: 0;
   }

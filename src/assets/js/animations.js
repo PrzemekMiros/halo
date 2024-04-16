@@ -6,8 +6,8 @@ function animationMain() {
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   direction: "vertical",
   gestureDirection: "vertical",
-  lerp: 0.2,
-  smooth: 2,
+  lerp: 0.15,
+  smooth: 5,
   smoothTouch: false,
   touchMultiplier: 2,
   wheelMultiplier: 1,
@@ -38,7 +38,7 @@ function animationMain() {
         linesClass: "line-parent",
       });
       gsap.from(mySplitText.lines, {
-        duration: .8,
+        duration: .75,
         delay: .3,
         stagger: 0.05,
         yPercent: 110,
@@ -92,8 +92,8 @@ function animationMain() {
   boxes.forEach((fadeElement, i) => {
     const anim = gsap.fromTo(fadeElement, {
       autoAlpha: 0, 
-      y: 50}, {
-        duration: .8, 
+      y: 30}, {
+        duration: .75, 
         delay: .3,
         autoAlpha: 1, 
         y: 0
@@ -110,7 +110,7 @@ function animationMain() {
   lineX.forEach((lineXItem) => {
     gsap.from(lineXItem, {
       width: "0",
-      duration: .8,
+      duration: .75,
       delay: .3,
       ease: Power2.easeInOut,
       scrollTrigger: {
@@ -342,8 +342,8 @@ function animationMain() {
           gsap.from('.send-icon-big', {
            yPercent: 120,
            xPercent: -100,
-           duration: .7,
-           delay: .45
+           duration: .75,
+           delay: .35
           });
          };
 
