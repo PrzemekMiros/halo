@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
             });
           });
 
-        // Collections blog
+        // Collection blog
         eleventyConfig.addCollection('posts', function(collectionApi) {
           return collectionApi.getFilteredByGlob('src/content/blog/**/*.md').reverse();
           });
@@ -34,6 +34,11 @@ module.exports = function(eleventyConfig) {
         // Collection clients
         eleventyConfig.addCollection("clients", function(collectionApi) {
           return collectionApi.getFilteredByGlob('src/content/klienci/**/*.md');
+          });
+
+        // Collection towns
+        eleventyConfig.addCollection("towns", function(collectionApi) {
+          return collectionApi.getFilteredByGlob('src/content/miasta/**/*.md');
           });
 
         // Collection faq
