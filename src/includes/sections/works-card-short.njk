@@ -1,4 +1,4 @@
-<section class="pt-small pb-small pb-md-large" data-scroll-section>
+<section class="pt-small pb-small pb-md-medium" data-scroll-section>
   <div class="container-md">
     <svg class="service-wrap-svg" width="1359" height="67" viewBox="0 0 1359 67" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_3617_58)">
@@ -9,7 +9,7 @@
       <h2 class="xl split-lines mt-0 mb-5">Realizacje</h2>
       {% for post in collections
         .works
-        .slice(0, 5) %}
+        .slice(0, 3) %}
           <div class="works-grid-item border bg-light-1 row g-0 flex-md-row-reverse align-items-center">
             <div class="col-lg-6 col-xl-6">
               <a href="{{ post.url }}" title="{{ post.data.title }}">
