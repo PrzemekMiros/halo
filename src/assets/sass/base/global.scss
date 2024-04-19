@@ -155,7 +155,6 @@ ol li {
   overflow: hidden;
 }
 
-
 .bg-gradient-wrap {
   position: absolute;
   top: 10%;
@@ -173,9 +172,8 @@ ol li {
 @media (prefers-color-scheme:dark) {
   .gradient-dark {
     display: block;
-  }
+  } 
 }
-
 
 .pagination-link {
   margin-right: .5em;
@@ -183,12 +181,13 @@ ol li {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   font-size: 90%;
   font-weight: 500;
   background: var(--color-light-2);
-  border-radius: 3px;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 @media (min-width: 767px) {
@@ -200,5 +199,45 @@ ol li {
   }
   .aspect_md_16-10 {
     aspect-ratio: 16/10;
+  }
+.link-hover {
+  position: relative;
+  display: inline-block;
+}
+.link-hover::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background-color: var(--color-accent-1); 
+  transition: .2s ease-in-out;
+  z-index: -1
+}
+.link-hover:hover::before,
+.link-active::before {
+  height: 33%;
+}
+  .pagination-link:hover {
+    color: var(--color-light-1);
+  }
+  
+  .pagination-link::before {
+    position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      background-color: var(--color-dark-1);
+      transition: 0.3s ease-in-out;
+      transform: scale(0);
+      z-index: -1;
+  }
+  
+  .pagination-link:hover::before {
+    transform: scale(1);
   }
 }
