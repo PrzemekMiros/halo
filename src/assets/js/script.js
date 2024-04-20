@@ -133,6 +133,35 @@ if (document.querySelector('.swiper-works')) {
 };
 
 
+if (document.querySelector('.works-grid-item')) {
+  // Pobierz wszystkie elementy z klasą "works-grid-item"
+var worksGridItems = document.querySelectorAll('.works-grid-item');
+
+// Iteruj przez każdy element i dodaj obsługę zdarzenia dla najechania kursorem
+worksGridItems.forEach(function(item) {
+    item.addEventListener('mouseenter', function(event) {
+        // Usuń klasę "works-grid-item-effect" ze wszystkich elementów
+        worksGridItems.forEach(function(innerItem) {
+            if (innerItem !== item) {
+                innerItem.classList.add('works-grid-item-effect');
+            }
+        });
+    });
+
+    // Dodaj obsługę zdarzenia dla opuszczenia kursora
+    item.addEventListener('mouseleave', function(event) {
+        // Usuń klasę "works-grid-item-effect" ze wszystkich elementów
+        worksGridItems.forEach(function(innerItem) {
+            if (innerItem !== item) {
+                innerItem.classList.remove('works-grid-item-effect');
+            }
+        });
+    });
+});
+
+}
+
+
   // Greeting
   if (document.querySelector("#greeting")) {
     const greeting = document.getElementById("greeting");

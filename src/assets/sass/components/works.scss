@@ -14,6 +14,9 @@
     cursor: pointer;
   }
 
+  .filter-btn-item.is_active {
+    color: var(--color-accent-1);
+  }
 
 .works-grid-item.hidden {
   display: none
@@ -53,7 +56,12 @@
     z-index: 1;
 }
 
-.filter-buttons .filter-btn.is_active {
+.filter-buttons .filter-btn-item {
+  transition: .3s ease-in-out;
+}
+
+.filter-buttons .filter-btn-item:hover,
+.filter-buttons .filter-btn-item.is_active {
   color: var(--color-accent-1);
 }
 .portfolio .projects-inner {
@@ -75,6 +83,12 @@
       width: calc(50% - 2rem);
       margin-right: 2em;
     }    
+    .works-grid-item .hover-img-wrap {
+      transition: filter .4s ease-in-out;
+    }
+    .works-grid-item-effect .hover-img-wrap {
+      filter: grayscale(80%) blur(3px);
+    }
 }
 
 
