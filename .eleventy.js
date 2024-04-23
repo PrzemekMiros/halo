@@ -89,7 +89,7 @@ module.exports = function(eleventyConfig) {
             height="${largestSrc.height}">`;
  
           return `<div class="image-wrapper blur-load" >
-                    <img class="placeholder" src="${lowestSrc.url}" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
+                    <img class="placeholder" src="${lowestSrc.url}" loading="lazy" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
         });
 
         eleventyConfig.addNunjucksAsyncShortcode('workImage', async (src, alt) => {
@@ -130,7 +130,7 @@ module.exports = function(eleventyConfig) {
             height="${lowestSrc.height}">`;
       
             return `<div class="image-wrapper blur-load" >
-              <img class="placeholder" src="${lowestSrc.url}" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
+              <img class="placeholder" src="${lowestSrc.url}" loading="lazy" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
         });
         
         eleventyConfig.addNunjucksAsyncShortcode('blogImage', async (src, alt) => {
@@ -171,7 +171,7 @@ module.exports = function(eleventyConfig) {
             height="${lowestSrc.height}">`;
       
             return `<div class="image-wrapper blur-load" >
-              <img class="placeholder" src="${lowestSrc.url}" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
+              <img class="placeholder" src="${lowestSrc.url}" loading="lazy" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
         });
 
       // Code blocks
