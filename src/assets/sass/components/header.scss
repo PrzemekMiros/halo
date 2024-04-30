@@ -48,6 +48,10 @@
 .logo {
   display: inline-block
 }
+.logo:focus-visible {
+  outline: 3px solid var(--color-accent-1);
+  border-radius: 0;
+}
 .logo img {
   max-width: 205px;
   height: auto
