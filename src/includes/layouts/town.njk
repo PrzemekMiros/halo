@@ -166,7 +166,7 @@
   </div>
 </section>
 
-<section class="pb-medium" data-scroll-section>
+<section class="pb-xsmall" data-scroll-section>
   <div class="container">
       <div class="row gx-md-5">
          <div class="col-md-3">
@@ -188,5 +188,24 @@
       </div>
   </div>
 </section>
+
+<section class="pb-medium" data-scroll-section>
+  <div class="container">
+    <div class="line-x lx-op"></div>
+    <div class="towns-links-wrap pt-small">
+        <ul>
+          {% for post in collections.towns %}
+          <li>
+            <a href="{{ post.url }}" title="{{ post.data.title }}" class="link-hover">
+              {{ post.data.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+    </div>
+  </div>
+</section>     
+
+
 
 {% include "partials/footer.njk" %}

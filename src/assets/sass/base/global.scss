@@ -201,7 +201,7 @@ ol li {
   width: 100%;
   background-color: var(--color-accent-1); 
   transition: .2s ease-in-out;
-  z-index: -1
+  z-index: 0
 }
 .link-hover:hover::before,
 .link-active::before {
@@ -234,4 +234,16 @@ ol li {
   .pagination-link:hover::before {
     transform: scale(1);
   }
+}
+
+
+.towns-links-wrap ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.towns-links-wrap ul li {
+  margin-bottom: .5em;
+  font-size: 90%;
 }
