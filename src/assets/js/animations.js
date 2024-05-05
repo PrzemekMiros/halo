@@ -38,10 +38,11 @@ function animationMain() {
         linesClass: "line-parent",
       });
       gsap.from(mySplitText.lines, {
-        duration: .75,
-        delay: .3,
+        duration: .65,
+        delay: .4,
         stagger: 0.05,
-        yPercent: 110,
+        yPercent: 105,
+        ease: "power1.out",
         scrollTrigger: {
           trigger: element,
           start: "top 95%",
