@@ -191,6 +191,7 @@ ol li {
 .link-hover {
   position: relative;
   display: inline-block;
+  z-index: 1;
 }
 .link-hover::before {
   position: absolute;
@@ -201,7 +202,7 @@ ol li {
   width: 100%;
   background-color: var(--color-accent-1); 
   transition: .2s ease-in-out;
-  z-index: 0
+  z-index: -1
 }
 .link-hover:hover::before,
 .link-active::before {
