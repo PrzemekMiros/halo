@@ -160,32 +160,18 @@
 {% include 'sections/faq-columns.njk' %}
 {% include 'sections/form.njk' %}
 
-<section class="pb-medium" data-scroll-section>
+<section class="pb-medium content" data-scroll-section>
   <div class="container">
-    {{ content | safe}}
-  </div>
-</section>
-
-<section class="pb-xsmall" data-scroll-section>
-  <div class="container">
-      <div class="row gx-md-5">
-         <div class="col-md-3">
-          <h3 class="split-lines mt-3 mb-4">
-              Stwórzmy stronę która pozyska dla Ciebie nowych klientów! 
-          </h3>
-            <p class="mt-4 mt-md-5 mb-md-5 bold split-lines">
-               Specjalizuje się w tworzeniu wysokiej jakości stron internetowych dla firm z {{ town }}
-            </p>
-        </div>
-        <div class="col-md-8">
-            <p class="split-lines">
-                Dlaczego warto skorzystać z moich usług? Przede wszystkim, posiadam duże doświadczenie w branży, a każdy projekt traktuje indywidualnie, tak aby spełnił oczekiwania klienta. Tworzę strony responsywne, które są dostosowane do różnych urządzeń, co zwiększa komfort przeglądania strony i wpływa na korzyści biznesowe.
-            </p>
-            <p class="split-lines">
-              Jeśli chcesz wyróżnić swoją firmę na rynku lokalnym, niezbędna jest atrakcyjna i funkcjonalna strona www. Dlatego zachęcam do skorzystania z moich usług. Gwarantuje wysoką jakość wykonania oraz atrakcyjne ceny. Skontaktuj się ze mną, żeby poznać szczegóły oferty i rozpocząć owocną współpracę!
-            </p>
+    <div class="row">
+      <div class="col-md-6">
+        {{ content | safe}}
+      </div>
+      <div class="col-md-6 sticky">
+        <div class="sticky overflow-hidden border">
+          {% Image "src/assets/img/internet.png", "Internet" %}
         </div>
       </div>
+    </div>
   </div>
 </section>
 
