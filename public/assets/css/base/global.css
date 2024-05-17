@@ -125,10 +125,27 @@ a {
   border-radius: var(--radius-1);
 }
 
-ul:not(.content ul),
+ul,
 ul li:not(.content ul li) {
   padding-left: 0;
   list-style: none;
+}
+
+.content ul li {
+  margin-bottom: 0.4em;
+  padding-left: 0.5em;
+  list-style: none;
+}
+
+.content ul li::before {
+  position: absolute;
+  content: "";
+  top: 0.2em;
+  left: -0.5em;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  background: var(--color-accent-1);
 }
 
 ol {
