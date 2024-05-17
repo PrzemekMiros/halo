@@ -60,6 +60,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/town.njk"}
       - {label: "Miasto", name: "town", widget: "string"}
       - {label: "Tytuł", name: "title", widget: "string"}
+      - {label: "Mapa", name: "description", widget: "text"}
       - {label: "Opis", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
