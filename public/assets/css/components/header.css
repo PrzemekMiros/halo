@@ -247,13 +247,10 @@
     padding-bottom: 1.1em;
   }
   .site-header .container:last-child {
-    padding-top: 1.3em;
+    padding-top: 1.2em;
   }
   .site-header.scrolled {
     transform: translateY(-1.6em);
-  }
-  .logo img {
-    max-width: 195px;
   }
   .button-header:hover::before {
     width: 102%;
