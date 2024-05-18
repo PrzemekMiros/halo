@@ -1,12 +1,10 @@
-
-<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_3536_11)">
-<mask id="path-1-inside-1_3536_11" fill="white">
-<rect width="46" height="46" rx="2"/>
-</mask>
-<rect width="46" height="46" rx="2" stroke="var(--color-dark-1)" stroke-width="8" mask="url(#path-1-inside-1_3536_11)"/>
-<path d="M44.0554 46.0604C45.2014 46.0585 46.1289 45.1281 46.1271 43.9821L46.0974 25.3071C46.0956 24.1611 45.1651 23.2336 44.0192 23.2354C42.8732 23.2372 41.9456 24.1677 41.9474 25.3137L41.9738 41.9137L25.3738 41.94C24.2278 41.9418 23.3003 42.8723 23.3021 44.0183C23.3039 45.1643 24.2344 46.0918 25.3804 46.09L44.0554 46.0604ZM21.5349 24.4694L42.5872 45.4549L45.517 42.5158L24.4647 21.5302L21.5349 24.4694Z" fill="#e86344"/>
-<circle cx="23.1" cy="23.1" r="2.1" fill="#e86344"/>
+<svg width="265" height="265" viewBox="0 0 265 265" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3741_2)">
+<rect width="33" height="271" fill="var(--color-dark-1)"/>
+<rect x="211" width="54" height="271" fill="var(--color-dark-1)"/>
+<rect x="47" width="14" height="271" fill="var(--color-dark-1)"/>
+<rect x="94" width="14" height="271" fill="var(--color-dark-1)"/>
+<rect x="144" width="40" height="271" fill="var(--color-dark-1)"/>
 </g>
 <defs>
     <style>
@@ -33,8 +31,8 @@
             }
           } 
     </style>
-<clipPath id="clip0_3536_11">
-<rect width="46" height="46" fill="white"/>
+<clipPath id="clip0_3741_2">
+<rect width="265" height="265" fill="var(--color-dark-1)"/>
 </clipPath>
 </defs>
 </svg>
