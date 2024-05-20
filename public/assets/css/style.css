@@ -6776,7 +6776,7 @@ button.swiper-pagination-bullet {
     transition: filter 0.4s ease-in-out;
   }
   .works-grid-item-effect .hover-img-wrap {
-    filter: grayscale(80%);
+    filter: blur(3px);
   }
 }
 .step-card {
