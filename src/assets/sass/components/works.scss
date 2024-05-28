@@ -87,7 +87,7 @@
       transition: filter .4s ease-in-out;
     }
     .works-grid-item-effect .hover-img-wrap {
-      filter: blur(3px);
+      filter: grayscale(90%)
     }
 }
 
