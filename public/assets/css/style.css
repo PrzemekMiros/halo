@@ -6068,19 +6068,35 @@ html.lenis, html.lenis body {
 .swiper-button-prev {
   background: transparent;
   border: none;
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.swiper-button-next circle,
-.swiper-button-prev circle,
+.swiper-button-next::before,
+.swiper-button-prev::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-dark-1);
+  border: none;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: -1;
+}
+
 .swiper-button-next path,
 .swiper-button-prev path {
   transition: 0.3s ease-in-out;
 }
 
-.swiper-button-next:hover circle,
-.swiper-button-prev:hover circle {
-  fill: #fff;
+.swiper-button-next:hover::before,
+.swiper-button-prev:hover::before {
+  transform: scale(1);
 }
 
 .swiper-button-next:hover path,
