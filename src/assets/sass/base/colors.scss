@@ -1,12 +1,12 @@
 
 :root,.light {
     --color-accent-1: #3c21c0;
-    --color-accent-2: #4021de;
+    --color-accent-2: #00ee68;
     --color-dark-1: #080714;
     --color-dark-2: #131227;
     --color-light-1: #f7f4f2;
     --color-light-2: #ebe9e4;
-    --color-light-3: #fdfdfd;
+    --color-light-3: #e3e2e1;
     --color-heading: #101b2b;
     --color-text: #5e6265;
     --color-border: #74787b;
@@ -18,7 +18,7 @@
     --color-dark-2: #ebe9e4;
     --color-light-1: #080714;
     --color-light-2: #131227;
-    --color-light-3: #fdfdfd;
+    --color-light-3: #191830;
     --color-heading: #fff;
     --color-text: #bcbcbc;
     --color-border: #74787b;
@@ -30,7 +30,7 @@
     --color-dark-2: #ebe9e4;
     --color-light-1: #080714;
     --color-light-2: #131227;
-    --color-light-3: #fdfdfd;
+    --color-light-3: #191830;
     --color-heading: #fff;
     --color-text: #bcbcbc;
     --color-border: #74787b;
@@ -44,6 +44,9 @@
   }
   .bg-light-2 {
     background-color: var(--color-light-2)
+  }
+  .bg-light-3 {
+    background-color: var(--color-light-3)
   }
   .bg-dark {
     background-color: #171c27
