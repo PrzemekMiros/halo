@@ -5,7 +5,7 @@
 .hero-card {
   position: relative;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: hidden;
 }
 .hero-card-shape-svg {
@@ -91,6 +91,9 @@
 }
 
 @media(min-width:1024px) {
+  .hero-card {
+    border-radius: 25px;
+  }
   .avatar {
     width: 90px;
     margin-bottom: 5px;
