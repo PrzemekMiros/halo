@@ -8,10 +8,10 @@
         </div>
         <div class="col-md-6">
           <div class="accordion-wrap"> 
-            <div class="line-x lx-op d-md-none mt-5 mt-md-0"></div>
+            <div class="line-x lx-op d-md-none mt-2 mt-md-0"></div>
             {% for post in collections.faq %}
             <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <button class="accordion mt-4 pt-md-xxsmall pb-md-xxsmall">
+              <button class="accordion mt-md-4 pt-xxsmall pb-xxsmall">
                 <span class="h3 title my-0 split-lines" itemprop="name">
                   {{ post.data.title }}
                 </span>
@@ -23,7 +23,7 @@
                 </p>
               </div>
             </div>
-            <div class="line-x lx-op mt-4"></div>
+            <div class="line-x lx-op mt-md-4"></div>
             {% endfor %}
           </div>
         </div>
