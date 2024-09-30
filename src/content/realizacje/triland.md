@@ -12,6 +12,6 @@ link: https://triland.pl/
 order: 11
 ---
 
-## Centrum Rehabilitacji
+## Doradztwo w ochronie środowiska
 
 Strona internetowa dla firmy zajmującej sie doradztwem w zakresie ochrony środowiska. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.

@@ -15,6 +15,6 @@ link: https://cse-dentalprogress.pl/
 order: 9
 --- 
 
-## Centrum Rehabilitacji
+## Przychodnia stomatologiczna
 
 Strona internetowa dla przychodni stomatologicznych w Warszawie. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.

@@ -14,4 +14,7 @@ thumbnail: /content/realizacje/img/idealift-thumb-big.jpg
 imageMain: /content/realizacje/img/idealift-thumb-big.jpg
 order: 5
 ---
+
+## Podnośniki warsztatowe
+
 Strona www dla firmy zajmującej się dystrybucją i serwisów podnośników warsztatowych. Indywidualny projekt graficzny, CMS Wordpress, zoptymalizowana pod wyszukiwarki.
