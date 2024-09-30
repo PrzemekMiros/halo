@@ -6,9 +6,9 @@ description: Strona www dla firmy zajmującej się dystrybucją i serwisów
   podnośników warsztatowych. Indywidualny projekt graficzny, CMS Wordpress,
   zoptymalizowana pod wyszukiwarki.
 author: Przemek
-date: 2024-06-18T19:21:41.426Z 
+date: 2024-05-18T19:21:41.426Z 
 category:
-  - Strony www
+  - Strony internetowa
 link: https://ideal-lift.pl/
 thumbnail: /content/realizacje/img/idealift-thumb-big.jpg
 imageMain: /content/realizacje/img/idealift-thumb-big.jpg
