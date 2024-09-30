@@ -11,6 +11,6 @@ category:
   - Strony www
 link: https://ideal-lift.pl/
 thumbnail: /content/realizacje/img/idealift-img.jpg
-imageMain: /content/realizacje/img/idealift-thumb.jpg
+imageMain: /content/realizacje/img/idealift-thumb-big.jpg
 ---
 Strona www dla firmy zajmującej się dystrybucją i serwisów podnośników warsztatowych. Indywidualny projekt graficzny, CMS Wordpress, zoptymalizowana pod wyszukiwarki.
