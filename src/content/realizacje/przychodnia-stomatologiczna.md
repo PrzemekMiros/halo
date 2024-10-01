@@ -1,19 +1,21 @@
 ---
-client: CSE Dental Progress
+imageGridOne: /content/realizacje/img/cse-1.jpg
 title: Stomatolog
-description: Strona internetowa dla przychodni stomatologicznych w Warszawie. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
-date: 2021-04-20
+description: Strona internetowa dla przychodni stomatologicznych w Warszawie.
+  Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
 author: Przemek Miros
+imageGridTwo: /content/realizacje/img/cse-2.jpg
+client: CSE Dental Progress
+link: https://cse-dentalprogress.pl/
 thumbnail: /content/realizacje/img/cse-thumb-big.jpg
+order: 9
+date: 2024-05-21T22:00:00.000Z
 imageMain: /content/realizacje/img/cse-thumb-big.jpg
 imageMobile: /content/realizacje/img/cse-mobile.jpg
-imageGridOne: /content/realizacje/img/cse-1.jpg
-imageGridTwo: /content/realizacje/img/cse-2.jpg
-category:  
+category:
   - Strona internetowa
-link: https://cse-dentalprogress.pl/
-order: 9
---- 
+---
+ 
 
 ## Przychodnia stomatologiczna
 
