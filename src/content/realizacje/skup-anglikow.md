@@ -8,7 +8,7 @@ category:
 thumbnail: /content/realizacje/img/angliki-thumb-big.jpg
 order: 13
 title: Skup aut z Anglii
-date: 2023-08-05T13:25:45.709Z
+date: 2023-08-02T13:25:45.709Z
 link: https://skup-anglikow.pl/
 imageMain: /content/realizacje/img/angliki-thumb-big.jpg
 ---
