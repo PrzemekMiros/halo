@@ -1,15 +1,17 @@
 ---
 client: Triland
-title: Doradztwo w ochronie środowiska
-description: Strona internetowa dla firmy zajmującej sie doradztwem w zakresie ochrony środowiska. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
-date: 2021-04-20
+description: Strona internetowa dla firmy zajmującej sie doradztwem w zakresie
+  ochrony środowiska. Indywidualny projekt graficzny. System zarządzania treścią
+  Wordpress.
 author: Przemek Miros
-thumbnail: /content/realizacje/img/triland-thumb-big.jpg
-imageMain: /content/realizacje/img/triland-thumb-big.jpg
-category: 
+category:
   - Strona internetowa
-link: https://triland.pl/
+thumbnail: /content/realizacje/img/triland-thumb-big.jpg
 order: 11
+title: Doradztwo w ochronie środowiska
+date: 2024-02-27T23:00:00.000Z
+link: https://triland.pl/
+imageMain: /content/realizacje/img/triland-thumb-big.jpg
 ---
 
 ## Doradztwo w ochronie środowiska
