@@ -9,7 +9,7 @@ client: Business Woman
 category:
   - Portal internetowy
 link: https://businesswomanlife.pl/
-thumbnail: /content/realizacje/img/idealift-img.jpg
+thumbnail: /content/realizacje/img/business-thumb-big.jpg
 order: 1
 date: 2022-09-21T20:19:43.571Z
 imageMain: /content/realizacje/img/business-thumb-big.jpg
