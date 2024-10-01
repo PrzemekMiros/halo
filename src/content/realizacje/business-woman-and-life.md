@@ -11,7 +11,7 @@ category:
 link: https://businesswomanlife.pl/
 thumbnail: /content/realizacje/img/idealift-img.jpg
 order: 1
-date: 2022-09-03T20:19:43.571Z
+date: 2022-09-21T20:19:43.571Z
 imageMain: /content/realizacje/img/business-thumb-big.jpg
 ---
 
