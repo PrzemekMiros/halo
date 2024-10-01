@@ -8,7 +8,7 @@ category:
   - Strona internetowa
 thumbnail: /content/realizacje/img/triland-thumb-big.jpg
 order: 11
-title: Doradztwo w ochronie środowiska
+title: Doradztwo środowiskowe
 date: 2024-02-27T23:00:00.000Z
 link: https://triland.pl/
 imageMain: /content/realizacje/img/triland-thumb-big.jpg
