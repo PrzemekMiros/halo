@@ -8,7 +8,7 @@ category:
 thumbnail: /content/realizacje/img/nail-thumb-big.jpg
 order: 4
 title: Kursy stylizacji paznokci
-date: 2023-03-21T23:00:00.000Z
+date: 2024-03-17T23:00:00.000Z
 link: https://naildesign.com.pl/
 imageMain: /content/realizacje/img/nail-thumb-big.jpg
 ---
