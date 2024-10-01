@@ -1,17 +1,17 @@
 ---
 client: Nail Design
-title: Kursy stylizacji paznokci
-description: Strona internetowa dla centrum rehabilitacji w Pruszczu Gdańskim. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
-date: 2021-04-20
+description: Strona internetowa do sprzedaży kursów stylizacji paznokci online.
+  Projekt graficzny, system zarządzania Wordpress.
 author: Przemek Miros
-thumbnail: /content/realizacje/img/nail-thumb-big.jpg
-imageMain: /content/realizacje/img/nail-thumb-big.jpg
-category: 
+category:
   - Strona internetowa
-link: https://naildesign.com.pl/
+thumbnail: /content/realizacje/img/nail-thumb-big.jpg
 order: 4
+title: Kursy stylizacji paznokci
+date: 2023-03-21T23:00:00.000Z
+link: https://naildesign.com.pl/
+imageMain: /content/realizacje/img/nail-thumb-big.jpg
 ---
+## Kursy stylizacji paznokci
 
-## Centrum Rehabilitacji
-
-Strona internetowa dla centrum rehabilitacji w Pruszczu Gdańskim. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
+Strona internetowa do sprzedaży kursów stylizacji paznokci online. Projekt graficzny, system zarządzania Wordpress.
