@@ -7,6 +7,8 @@ description: YouTube Shorts to krótkie, pionowe filmy, które mogą trwać do 6
   przeglądaniem.
 author: Przemek
 date: 2024-10-08T10:02:18.201Z
+tags:
+  - poradniki
 thumbnail: /content/blog/img/blog.jpg
 ---
 **YouTube Shorts: Rewolucja w Konsumpcji Treści Wideo**
