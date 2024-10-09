@@ -1,22 +1,14 @@
-
 .transition-overlay {
 	transform: translate(0, 0);
 	transition: .5s cubic-bezier(.49,.16,.33,1);
-	-webkit-transition: .5s cubic-bezier(.49,.16,.33,1);
-	-o-transition: .5s cubic-bezier(.49,.16,.33,1);
-    -moz-transition: .5s cubic-bezier(.49,.16,.33,1);
-	-ms-transition: .5s cubic-bezier(.49,.16,.33,1);
-  opacity: 1;
 }
-
+   
 html.is-animating .transition-overlay {
-  transform: translate(0, 0);
-  opacity: 1
+transform: translate(0, -60px);
 }
 
 html.is-rendering .transition-overlay {
-  transform: translate(0, 0);
-  opacity: 1
+transform: translate(0, 0);
 }
 
 @-webkit-keyframes page-overlay-anim {
