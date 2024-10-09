@@ -4494,7 +4494,7 @@ ol li {
 }
 .transition-overlay {
   transform: translate(0, 0);
-  transition: 0.6s cubic-bezier(0.49, 0.16, 0.33, 1);
+  transition: 0.4s cubic-bezier(0.49, 0.16, 0.33, 1);
 }
 
 html.is-animating .transition-overlay {

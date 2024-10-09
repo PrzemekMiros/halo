@@ -1,6 +1,6 @@
 .transition-overlay {
 	transform: translate(0, 0);
-	transition: .6s cubic-bezier(.49,.16,.33,1);
+	transition: .4s cubic-bezier(.49,.16,.33,1);
 }
    
 html.is-animating .transition-overlay {
