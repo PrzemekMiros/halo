@@ -9,12 +9,12 @@
   opacity: 1;
 }
 
-html.is-leaving .transition-overlay {
+html.is-animating .transition-overlay {
   transform: translate(0, 0);
   opacity: 1
 }
 
-html.is-animating .transition-overlay {
+html.is-rendering .transition-overlay {
   transform: translate(0, 0);
   opacity: 1
 }
