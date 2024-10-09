@@ -1,21 +1,21 @@
 
 .transition-overlay {
 	transform: translate(0, 0);
-	transition: .6s cubic-bezier(.49,.16,.33,1);
-	-webkit-transition: .6s cubic-bezier(.49,.16,.33,1);
-	-o-transition: .6s cubic-bezier(.49,.16,.33,1);
-    -moz-transition: .6s cubic-bezier(.49,.16,.33,1);
-	-ms-transition: .6s cubic-bezier(.49,.16,.33,1);
+	transition: .5s cubic-bezier(.49,.16,.33,1);
+	-webkit-transition: .5s cubic-bezier(.49,.16,.33,1);
+	-o-transition: .5s cubic-bezier(.49,.16,.33,1);
+    -moz-transition: .5s cubic-bezier(.49,.16,.33,1);
+	-ms-transition: .5s cubic-bezier(.49,.16,.33,1);
   opacity: 1;
 }
 
 html.is-leaving .transition-overlay {
-  transform: translate(0, -60px);
+  transform: translate(0, 0);
   opacity: 1
 }
 
 html.is-animating .transition-overlay {
-  transform: translate(0, -60px);
+  transform: translate(0, 0);
   opacity: 1
 }
 
