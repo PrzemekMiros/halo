@@ -1,13 +1,13 @@
-.transition-blur {
+.transition-fade {
   opacity: 1;
   transition: 0.25s ease-in-out;
 }
 
-html.is-animating .transition-blur {
+html.is-animating .transition-fade {
   opacity: 0;
 }
 
-html.is-rendering .transition-blur {
+html.is-rendering .transition-fade {
   opacity: 0;
 }
 
