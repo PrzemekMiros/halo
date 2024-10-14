@@ -22,8 +22,7 @@
   width: 50px;
   padding: 0.4em;
   border-radius: 50%;
-  background: var(--color-accent-1);
-  filter: saturate(80%) brightness(150%);
+  background: var(--color-dark-1);
 }
 
 @media (min-width: 767px) {
