@@ -147,7 +147,7 @@ small,
 
 @media (min-width: 459px) {
   .xxl {
-    font-size: clamp(40px, 6.2vw, 90px);
+    font-size: clamp(40px, 6.8vw, 100px);
   }
   .xl {
     font-size: clamp(30px, 4.3vw, 62px);

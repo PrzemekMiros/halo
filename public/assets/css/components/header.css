@@ -72,7 +72,7 @@
 
 .desktop-nav ul li a {
   color: var(--color-heading);
-  font-size: clamp(14px, 0.9vw, 16px);
+  font-size: clamp(12px, 0.9vw, 16px);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;

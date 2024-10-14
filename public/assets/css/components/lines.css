@@ -26,6 +26,10 @@
   opacity: 0.2;
 }
 
+.lx-op-2 {
+  opacity: 0.5;
+}
+
 .lx-light {
   background-color: #fff;
 }
