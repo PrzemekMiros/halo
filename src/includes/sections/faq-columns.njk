@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row gx-md-5">
         <div class="col-md-6">
-          <div class="bg-light-2 sticky border overflow-hidden">
+          <div class="bg-light-2 sticky border overflow-hidden fade-in mb-5 mb-md-0">
              {% Image "src/assets/img/about/about-4.jpg", "O mnie" %}
           </div>
         </div>
@@ -11,7 +11,7 @@
             <div class="line-x lx-op d-md-none mt-2 mt-md-0"></div>
             {% for post in collections.faq %}
             <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <button class="accordion mt-md-4 pt-xxsmall pb-xxsmall">
+              <button class="accordion mt-md-4 pt-xsmall pb-xsmall pt-md-xxsmall pb-md-xxsmall">
                 <span class="h3 title my-0 split-lines" itemprop="name">
                   {{ post.data.title }}
                 </span>

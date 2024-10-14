@@ -36,7 +36,7 @@
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1120px;
+    max-width: 1180px;
   }
 }
 @media (min-width: 1400px) {
@@ -46,7 +46,7 @@
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1320px;
+    max-width: 1340px;
   }
 }
 .row {
@@ -4318,7 +4318,7 @@ video {
 .sticky {
   position: sticky;
   top: 120px;
-  z-index: 999;
+  z-index: 9;
 }
 
 .sidebar {
@@ -5576,6 +5576,15 @@ html.lenis, html.lenis body {
   z-index: 1;
 }
 
+.hero-img {
+  position: absolute;
+  top: 5em;
+  right: 1em;
+  width: 29vw;
+  transform: rotate(-16deg);
+  z-index: 1;
+}
+
 .hero-card {
   position: relative;
   height: 100%;
@@ -5662,6 +5671,18 @@ html.lenis, html.lenis body {
   margin-right: -5%;
 }
 
+@media (min-width: 458px) {
+  .hero-img {
+    top: 4.4em;
+    width: clamp(175px, 28vw, 190px);
+  }
+}
+@media (min-width: 767px) {
+  .hero-img {
+    top: 4.4em;
+    width: clamp(50px, 29vw, 330px);
+  }
+}
 @media (min-width: 1024px) {
   .hero-card {
     border-radius: 25px;
@@ -5675,6 +5696,12 @@ html.lenis, html.lenis body {
     right: 4%;
     width: 28%;
     transform: translateY(-50%) rotate(21deg);
+  }
+}
+@media (min-width: 1200px) {
+  .hero-img {
+    top: 4.4em;
+    width: clamp(200px, 18vw, 275px);
   }
 }
 .service-wrap {
@@ -5701,7 +5728,7 @@ html.lenis, html.lenis body {
   width: 50px;
   padding: 0.4em;
   border-radius: 50%;
-  background: var(--color-dark-1);
+  background: #fff;
 }
 
 @media (min-width: 767px) {

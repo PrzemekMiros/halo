@@ -2,6 +2,14 @@
   position: relative;
   z-index: 1;
 }
+.hero-img {
+  position: absolute;
+  top: 5em;
+  right: 1em;
+  width: 29vw;
+  transform: rotate(-16deg);
+  z-index: 1;
+}
 .hero-card {
   position: relative;
   height: 100%;
@@ -90,6 +98,20 @@
   margin-right: -5%
 }
 
+@media(min-width:458px) {
+  .hero-img {
+    top: 4.4em;
+    width: clamp(175px, 28vw, 190px)
+  }
+}
+
+@media(min-width:767px) {
+  .hero-img {
+    top: 4.4em;
+    width: clamp(50px, 29vw, 330px);
+  }
+}
+
 @media(min-width:1024px) {
   .hero-card {
     border-radius: 25px;
@@ -104,5 +126,11 @@
     width: 28%;
     transform: translateY(-50%) rotate(21deg);
   }
-  
+}
+
+@media(min-width:1200px) {
+  .hero-img {
+    top: 4.4em;
+    width: clamp(200px, 18vw, 275px)
+  }
 }

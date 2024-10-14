@@ -101,7 +101,7 @@ video {
 .sticky {
   position: sticky;
   top: 120px;
-  z-index: 999;
+  z-index: 9;
 }
 
 .sidebar {
