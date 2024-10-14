@@ -65,8 +65,8 @@
 
 .slider-hero .slide-track {
   display: flex;
-  gap: 20px;
-  width: 207em;
+  gap: 1em;
+  width: 222em;
 }
 
 .slider-left .slide-track {
@@ -80,7 +80,7 @@
 }
 
 .slider-hero .slide img {
-  width: 16em;
+  width: 17.5em;
 }
 
 .avatar {

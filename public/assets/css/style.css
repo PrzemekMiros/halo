@@ -5638,8 +5638,8 @@ html.lenis, html.lenis body {
 
 .slider-hero .slide-track {
   display: flex;
-  gap: 20px;
-  width: 207em;
+  gap: 1em;
+  width: 222em;
 }
 
 .slider-left .slide-track {
@@ -5653,7 +5653,7 @@ html.lenis, html.lenis body {
 }
 
 .slider-hero .slide img {
-  width: 16em;
+  width: 17.5em;
 }
 
 .avatar {
@@ -7390,7 +7390,8 @@ form .page .invalid-input {
 }
 
 .copyright {
-  font-size: 85%;
+  font-size: 75%;
+  opacity: 0.75;
 }
 
 @media (min-width: 767px) {

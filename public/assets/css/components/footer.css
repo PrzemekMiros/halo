@@ -61,7 +61,8 @@
 }
 
 .copyright {
-  font-size: 85%;
+  font-size: 75%;
+  opacity: 0.75;
 }
 
 @media (min-width: 767px) {
