@@ -5145,7 +5145,7 @@ html.lenis, html.lenis body {
 }
 
 .lx-op-2 {
-  opacity: 0.5;
+  opacity: 0.35;
 }
 
 .lx-light {
@@ -5726,7 +5726,7 @@ html.lenis, html.lenis body {
 
 .service-card img {
   display: inline-block;
-  width: 50px;
+  width: 80px;
   padding: 0.4em;
   border-radius: 50%;
   background: var(--color-light-2);
