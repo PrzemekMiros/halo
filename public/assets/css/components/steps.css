@@ -21,15 +21,18 @@
 }
 
 .step-card img {
-  width: 100px;
+  width: 50px;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 1em;
 }
 
 @media (min-width: 767px) {
   .step-card:hover::before {
     opacity: 1;
     transform: scale(0.95);
+  }
+  .step-card img {
+    width: 100px;
   }
 }
 @media (max-width: 768px) {

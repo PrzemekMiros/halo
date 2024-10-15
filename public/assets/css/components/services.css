@@ -19,7 +19,7 @@
 
 .service-card img {
   display: inline-block;
-  width: 80px;
+  width: 50px;
   padding: 0.4em;
   border-radius: 50%;
   background: var(--color-light-2);
@@ -28,5 +28,8 @@
 @media (min-width: 767px) {
   .service-card {
     min-height: 130px;
+  }
+  .service-card img {
+    width: 80px;
   }
 }
