@@ -218,7 +218,7 @@ ol li {
   height: 0;
   width: 100%;
   background-color: var(--color-accent-1); 
-  transition: .2s ease-in-out;
+  transition: var(--easing-1);
   z-index: -1
 }
 .link-hover:hover::before,
@@ -230,6 +230,15 @@ ol li {
 }
 .link-hover:focus:before {
   height: 33%;
+}
+.link-hover-color {
+  position: relative;
+  display: inline-block;
+  transition: var(--easing-1);
+  z-index: 1;
+}
+.link-hover-color:hover {
+  color: var(--color-accent-1);
 }
   .pagination-link:hover {
     color: var(--color-light-1);

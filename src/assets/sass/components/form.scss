@@ -9,7 +9,8 @@
 
   .contact-list li a {
       display: flex;
-      align-items: center
+      align-items: center;
+      transition: var(--easing-1);
   }
 
   .contact-list li a svg {
@@ -18,15 +19,30 @@
       min-width: 32px;
       margin-right: .5em;
       border-radius: 50%;
-      background-color: #f3efe9
+      background-color: #f3efe9;
+      transition: var(--easing-1)
   }
 
   .contact-list li a svg path {
     fill: var(--color-accent-1);
+    transition: var(--easing-1)
 }
 
 .contact-list li a span {
     line-break: anywhere;
+    transition: var(--easing-1)
+}
+
+.contact-list li a:hover svg {
+    background-color: var(--color-accent-1);
+}
+
+.contact-list li a:hover svg path {
+    fill: #fff
+}
+
+.contact-list li a:hover span {
+    color: var(--color-dark-1);
 }
 
 .floating-label {
