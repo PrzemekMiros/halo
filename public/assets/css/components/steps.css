@@ -20,6 +20,12 @@
   transition: 0.2s ease-in-out;
 }
 
+.step-card img {
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
 @media (min-width: 767px) {
   .step-card:hover::before {
     opacity: 1;

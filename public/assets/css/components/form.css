@@ -295,4 +295,12 @@ form .page .invalid-input {
     align-items: center;
     justify-content: center;
   }
+  .button-anim.next .button-anim-text,
+  .button-anim.prev .button-anim-text {
+    font-size: 80%;
+  }
+  .button-anim.next .button-anim-icon,
+  .button-anim.prev .button-anim-icon {
+    padding: 0.55em 0.5em 0.25em;
+  }
 }

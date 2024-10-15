@@ -5342,7 +5342,7 @@ html.lenis, html.lenis body {
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
+  height: 120%;
   width: 100%;
   background: var(--color-light-1);
   z-index: 99;
@@ -5579,7 +5579,7 @@ html.lenis, html.lenis body {
 .hero-img {
   position: absolute;
   top: 5em;
-  right: 1em;
+  right: 0;
   width: 29vw;
   transform: rotate(-16deg);
   z-index: 1;
@@ -5700,6 +5700,7 @@ html.lenis, html.lenis body {
 }
 @media (min-width: 1200px) {
   .hero-img {
+    right: 2em;
     top: 4.4em;
     width: clamp(200px, 18vw, 275px);
   }
@@ -5728,7 +5729,7 @@ html.lenis, html.lenis body {
   width: 50px;
   padding: 0.4em;
   border-radius: 50%;
-  background: #fff;
+  background: var(--color-light-2);
 }
 
 @media (min-width: 767px) {
@@ -6853,6 +6854,12 @@ button.swiper-pagination-bullet {
   transition: 0.2s ease-in-out;
 }
 
+.step-card img {
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
 @media (min-width: 767px) {
   .step-card:hover::before {
     opacity: 1;
@@ -7351,6 +7358,14 @@ form .page .invalid-input {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .button-anim.next .button-anim-text,
+  .button-anim.prev .button-anim-text {
+    font-size: 80%;
+  }
+  .button-anim.next .button-anim-icon,
+  .button-anim.prev .button-anim-icon {
+    padding: 0.55em 0.5em 0.25em;
   }
 }
 .site-footer {

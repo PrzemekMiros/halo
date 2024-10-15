@@ -6,7 +6,7 @@
 .hero-img {
   position: absolute;
   top: 5em;
-  right: 1em;
+  right: 0;
   width: 29vw;
   transform: rotate(-16deg);
   z-index: 1;
@@ -127,6 +127,7 @@
 }
 @media (min-width: 1200px) {
   .hero-img {
+    right: 2em;
     top: 4.4em;
     width: clamp(200px, 18vw, 275px);
   }
