@@ -33,3 +33,5 @@ Zarządzanie własnym biznesem to marzenie wielu osób, które chcą pracować n
 20. **Sklep z ubraniami** – otwarcie sklepu z ubraniami to idealny pomysł na biznes dla osób, które interesują się modą i posiadają zmysł estetyczny.
 
     Powyższe propozycje to tylko niektóre z możliwych pomysłów na biznes. Warto pamiętać, że kluczowe jest znalezienie czegoś, co nas interesuje i co będziemy w stanie robić z pasją. Warto też przed rozpoczęciem działalności dokładnie przeanalizować rynek i zaplanować biznes od strony finansowej.
+
+\[Anchor](https://przemekmiros.pl/)
