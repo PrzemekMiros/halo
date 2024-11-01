@@ -20,10 +20,14 @@
   transition: 0.2s ease-in-out;
 }
 
-.step-card img {
+.step-card svg {
   width: 50px;
+  height: 50px;
   margin: 0 auto;
-  border-radius: 1em;
+}
+
+.step-card svg path {
+  fill: var(--color-accent-1);
 }
 
 @media (min-width: 767px) {
