@@ -60,9 +60,15 @@ Dostępnych jest wiele platform, które umożliwiają stworzenie darmowej strony
 
 ### Wix – popularny kreator z darmowym planem
 
+![](/content/posts/img/darmowa-strona-internetowa-wix.png)
+
 Wix to jeden z najczęściej wybieranych kreatorów stron. Oferuje intuicyjny interfejs typu drag-and-drop oraz szeroki wybór szablonów dostosowanych do różnych branż. Dzięki Wix możesz stworzyć piękną stronę internetową bez znajomości kodowania. Jego darmowy plan obejmuje podstawowe funkcje, ale pamiętaj, że będziesz musiał zaakceptować wyświetlanie reklam Wix na swojej stronie.
 
+<https://pl.wix.com/>
+
 ### WebWave – polski kreator z darmowym hostingiem i certyfikatem SSL
+
+![](/content/posts/img/webwavecms.png)
 
 WebWave to świetne rozwiązanie dla polskich użytkowników. Oferuje darmowy hosting oraz certyfikat SSL, co zapewnia bezpieczeństwo Twojej strony. WebWave pozwala na łatwe tworzenie stron, a także oferuje możliwość dodawania funkcji e-commerce.
 
