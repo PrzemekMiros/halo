@@ -19,10 +19,21 @@ Opiszę szczegółowo, ile kosztuje wykonanie strony internetowej oraz jakie są
 
 Pierwszym czynnikiem wpływającym na koszt wykonania strony internetowej jest typ strony. Różne rodzaje stron mają różne wymagania i funkcjonalności, co wpływa na ostateczny koszt. Oto kilka typów stron internetowych i ich specyfika:
 
-1. **Strona wizytówka** – Prosta strona internetowa składająca się z kilku podstron, takich jak strona główna, o nas, oferta i kontakt. Tego typu strona jest idealna dla małych firm lub osób prywatnych, które chcą przedstawić podstawowe informacje o sobie lub swojej działalności. Koszt wykonania takiej strony jest zazwyczaj niższy, ponieważ nie wymaga ona skomplikowanych funkcji ani dużej ilości treści.
-2. **Strona firmowa** – Bardziej rozbudowana strona internetowa, która może zawierać wiele podstron, takich jak blog, galerie zdjęć, portfolio, formularze kontaktowe, sekcje z aktualnościami i wiele innych. Strony internetowe dla firm często wymagają zaawansowanego projektowania i programowania, aby sprostać wymaganiom biznesowym.
-3. **Sklep internetowy** – Strona umożliwiająca sprzedaż produktów lub usług online. Sklepy internetowe wymagają zaawansowanych funkcji, takich jak zarządzanie produktami, koszykiem, płatnościami, wysyłką oraz integracją z systemami magazynowymi i księgowymi. Koszt wykonania sklepu internetowego jest zazwyczaj wyższy ze względu na złożoność projektu i konieczność zapewnienia bezpieczeństwa transakcji.
-4. **Portale i serwisy informacyjne** – Strony internetowe, które oferują użytkownikom dostęp do dużej ilości treści, takich jak artykuły, wiadomości, multimedia i inne zasoby. Takie strony muszą być zaprojektowane z myślą o dużym ruchu użytkowników i często wymagają zaawansowanych rozwiązań technologicznych, co wpływa na ich koszt.
+### Strona wizytówka 
+
+Prosta strona internetowa składająca się z kilku podstron, takich jak strona główna, o nas, oferta i kontakt. Tego typu strona jest idealna dla małych firm lub osób prywatnych, które chcą przedstawić podstawowe informacje o sobie lub swojej działalności. Koszt wykonania takiej strony jest zazwyczaj niższy, ponieważ nie wymaga ona skomplikowanych funkcji ani dużej ilości treści.
+
+### Strona firmowa 
+
+Bardziej rozbudowana strona internetowa, która może zawierać wiele podstron, takich jak blog, galerie zdjęć, portfolio, formularze kontaktowe, sekcje z aktualnościami i wiele innych. Strony internetowe dla firm często wymagają zaawansowanego projektowania i programowania, aby sprostać wymaganiom biznesowym.
+
+### Sklep internetowy 
+
+Strona umożliwiająca sprzedaż produktów lub usług online. Sklepy internetowe wymagają zaawansowanych funkcji, takich jak zarządzanie produktami, koszykiem, płatnościami, wysyłką oraz integracją z systemami magazynowymi i księgowymi. Koszt wykonania sklepu internetowego jest zazwyczaj wyższy ze względu na złożoność projektu i konieczność zapewnienia bezpieczeństwa transakcji.
+
+### Portale i serwisy informacyjne 
+
+Strony internetowe, które oferują użytkownikom dostęp do dużej ilości treści, takich jak artykuły, wiadomości, multimedia i inne zasoby. Takie strony muszą być zaprojektowane z myślą o dużym ruchu użytkowników i często wymagają zaawansowanych rozwiązań technologicznych, co wpływa na ich koszt.
 
 ## Projektowanie i programowanie
 
@@ -42,7 +53,7 @@ Projektowanie stron www obejmuje tworzenie wizualnego wyglądu strony, który je
 
 ![](/content/posts/img/programowanie-frontend-strony.jpg)
 
-### Programowanie front-end 
+### Programowanie front-end
 
 Etap, na którym projekt graficzny przekształcany jest w działającą stronę internetową za pomocą technologii takich jak HTML, CSS i JavaScript. Programowanie front-end zapewnia interaktywność i atrakcyjność wizualną strony.
 
@@ -54,7 +65,7 @@ Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony int
 
 ![](/content/posts/img/testowanie-strony-www.jpg)
 
-### Testowanie i optymalizacja 
+### Testowanie i optymalizacja
 
 Przed uruchomieniem strony internetowej przeprowadza się testy w celu wykrycia i naprawienia błędów, optymalizacji wydajności i zapewnienia zgodności z różnymi przeglądarkami i urządzeniami.
 
