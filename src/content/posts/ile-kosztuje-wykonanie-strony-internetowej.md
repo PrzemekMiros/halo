@@ -119,19 +119,19 @@ Strategia marketingowa polegająca na tworzeniu i dystrybucji wartościowych tre
 
 Ostatnim czynnikiem wpływającym na koszt wykonania strony internetowej jest konserwacja i aktualizacje. Regularne aktualizacje są niezbędne, aby strona internetowa była bezpieczna, funkcjonalna i zgodna z najnowszymi standardami. Koszt aktualizacji i konserwacji może obejmować:
 
-**Aktualizacje systemu i oprogramowania** 
+### Aktualizacje systemu i oprogramowania 
 
 Regularne aktualizacje systemu CMS (Content Management System), wtyczek i innych narzędzi używanych na stronie internetowej.
 
-**Zarządzanie bezpieczeństwem** 
+### Zarządzanie bezpieczeństwem 
 
 Monitorowanie strony internetowej pod kątem zagrożeń, instalacja zabezpieczeń, regularne kopie zapasowe oraz naprawa luk w zabezpieczeniach.
 
-**Wsparcie techniczne** 
+### Wsparcie techniczne 
 
 Usługi wsparcia technicznego, które pomagają w rozwiązywaniu problemów technicznych, aktualizacji treści, dodawaniu nowych funkcji oraz poprawie wydajności strony.
 
-**Optymalizacja i rozwój** 
+### Optymalizacja i rozwój 
 
 Ciągłe doskonalenie strony internetowej poprzez optymalizację wydajności, poprawę UX (User Experience), wprowadzanie nowych funkcji i integracji z innymi systemami.
 
