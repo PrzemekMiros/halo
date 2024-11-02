@@ -92,9 +92,17 @@ WordPress to najpopularniejszy system zarządzania treścią (CMS) na świecie. 
 
 Canva jest znana przede wszystkim jako narzędzie do projektowania graficznego, ale oferuje również funkcje umożliwiające tworzenie prostych stron internetowych. To idealne rozwiązanie dla osób, które potrzebują atrakcyjnej, jednostronicowej witryny, na przykład dla wydarzenia lub kampanii.
 
+[https://www.canva.com/](https://www.canva.com/pl_pl/)
+
+{% lineStatic %}
+
 ### Webnode – prosty kreator z darmowym planem
 
+![](/content/posts/img/darmowa-strona-webnode.png)
+
 Webnode to łatwy w użyciu kreator, który pozwala na szybkie stworzenie strony internetowej. Oferuje różnorodne szablony oraz opcje dostosowywania, co czyni go doskonałym wyborem dla początkujących.
+
+[https://www.webnode.com/](https://www.webnode.com/pl/)
 
 ### Mozello – darmowy kreator z opcją małego sklepu internetowego
 
