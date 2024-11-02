@@ -213,6 +213,9 @@ ol li {
 }
 
 @media (min-width: 767px) {
+  .aspect_md_32-30 {
+    aspect-ratio: 32/30;
+  }
   .aspect_md_16-13 {
     aspect-ratio: 16/13;
   }
