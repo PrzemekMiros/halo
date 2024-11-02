@@ -66,11 +66,15 @@ Wix to jeden z najczęściej wybieranych kreatorów stron. Oferuje intuicyjny in
 
 <https://pl.wix.com/>
 
+{% lineStatic %}
+
 ### WebWave – polski kreator z darmowym hostingiem i certyfikatem SSL
 
 ![](/content/posts/img/webwavecms.png)
 
 WebWave to świetne rozwiązanie dla polskich użytkowników. Oferuje darmowy hosting oraz certyfikat SSL, co zapewnia bezpieczeństwo Twojej strony. WebWave pozwala na łatwe tworzenie stron, a także oferuje możliwość dodawania funkcji e-commerce.
+
+<https://webwavecms.com/>
 
 ### WordPress – darmowy CMS z wtyczkami i szablonami
 
