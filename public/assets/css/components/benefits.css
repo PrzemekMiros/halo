@@ -3,12 +3,16 @@
   height: 100%;
 }
 
+.benefit-card h3 {
+  position: relative;
+}
+
 .bc-light {
   z-index: 1;
 }
 
 .bc-light .benefit-card-svg {
-  z-index: -1;
+  z-index: 0;
 }
 
 .benefit-card::before {
@@ -44,5 +48,5 @@
   left: 0;
   width: 100%;
   height: auto;
-  z-index: -1;
+  z-index: 0;
 }

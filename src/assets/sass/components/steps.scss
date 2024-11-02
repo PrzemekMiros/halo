@@ -5,20 +5,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: var(--color-light-3);
+    border-radius: 20px;
 }
 
-.step-card::before {
-    position: absolute;
-    content: "";
-    top: 2%;
-    left: 2%;
-    bottom: 2%;
-    right: 2%;
-    background: var(--color-light-3);
-    border-radius: 50%;
-    transition: .2s ease-in-out;
-    z-index: -1;
-}
 .step-card svg {
     width: 50px;
     height: 50px;
@@ -28,10 +18,6 @@
     fill: #2a5ee7;
 }
 @media(min-width:767px) {
-    .step-card:hover::before {
-        opacity: 1;
-        transform: scale(.95);
-    }
     .step-card img {
         width: 100px;
     }
