@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Ile kosztuje wykonanie strony internetowej
+title: Ile kosztuje wykonanie strony internetowej?
 description: Tworzenie strony internetowej to proces, który wymaga sporo pracy i
   nakładów finansowych. Wiele czynników wpływa na koszt wykonania strony
   internetowej. W tym artykule omówimy, ile kosztuje wykonanie strony
