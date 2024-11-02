@@ -7065,16 +7065,17 @@ button.swiper-pagination-bullet {
   position: relative;
   display: inline-block;
   padding: 1em 1.2em;
+  margin-bottom: 1em;
   overflow: hidden;
   border-radius: 45px;
   background-color: transparent;
   border: 2px solid var(--color-dark-1);
+  font-size: 90%;
   color: var(--color-dark-1);
 }
 
 .category-btn span {
   position: relative;
-  font-size: 15px;
   z-index: 9;
 }
 
@@ -7113,7 +7114,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   top: -1px;
   left: -1px;
-  width: 55%;
+  width: 40%;
   height: auto;
   z-index: 9;
 }
@@ -7130,6 +7131,12 @@ button.swiper-pagination-bullet {
   text-transform: uppercase;
 }
 
+@media (min-width: 1200px) {
+  .category-btn {
+    padding: 1.2em 2em;
+    font-size: 100%;
+  }
+}
 .contact-list {
   margin-top: 1.9em;
 }
