@@ -4246,7 +4246,7 @@ video {
 }
 
 p img {
-  border: 1px solid rgba(153, 153, 153, 0.3333333333);
+  border: 1px solid rgba(153, 153, 153, 0.364);
   border-radius: var(--radius-2);
 }
 
