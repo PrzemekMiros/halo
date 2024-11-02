@@ -1,4 +1,4 @@
 ---
 title: Centrum rehabilitacji
-logo: /content/klienci/img/logo-c7med.webp
+logo: /content/clients/img/logo-c7med.webp
 ---

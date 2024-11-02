@@ -1,4 +1,4 @@
 ---
 title: Konstrukcje stalowe
-logo: /content/klienci/img/logo-staltom.webp
+logo: /content/clients/img/logo-staltom.webp
 ---

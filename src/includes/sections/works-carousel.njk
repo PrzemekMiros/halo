@@ -10,7 +10,7 @@
             <div class="swiper swiper-works">
                 <div class="swiper-wrapper"> {% for post in collections.works %} <div class="swiper-slide">
                         <div class="works-grid-item border bg-light-1 row g-0 flex-md-row-reverse align-items-center">
-                            <div class="col-lg-6 col-xl-7">
+                            <div class="col-lg-6 col-xl-6">
                                 <a href="{{ post.url }}" title="{{ post.data.title }}">
                                     <div class="portfolio-item fade-in">
                                         <svg class="works-item-svg d-none d-md-block" width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,13 +25,13 @@
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <div class="hover-img-wrap aspect_md_16-13"> 
+                                        <div class="hover-img-wrap aspect_md_16-14"> 
                                           {% workImage "src/" + post.data.thumbnail, post.data.title %} 
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-6 col-xl-5 p-3 p-md-5">
+                            <div class="col-lg-6 col-xl-6 p-3 p-md-5">
                                 <p class="color-dark-2 mt-3 mt-md-0 mb-2 fade-in">
                                     {{ post.data.title }}
                                 </p>

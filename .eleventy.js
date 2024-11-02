@@ -8,8 +8,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/js");
     eleventyConfig.addPassthroughCopy("src/assets/img"); 
     eleventyConfig.addPassthroughCopy("src/assets/fonts");
-    eleventyConfig.addPassthroughCopy("src/content/klienci/img"); 
-    eleventyConfig.addPassthroughCopy("src/content/blog/img"); 
+    eleventyConfig.addPassthroughCopy("src/content/clients/img"); 
+    eleventyConfig.addPassthroughCopy("src/content/posts/img"); 
+    eleventyConfig.addPassthroughCopy("src/content/works/img"); 
     eleventyConfig.addPassthroughCopy("src/static");
     eleventyConfig.addPassthroughCopy("src/admin");
     eleventyConfig.addWatchTarget("src/assets/sass");
@@ -100,8 +101,8 @@ module.exports = function(eleventyConfig) {
           let stats = await Image(src, {
             widths: [25, 320, 640, 960, 1200, 1800 ],
             formats: ['jpeg', 'webp'],
-            urlPath: '/content/realizacje/img/',
-            outputDir: './public/content/realizacje/img/',
+            urlPath: '/content/works/img/',
+            outputDir: './public/content/works/img/',
           });
       
           let lowestSrc = stats['jpeg'][0];
@@ -141,8 +142,8 @@ module.exports = function(eleventyConfig) {
           let stats = await Image(src, {
             widths: [25, 320, 640, 960, 1200, 1800 ],
             formats: ['jpeg', 'webp'],
-            urlPath: '/content/blog/img/',
-            outputDir: './public/content/blog/img/',
+            urlPath: '/content/posts/img/',
+            outputDir: './public/content/posts/img/',
           });
       
           let lowestSrc = stats['jpeg'][0];

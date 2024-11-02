@@ -1,17 +1,17 @@
 ---
-imageGridOne: /content/realizacje/img/master-1.jpg
+imageGridOne: /content/works/img/master-1.jpg
 title: Klub networkingowy
 description: Landing page dla klubu networkingowego. Według dostarczonego
   projektu graficznego (Figma). System zarządzania treścią Wordpress.
 author: Przemek Miros
-imageGridTwo: /content/realizacje/img/master-2.jpg
+imageGridTwo: /content/works/img/master-2.jpg
 client: MasterMatch
 link: https://mastermatch.online/
-thumbnail: /content/realizacje/img/master-thumb-big.jpg
+thumbnail: /content/works/img/master-thumb-big.jpg
 order: 9
 date: 2022-06-23T22:00:00.000Z
-imageMain: /content/realizacje/img/master-thumb-big.jpg
-imageMobile: /content/realizacje/img/master-mobile.jpg
+imageMain: /content/works/img/master-thumb-big.jpg
+imageMobile: /content/works/img/master-mobile.jpg
 category:
   - Strona internetowa
 ---

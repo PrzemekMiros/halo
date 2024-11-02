@@ -7,7 +7,7 @@ author: Przemek
 date: 2023-08-15
 tags:
   - strony www
-thumbnail: /content/blog/img/blog-responsive.jpg
+thumbnail: /content/posts/img/blog-responsive.jpg
 ---
 W dzisiejszych czasach, posiadanie responsywnej strony internetowej to nie luksus, lecz konieczność. Ale co to dokładnie oznacza i dlaczego strona powinna być responsywna? Oto kilka kluczowych powodów, które przybliżą ci tę kwestię. Dlatego tak ważne jest, aby strona była responsywna, ponieważ wpływa to na jej widoczność w wynikach wyszukiwania, co jest kluczowe dla przyciągnięcia potencjalnych klientów.
 

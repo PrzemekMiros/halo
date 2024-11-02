@@ -1,4 +1,4 @@
 ---
 title: Producent kotłów
-logo: /content/klienci/img/wako.webp
+logo: /content/clients/img/wako.webp
 ---

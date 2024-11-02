@@ -6,12 +6,12 @@ description: Strona internetowa dla agencji aktorskiej. Projekt graficzny,
 author: Przemek
 category:
   - Strona internetowa
-thumbnail: /content/realizacje/img/cosmos-thumb-big.jpg
+thumbnail: /content/works/img/cosmos-thumb-big.jpg
 order: 4
 title: Agencja aktorska
 date: 2023-08-16T06:55:17.673Z
 link: https://agencjacosmos.pl/
-imageMain: /content/realizacje/img/cosmos-thumb-big.jpg
+imageMain: /content/works/img/cosmos-thumb-big.jpg
 ---
 
 ## Agencja aktorska

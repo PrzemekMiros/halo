@@ -1,4 +1,4 @@
 ---
 title: Magazyn kobiet biznesu
-logo: /content/klienci/img/logo-business.webp
+logo: /content/clients/img/logo-business.webp
 ---

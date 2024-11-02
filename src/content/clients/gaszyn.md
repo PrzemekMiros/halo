@@ -1,4 +1,4 @@
 ---
 title: Producent kotłów
-logo: /content/klienci/img/logo-gaszyn.webp
+logo: /content/clients/img/logo-gaszyn.webp
 ---

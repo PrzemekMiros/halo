@@ -7,8 +7,8 @@ date: 2023-06-19T15:47:50.998Z
 category:
   - Strona internetowa
 link: https://kajaki24.com.pl/
-thumbnail: /content/realizacje/img/kajaki-thumb-big.jpg
-imageMain: /content/realizacje/img/kajaki-thumb-big.jpg
+thumbnail: /content/works/img/kajaki-thumb-big.jpg
+imageMain: /content/works/img/kajaki-thumb-big.jpg
 order: 7
 ---
 
