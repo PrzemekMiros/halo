@@ -4113,9 +4113,9 @@
   --color-accent-2: #2f17aa;
   --color-dark-1: #080714;
   --color-dark-2: #131227;
-  --color-light-1: #f7f4f2;
-  --color-light-2: #ebe9e4;
-  --color-light-3: #e3e2e1;
+  --color-light-1: #f8f8fd;
+  --color-light-2: #f1f1f6;
+  --color-light-3: #fdfdfd;
   --color-heading: #101b2b;
   --color-text: #5e6265;
   --color-border: #74787b;
@@ -4123,22 +4123,22 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-dark-1: #f7f4f2;
-    --color-dark-2: #ebe9e4;
+    --color-dark-1: #f8f8fd;
+    --color-dark-2: #f1f1f6;
     --color-light-1: #080714;
     --color-light-2: #131227;
-    --color-light-3: #191830;
+    --color-light-3: #131227;
     --color-heading: #fff;
     --color-text: #bcbcbc;
     --color-border: #74787b;
   }
 }
 .dark {
-  --color-dark-1: #f7f4f2;
-  --color-dark-2: #ebe9e4;
+  --color-dark-1: #f8f8fd;
+  --color-dark-2: #f1f1f6;
   --color-light-1: #080714;
   --color-light-2: #131227;
-  --color-light-3: #191830;
+  --color-light-3: #131227;
   --color-heading: #fff;
   --color-text: #bcbcbc;
   --color-border: #74787b;
@@ -4507,7 +4507,7 @@ ol li {
 }
 .transition-fade {
   opacity: 1;
-  transition: 0.25s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 html.is-animating .transition-fade {
@@ -5742,7 +5742,7 @@ html.lenis, html.lenis body {
   width: 50px;
   padding: 0.4em;
   border-radius: 50%;
-  background: var(--color-light-2);
+  background: var(--color-light-3);
 }
 
 @media (min-width: 767px) {
@@ -6885,10 +6885,10 @@ button.swiper-pagination-bullet {
   left: 2%;
   bottom: 2%;
   right: 2%;
-  border: 1px solid #8e8e8e;
+  background: var(--color-light-3);
   border-radius: 50%;
-  opacity: 0.5;
   transition: 0.2s ease-in-out;
+  z-index: -1;
 }
 
 .step-card svg {
@@ -6898,7 +6898,7 @@ button.swiper-pagination-bullet {
 }
 
 .step-card svg path {
-  fill: var(--color-accent-1);
+  fill: #2a5ee7;
 }
 
 @media (min-width: 767px) {
@@ -6939,7 +6939,7 @@ button.swiper-pagination-bullet {
   left: 0;
   width: calc(100% - 2px);
   height: 65%;
-  border: 1px solid var(--color-border);
+  background: var(--color-light-3);
   border-top: none;
   border-bottom-left-radius: var(--radius-2);
   border-bottom-right-radius: var(--radius-2);
@@ -6965,7 +6965,7 @@ button.swiper-pagination-bullet {
   left: 0;
   width: 100%;
   height: auto;
-  z-index: 0;
+  z-index: -1;
 }
 
 .accordion {
@@ -7127,7 +7127,7 @@ button.swiper-pagination-bullet {
   min-width: 32px;
   margin-right: 0.5em;
   border-radius: 50%;
-  background-color: #f3efe9;
+  background-color: #ebebf0;
   transition: var(--easing-1);
 }
 

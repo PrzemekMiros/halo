@@ -22,7 +22,7 @@
   width: 50px;
   padding: 0.4em;
   border-radius: 50%;
-  background: var(--color-light-2);
+  background: var(--color-light-3);
 }
 
 @media (min-width: 767px) {
