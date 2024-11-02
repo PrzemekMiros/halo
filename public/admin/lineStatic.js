@@ -11,7 +11,7 @@ CMS.registerEditorComponent({
       return `{% lineStatic %}`;
     },
     toPreview: function() {
-      return `<div class="line-static"></div>`;
+      return `<div class="line-x-static"></div>`;
     }
   });
   

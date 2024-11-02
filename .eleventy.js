@@ -52,9 +52,9 @@ module.exports = function(eleventyConfig) {
         eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
 
-        
+
         eleventyConfig.addShortcode("lineStatic", function() {
-          return `<div class="line-static"></div>`;
+          return `<div class="line-x-static"></div>`;
         });
 
 

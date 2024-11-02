@@ -1,7 +1,6 @@
 
 backend:
   name: git-gateway
-  repo: PrzemekMiros/starter
   branch: main 
   base_url: '/'
   auth_endpoint: '/auth/'
@@ -11,7 +10,6 @@ local_backend: true
 media_folder: "src/assets/img/"
 public_folder: "/assets/img/"
 
-publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
