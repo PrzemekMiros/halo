@@ -6884,7 +6884,7 @@ button.swiper-pagination-bullet {
     transform: scale(1.05);
   }
   .hover-img-wrap .image-wrapper img {
-    transition: transform 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
   .portfolio .projects-inner .project {
     width: calc(50% - 2rem);
