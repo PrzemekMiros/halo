@@ -84,6 +84,10 @@ video {
   aspect-ratio: 16/10;
 }
 
+.aspect_16-9 {
+  aspect-ratio: 16/9;
+}
+
 .aspect_16-7 {
   aspect-ratio: 16/7;
 }

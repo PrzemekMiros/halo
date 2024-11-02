@@ -58,8 +58,8 @@ if (theme === "light") {
     });
   }
 
-if (document.querySelector('.swiper')) {
-  var swiper = new Swiper(".swiper", {
+if (document.querySelector('.swiper-opinion')) {
+  var swiper = new Swiper(".swiper-opinion", {
     grabCursor: true,
     slidesPerView: 1,
     spaceBetween: 15,
@@ -107,10 +107,14 @@ if (document.querySelector('.swiper')) {
 if (document.querySelector('.swiper-works')) {
   var swiper = new Swiper(".swiper-works", {
     grabCursor: true,
-    spaceBetween: 20,
-    lazyPreloadPrevNext: 1,
+    slidesPerView: 1,
+    spaceBetween: 15,
     centeredSlides: false,
     loop: true,
+    lazy: {
+      loadPrevNext: true, // pre-loads the next image to avoid showing a loading placeholder if possible
+      loadPrevNextAmount: 2 //or, if you wish, preload the next 2 images
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true
@@ -123,7 +127,7 @@ if (document.querySelector('.swiper-works')) {
       prevEl: '.swiper-button-prev',
     },
     autoplay: {
-      delay: 5000,
+      delay: 4000,
     },
     keyboard: {
       enabled: true

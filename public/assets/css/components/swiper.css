@@ -183,7 +183,7 @@
 
 .swiper-button-next:hover path,
 .swiper-button-prev:hover path {
-  stroke: var(--color-accent-1);
+  stroke: var(--color-light-1);
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -417,7 +417,7 @@ button.swiper-pagination-bullet {
 .swiper-horizontal > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
   height: 4px;
-  width: 100%;
+  background: var(--color-light-1);
 }
 
 .swiper-scrollbar.swiper-scrollbar-vertical,
@@ -434,7 +434,7 @@ button.swiper-pagination-bullet {
   height: 100%;
   width: 100%;
   position: relative;
-  background: var(--color-dark-2);
+  background: var(--color-accent-1);
   border-radius: 10px;
   left: 0;
   top: 0;
@@ -673,7 +673,7 @@ button.swiper-pagination-bullet {
   z-index: 2;
 }
 
-.swiper-slide {
+.swiper-opinion .swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: self-start;
@@ -685,7 +685,7 @@ button.swiper-pagination-bullet {
   width: 100%;
 }
 
-.swiper-pagination {
+.swiper-opinion .swiper-pagination {
   position: relative;
   bottom: -0.313rem;
   text-align: end;
@@ -693,17 +693,35 @@ button.swiper-pagination-bullet {
   width: auto;
 }
 
-.swiper-pagination-bullet {
+.swiper-opinion .swiper-pagination-bullet {
   border-radius: 0;
   width: 1.5rem;
   height: 0.25rem;
   background: #fff;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-opinion .swiper-pagination-bullet-active {
   background: #fff;
 }
 
+.swiper-works .swiper-slide {
+  margin-bottom: 2em;
+}
+
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  height: 4px;
+  left: 160px;
+  width: calc(100% - 160px);
+  background: var(--color-light-1);
+  transform: translateY(-35px);
+}
+
+@media (min-width: 767px) {
+  .swiper-works .swiper-slide {
+    margin-bottom: 0;
+  }
+}
 @media (min-width: 1200px) {
   .swiper-button-next,
   .swiper-button-prev {

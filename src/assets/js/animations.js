@@ -39,7 +39,7 @@ function animationMain() {
       });
       gsap.from(mySplitText.lines, {
         duration: .65,
-        delay: .4,
+        delay: .6,
         stagger: 0.05,
         yPercent: 105,
         ease: "power1.out",
@@ -95,7 +95,7 @@ function animationMain() {
       autoAlpha: 0, 
       y: 30}, {
         duration: .75, 
-        delay: .3,
+        delay: .5,
         autoAlpha: 1, 
         y: 0
       });
@@ -112,7 +112,7 @@ function animationMain() {
     gsap.from(lineXItem, {
       width: "0",
       duration: .75,
-      delay: .3,
+      delay: .5,
       ease: Power2.easeInOut,
       scrollTrigger: {
         trigger: '.line-x',
