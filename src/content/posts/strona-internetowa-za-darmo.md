@@ -60,7 +60,7 @@ Dostępnych jest wiele platform, które umożliwiają stworzenie darmowej strony
 
 ### Wix – popularny kreator z darmowym planem
 
-![](/content/posts/img/darmowa-strona-internetowa-wix.png)
+![Kreator stron internetowych - Wix](/content/posts/img/darmowa-strona-internetowa-wix.png)
 
 Wix to jeden z najczęściej wybieranych kreatorów stron. Oferuje intuicyjny interfejs typu drag-and-drop oraz szeroki wybór szablonów dostosowanych do różnych branż. Dzięki Wix możesz stworzyć piękną stronę internetową bez znajomości kodowania. Jego darmowy plan obejmuje podstawowe funkcje, ale pamiętaj, że będziesz musiał zaakceptować wyświetlanie reklam Wix na swojej stronie.
 
@@ -70,7 +70,7 @@ Wix to jeden z najczęściej wybieranych kreatorów stron. Oferuje intuicyjny in
 
 ### WebWave – polski kreator z darmowym hostingiem i certyfikatem SSL
 
-![](/content/posts/img/webwavecms.png)
+![Kreator stron internetowych - WebWave](/content/posts/img/webwavecms.png)
 
 WebWave to świetne rozwiązanie dla polskich użytkowników. Oferuje darmowy hosting oraz certyfikat SSL, co zapewnia bezpieczeństwo Twojej strony. WebWave pozwala na łatwe tworzenie stron, a także oferuje możliwość dodawania funkcji e-commerce.
 
@@ -80,7 +80,7 @@ WebWave to świetne rozwiązanie dla polskich użytkowników. Oferuje darmowy ho
 
 ### WordPress – darmowy CMS z wtyczkami i szablonami
 
-![](/content/posts/img/darmowa-strona-wordpress.png)
+![Kreator stron internetowych - Wordpress](/content/posts/img/darmowa-strona-wordpress.png)
 
 WordPress to najpopularniejszy system zarządzania treścią (CMS) na świecie. Oferuje wiele darmowych szablonów oraz wtyczek, co umożliwia stworzenie różnorodnych stron internetowych, od blogów po rozbudowane witryny e-commerce. WordPress daje dużą swobodę i elastyczność, ale może wymagać pewnej wiedzy technicznej, aby w pełni wykorzystać jego możliwości.
 
@@ -90,7 +90,7 @@ WordPress to najpopularniejszy system zarządzania treścią (CMS) na świecie. 
 
 ### Canva – darmowy kreator jednostronicowych stron
 
-![](/content/posts/img/darmowa-strona-canva.png)
+![Kreator stron internetowych - Canva](/content/posts/img/darmowa-strona-canva.png)
 
 Canva jest znana przede wszystkim jako narzędzie do projektowania graficznego, ale oferuje również funkcje umożliwiające tworzenie prostych stron internetowych. To idealne rozwiązanie dla osób, które potrzebują atrakcyjnej, jednostronicowej witryny, na przykład dla wydarzenia lub kampanii.
 
@@ -100,7 +100,7 @@ Canva jest znana przede wszystkim jako narzędzie do projektowania graficznego, 
 
 ### Webnode – prosty kreator z darmowym planem
 
-![](/content/posts/img/darmowa-strona-webnode.png)
+![Kreator stron internetowych - Webnode](/content/posts/img/darmowa-strona-webnode.png)
 
 Webnode to łatwy w użyciu kreator, który pozwala na szybkie stworzenie strony internetowej. Oferuje różnorodne szablony oraz opcje dostosowywania, co czyni go doskonałym wyborem dla początkujących.
 
@@ -110,7 +110,7 @@ Webnode to łatwy w użyciu kreator, który pozwala na szybkie stworzenie strony
 
 ### Mozello – darmowy kreator z opcją małego sklepu internetowego
 
-![](/content/posts/img/darmowa-strona-mozello.png)
+![Kreator stron internetowych - Mozello](/content/posts/img/darmowa-strona-mozello.png)
 
 Mozello to kreator, który pozwala na stworzenie darmowej strony oraz małego sklepu internetowego. Dzięki prostemu interfejsowi oraz opcji wielojęzyczności, Mozello jest idealnym rozwiązaniem dla lokalnych przedsiębiorstw, które chcą dotrzeć do szerszej grupy klientów.
 
@@ -118,7 +118,7 @@ Mozello to kreator, który pozwala na stworzenie darmowej strony oraz małego sk
 
 ### GetResponse – kreator stron zintegrowany z e-mail marketingiem
 
-![](/content/posts/img/darmowa-strona-getresponse.png)
+![Kreator stron internetowych - GetResponse](/content/posts/img/darmowa-strona-getresponse.png)
 
 GetResponse to platforma, która łączy możliwości tworzenia stron internetowych z funkcjami e-mail marketingu. Dzięki tej integracji możesz łatwo zbierać adresy e-mail, prowadzić kampanie i analizować wyniki.
 
