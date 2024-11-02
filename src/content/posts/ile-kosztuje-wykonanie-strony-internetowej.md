@@ -15,6 +15,8 @@ Tworzenie stron internetowych to proces wymagający nie tylko pracy i zaangażow
 
 Opiszę szczegółowo, ile kosztuje wykonanie strony internetowej oraz jakie są czynniki wpływające na cenę, w tym także strony internetowe dla firm. Jeśli interesuje Cię stworzenie strony www lub masz pytania, [skontaktuj się ze mną.](/kontakt/)
 
+{% lineStatic %}
+
 ## Typ strony internetowej
 
 Pierwszym czynnikiem wpływającym na koszt wykonania strony internetowej jest typ strony. Różne rodzaje stron mają różne wymagania i funkcjonalności, co wpływa na ostateczny koszt. Oto kilka typów stron internetowych i ich specyfika:
@@ -77,15 +79,15 @@ Koszt wykonania strony internetowej może również zależeć od hostingu i dome
 
 Najtańsza opcja, gdzie wiele stron internetowych dzieli zasoby jednego serwera. Jest odpowiedni dla małych stron internetowych, ale nie jest zalecany dla dużych serwisów z dużym ruchem.
 
-### Hosting VPS (Virtual Private Server) 
+### Hosting VPS (Virtual Private Server)
 
 Wirtualny serwer prywatny, który oferuje większą wydajność i elastyczność niż hosting współdzielony. Jest odpowiedni dla średnich i dużych stron internetowych, które wymagają więcej zasobów.
 
-### Hosting dedykowany 
+### Hosting dedykowany
 
 Najdroższa opcja, która zapewnia pełne zasoby fizycznego serwera tylko dla jednej strony internetowej. Jest idealny dla dużych serwisów internetowych z dużym ruchem i wymagających dużej wydajności.
 
-### Hosting w chmurze 
+### Hosting w chmurze
 
 Nowoczesne rozwiązanie, które pozwala na elastyczne skalowanie zasobów w zależności od potrzeb. Hosting w chmurze jest często wybierany przez duże serwisy internetowe i sklepy internetowe, które wymagają wysokiej dostępności i wydajności.
 
