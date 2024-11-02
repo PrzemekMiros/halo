@@ -50,6 +50,14 @@ module.exports = function(eleventyConfig) {
         // Date
         eleventyConfig.addFilter('dateDisplay', require('./src/filters/date-display.js'));
         eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+
+        
+        eleventyConfig.addShortcode("lineStatic", function() {
+          return `<div class="line-static"></div>`;
+        });
+
+
     
         eleventyConfig.addNunjucksAsyncShortcode('Image', async (src, alt) => {
           if (!alt) {

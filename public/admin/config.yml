@@ -29,6 +29,14 @@ collections:
       - {label: "Kategoria", name: "tags", widget: "list"}
       - {label: "Obrazek", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Shortcode"
+        name: "shortcode"
+        widget: "object"
+        fields:
+          - label: "Line Static"
+            name: "lineStatic"
+            widget: "markdown"
+            default: "{% lineStatic %}"  # Kod Nunjucks dla Eleventy
 
   - name: "works"
     label: "Realizacje"
@@ -70,3 +78,5 @@ collections:
     fields:
       - {label: "Pytanie", name: "title", widget: "string"}
       - {label: "Odpowiedź", name: "answer", widget: "markdown"}
+
+  
