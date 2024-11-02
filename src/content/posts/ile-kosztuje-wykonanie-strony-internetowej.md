@@ -35,6 +35,8 @@ Strona umożliwiająca sprzedaż produktów lub usług online. Sklepy internetow
 
 Strony internetowe, które oferują użytkownikom dostęp do dużej ilości treści, takich jak artykuły, wiadomości, multimedia i inne zasoby. Takie strony muszą być zaprojektowane z myślą o dużym ruchu użytkowników i często wymagają zaawansowanych rozwiązań technologicznych, co wpływa na ich koszt.
 
+{% lineStatic %}
+
 ## Projektowanie i programowanie
 
 Kolejnym kluczowym czynnikiem wpływającym na koszt wykonania strony internetowej jest projektowanie i programowanie. Proces ten obejmuje kilka etapów:
