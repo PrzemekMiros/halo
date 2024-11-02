@@ -31,11 +31,7 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-        hint: "Użyj `{% lineStatic %}` tam, gdzie chcesz wstawić linię."
-      - label: "Dodaj linię"
-        name: "lineStatic"
-        widget: "text"
-        default: "{% lineStatic %}"
+        editor_components: ["lineStatic"]
 
   - name: "works"
     label: "Realizacje"
