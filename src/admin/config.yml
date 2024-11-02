@@ -28,15 +28,11 @@ collections:
       - {label: "Data", name: "date", widget: "datetime"}
       - {label: "Kategoria", name: "tags", widget: "list"}
       - {label: "Obrazek", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Shortcode"
-        name: "shortcode"
-        widget: "object"
-        fields:
-          - label: "Line Static"
-            name: "lineStatic"
-            widget: "markdown"
-            default: "{% lineStatic %}"  # Kod Nunjucks dla Eleventy
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "link", "code", "image"]  # dodaj przyciski do Rich Text
+        hint: "Aby dodać linię, wstaw `{% lineStatic %}` w treści." 
 
   - name: "works"
     label: "Realizacje"
