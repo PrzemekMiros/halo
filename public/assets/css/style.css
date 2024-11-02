@@ -5387,7 +5387,7 @@ html.lenis, html.lenis body {
 
 .main-menu li a {
   position: relative;
-  font-size: 7vw;
+  font-size: 6.5vw;
   color: var(--color-heading);
   text-decoration: none;
   font-family: var(--font-primary);
@@ -6682,15 +6682,32 @@ button.swiper-pagination-bullet {
 .swiper-horizontal > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
   height: 4px;
-  left: 160px;
-  width: calc(100% - 160px);
+  left: 140px;
+  width: calc(100% - 140px);
   background: var(--color-light-1);
-  transform: translateY(-35px);
+  transform: translateY(-2em);
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 50px;
+  height: 50px;
 }
 
 @media (min-width: 767px) {
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 160px;
+    width: calc(100% - 160px);
+    transform: translateY(-2.2em);
+  }
   .swiper-works .swiper-slide {
     margin-bottom: 0;
+  }
+  .swiper-button-next svg,
+  .swiper-button-prev svg {
+    width: 60px;
+    height: 60px;
   }
 }
 @media (min-width: 1200px) {
