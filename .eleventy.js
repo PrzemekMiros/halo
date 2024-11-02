@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
 
         // Collections portfolio
         eleventyConfig.addCollection('works', (collection) => {
-          const works = collection.getFilteredByGlob('src/content/realizacje/**/*.md').reverse();
+          const works = collection.getFilteredByGlob('src/content/works/**/*.md').reverse();
             return works.sort((a, b) => {
               const orderA = a.data.order || 0; // Ustawiamy domyślną wartość na wypadek braku pola order
               const orderB = b.data.order || 0;
@@ -28,17 +28,17 @@ module.exports = function(eleventyConfig) {
 
         // Collection blog
         eleventyConfig.addCollection('posts', function(collectionApi) {
-          return collectionApi.getFilteredByGlob('src/content/blog/**/*.md').reverse();
+          return collectionApi.getFilteredByGlob('src/content/posts/**/*.md').reverse();
           });
 
         // Collection clients
         eleventyConfig.addCollection("clients", function(collectionApi) {
-          return collectionApi.getFilteredByGlob('src/content/klienci/**/*.md');
+          return collectionApi.getFilteredByGlob('src/content/clients/**/*.md');
           });
 
         // Collection towns
         eleventyConfig.addCollection("towns", function(collectionApi) {
-          return collectionApi.getFilteredByGlob('src/content/miasta/**/*.md');
+          return collectionApi.getFilteredByGlob('src/content/towns/**/*.md');
           });
 
         // Collection faq
