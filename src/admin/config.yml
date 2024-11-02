@@ -1,7 +1,6 @@
 
 backend:
   name: git-gateway
-  repo: PrzemekMiros/starter
   branch: main 
   base_url: '/'
   auth_endpoint: '/auth/'
@@ -16,9 +15,9 @@ publish_mode: editorial_workflow
 collections:
   - name: "posts"
     label: "Blog" 
-    folder: "src/content/blog"
+    folder: "src/content/posts"
     media_folder: "img/"
-    public_folder: "/content/blog/img/"
+    public_folder: "/content/posts/img/"
     create: true
     slug: "{{slug}}"
     fields:
@@ -33,9 +32,9 @@ collections:
 
   - name: "works"
     label: "Realizacje"
-    folder: "src/content/realizacje"
+    folder: "src/content/works"
     media_folder: "img/"
-    public_folder: "/content/realizacje/img/"
+    public_folder: "/content/works/img/"
     create: true
     slug: "{{slug}}"
     fields:
@@ -53,7 +52,7 @@ collections:
 
   - name: "towns"
     label: "Miasta"
-    folder: "src/content/miasta"
+    folder: "src/content/towns"
     create: true
     slug: "{{slug}}"
     fields:
@@ -64,8 +63,6 @@ collections:
       - {label: "Opis", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-
- # Faq
   - label: "FAQ"
     name: "faq"
     folder: "src/content/faq"
