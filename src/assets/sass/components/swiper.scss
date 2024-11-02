@@ -147,6 +147,7 @@
   .swiper-button-prev path  {
     transition: .3s ease-in-out;
   }
+@media(min-width:767px) {
   .swiper-button-next:hover::before,
   .swiper-button-prev:hover::before {
     transform: scale(1);
@@ -155,6 +156,7 @@
   .swiper-button-prev:hover path {
     stroke: var(--color-light-1);
   }
+}
   .swiper-button-next.swiper-button-disabled,
   .swiper-button-prev.swiper-button-disabled {
     cursor: auto;

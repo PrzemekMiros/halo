@@ -6147,16 +6147,16 @@ html.lenis, html.lenis body {
   transition: 0.3s ease-in-out;
 }
 
-.swiper-button-next:hover::before,
-.swiper-button-prev:hover::before {
-  transform: scale(1);
+@media (min-width: 767px) {
+  .swiper-button-next:hover::before,
+  .swiper-button-prev:hover::before {
+    transform: scale(1);
+  }
+  .swiper-button-next:hover path,
+  .swiper-button-prev:hover path {
+    stroke: var(--color-light-1);
+  }
 }
-
-.swiper-button-next:hover path,
-.swiper-button-prev:hover path {
-  stroke: var(--color-light-1);
-}
-
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   cursor: auto;
