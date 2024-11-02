@@ -11,7 +11,7 @@ CMS.registerEditorComponent({
       return `{% lineStatic %}`;
     },
     toPreview: function() {
-      return `<div class="line-x-static" style="height: 1px; background-color: #333;"></div>`;
+      return `<div class="line-x-static lx-op-2" style="height: 1px; background-color: #333;"></div>`;
     }
   });
   
