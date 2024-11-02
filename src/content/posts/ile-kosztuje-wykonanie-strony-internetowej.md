@@ -35,6 +35,8 @@ Strona umożliwiająca sprzedaż produktów lub usług online. Sklepy internetow
 
 Strony internetowe, które oferują użytkownikom dostęp do dużej ilości treści, takich jak artykuły, wiadomości, multimedia i inne zasoby. Takie strony muszą być zaprojektowane z myślą o dużym ruchu użytkowników i często wymagają zaawansowanych rozwiązań technologicznych, co wpływa na ich koszt.
 
+{% lineStatic %}
+
 ## Projektowanie i programowanie
 
 Kolejnym kluczowym czynnikiem wpływającym na koszt wykonania strony internetowej jest projektowanie i programowanie. Proces ten obejmuje kilka etapów:
@@ -77,15 +79,15 @@ Koszt wykonania strony internetowej może również zależeć od hostingu i dome
 
 Najtańsza opcja, gdzie wiele stron internetowych dzieli zasoby jednego serwera. Jest odpowiedni dla małych stron internetowych, ale nie jest zalecany dla dużych serwisów z dużym ruchem.
 
-### Hosting VPS (Virtual Private Server) 
+### Hosting VPS (Virtual Private Server)
 
 Wirtualny serwer prywatny, który oferuje większą wydajność i elastyczność niż hosting współdzielony. Jest odpowiedni dla średnich i dużych stron internetowych, które wymagają więcej zasobów.
 
-### Hosting dedykowany 
+### Hosting dedykowany
 
 Najdroższa opcja, która zapewnia pełne zasoby fizycznego serwera tylko dla jednej strony internetowej. Jest idealny dla dużych serwisów internetowych z dużym ruchem i wymagających dużej wydajności.
 
-### Hosting w chmurze 
+### Hosting w chmurze
 
 Nowoczesne rozwiązanie, które pozwala na elastyczne skalowanie zasobów w zależności od potrzeb. Hosting w chmurze jest często wybierany przez duże serwisy internetowe i sklepy internetowe, które wymagają wysokiej dostępności i wydajności.
 
