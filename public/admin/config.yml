@@ -31,8 +31,11 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-        buttons: ["bold", "italic", "link", "code", "image"]  # dodaj przyciski do Rich Text
-        hint: "Aby dodać linię, wstaw `{% lineStatic %}` w treści." 
+        hint: "Użyj `{% lineStatic %}` tam, gdzie chcesz wstawić linię."
+      - label: "Dodaj linię"
+        name: "lineStatic"
+        widget: "text"
+        default: "{% lineStatic %}"
 
   - name: "works"
     label: "Realizacje"
