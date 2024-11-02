@@ -1,5 +1,5 @@
 ---
-title: Zatrzymaj ludzi dłużej na stronie
+title: Zatrzymaj ludzi dłużej na stronie www
 description: Jeśli Twoja witryna nadal jest pełna animowanych obrazów,
   nadmiarowych funkcji projektowych i innych przestarzałych rozwiązań, czas na
   przeprojektowanie.
