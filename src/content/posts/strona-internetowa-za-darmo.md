@@ -86,6 +86,8 @@ WordPress to najpopularniejszy system zarządzania treścią (CMS) na świecie. 
 
 <https://pl.wordpress.org/>
 
+{% lineStatic %}
+
 ### Canva – darmowy kreator jednostronicowych stron
 
 ![](/content/posts/img/darmowa-strona-canva.png)
@@ -104,6 +106,8 @@ Webnode to łatwy w użyciu kreator, który pozwala na szybkie stworzenie strony
 
 [https://www.webnode.com/](https://www.webnode.com/pl/)
 
+{% lineStatic %}
+
 ### Mozello – darmowy kreator z opcją małego sklepu internetowego
 
 ![](/content/posts/img/darmowa-strona-mozello.png)
@@ -119,18 +123,6 @@ Mozello to kreator, który pozwala na stworzenie darmowej strony oraz małego sk
 GetResponse to platforma, która łączy możliwości tworzenia stron internetowych z funkcjami e-mail marketingu. Dzięki tej integracji możesz łatwo zbierać adresy e-mail, prowadzić kampanie i analizować wyniki.
 
 <https://www.getresponse.pl/>
-
-### Webador – szybkie tworzenie prostych stron
-
-Webador to kreator, który pozwala na szybkie i łatwe tworzenie prostych stron internetowych. Jest idealnym rozwiązaniem dla osób, które potrzebują strony wizytówki lub bloga bez zbędnych komplikacji.
-
-### SITE123 – kreator dla małych firm z darmowym planem
-
-SITE123 to kreator, który oferuje prosty proces tworzenia strony. Dzięki łatwemu w obsłudze interfejsowi, możesz szybko zbudować stronę internetową, co czyni go idealnym rozwiązaniem dla małych firm i freelancerów.
-
-### Jimdo – kreator z funkcjami SEO i marketingu
-
-Jimdo to platforma, która łączy prostotę użycia z zaawansowanymi funkcjami SEO, co sprawia, że jest doskonałym narzędziem dla osób, które chcą zwiększyć widoczność swojej strony w wyszukiwarkach. Jimdo oferuje również integracje z mediami społecznościowymi, co ułatwia promocję Twojej witryny.
 
 {% lineStatic %}
 
