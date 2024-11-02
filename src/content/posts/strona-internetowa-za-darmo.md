@@ -76,11 +76,19 @@ WebWave to świetne rozwiązanie dla polskich użytkowników. Oferuje darmowy ho
 
 <https://webwavecms.com/>
 
+{% lineStatic %}
+
 ### WordPress – darmowy CMS z wtyczkami i szablonami
+
+![](/content/posts/img/darmowa-strona-wordpress.png)
 
 WordPress to najpopularniejszy system zarządzania treścią (CMS) na świecie. Oferuje wiele darmowych szablonów oraz wtyczek, co umożliwia stworzenie różnorodnych stron internetowych, od blogów po rozbudowane witryny e-commerce. WordPress daje dużą swobodę i elastyczność, ale może wymagać pewnej wiedzy technicznej, aby w pełni wykorzystać jego możliwości.
 
+<https://pl.wordpress.org/>
+
 ### Canva – darmowy kreator jednostronicowych stron
+
+![](/content/posts/img/darmowa-strona-canva.png)
 
 Canva jest znana przede wszystkim jako narzędzie do projektowania graficznego, ale oferuje również funkcje umożliwiające tworzenie prostych stron internetowych. To idealne rozwiązanie dla osób, które potrzebują atrakcyjnej, jednostronicowej witryny, na przykład dla wydarzenia lub kampanii.
 
