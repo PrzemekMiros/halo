@@ -43,31 +43,31 @@ Strony internetowe, które oferują użytkownikom dostęp do dużej ilości tre�
 
 Kolejnym kluczowym czynnikiem wpływającym na koszt wykonania strony internetowej jest projektowanie i programowanie. Proces ten obejmuje kilka etapów:
 
-![](/content/posts/img/planowanie-strony-www.jpg)
+![Analiza i planowanie strony www](/content/posts/img/planowanie-strony-www.jpg)
 
 ### Analiza i planowanie
 
 Na tym etapie określa się cele strony internetowej, grupy docelowe, funkcje i wymagania techniczne. Ważne jest, aby dokładnie przeanalizować potrzeby i cele, które chcemy osiągnąć za pomocą strony internetowej, aby wybrać najlepsze rozwiązanie.
 
-![](/content/posts/img/projekt-graficzny-strony.jpg)
+![Projekt graficzny strony internetowej](/content/posts/img/projekt-graficzny-strony.jpg)
 
 ### Projekt graficzny
 
 Projektowanie stron www obejmuje tworzenie wizualnego wyglądu strony, który jest estetyczny, funkcjonalny i zgodny z wizerunkiem firmy. Projekt graficzny musi być responsywny, czyli dostosowany do wyświetlania na urządzeniach mobilnych, takich jak smartfony i tablety.
 
-![](/content/posts/img/programowanie-frontend-strony.jpg)
+![Programowanie front-end strony internetowej](/content/posts/img/programowanie-frontend-strony.jpg)
 
 ### Programowanie front-end
 
 Etap, na którym projekt graficzny przekształcany jest w działającą stronę internetową za pomocą technologii takich jak HTML, CSS i JavaScript. Programowanie front-end zapewnia interaktywność i atrakcyjność wizualną strony.
 
-![](/content/posts/img/backend-strony-www.jpg)
+![Programowanie back-end strony www](/content/posts/img/backend-strony-www.jpg)
 
 ### Programowanie back-end
 
 Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony internetowej, takie jak zarządzanie użytkownikami, przetwarzanie zamówień, integracja z systemami zewnętrznymi itp. Programowanie back-end jest kluczowe dla funkcjonalności i bezpieczeństwa strony internetowej.
 
-![](/content/posts/img/testowanie-strony-www.jpg)
+![Testowanie i optymalizacja strony internetowej](/content/posts/img/testowanie-strony-www.jpg)
 
 ### Testowanie i optymalizacja
 
@@ -121,19 +121,19 @@ Strategia marketingowa polegająca na tworzeniu i dystrybucji wartościowych tre
 
 Ostatnim czynnikiem wpływającym na koszt wykonania strony internetowej jest konserwacja i aktualizacje. Regularne aktualizacje są niezbędne, aby strona internetowa była bezpieczna, funkcjonalna i zgodna z najnowszymi standardami. Koszt aktualizacji i konserwacji może obejmować:
 
-### Aktualizacje systemu i oprogramowania 
+### Aktualizacje systemu i oprogramowania
 
 Regularne aktualizacje systemu CMS (Content Management System), wtyczek i innych narzędzi używanych na stronie internetowej.
 
-### Zarządzanie bezpieczeństwem 
+### Zarządzanie bezpieczeństwem
 
 Monitorowanie strony internetowej pod kątem zagrożeń, instalacja zabezpieczeń, regularne kopie zapasowe oraz naprawa luk w zabezpieczeniach.
 
-### Wsparcie techniczne 
+### Wsparcie techniczne
 
 Usługi wsparcia technicznego, które pomagają w rozwiązywaniu problemów technicznych, aktualizacji treści, dodawaniu nowych funkcji oraz poprawie wydajności strony.
 
-### Optymalizacja i rozwój 
+### Optymalizacja i rozwój
 
 Ciągłe doskonalenie strony internetowej poprzez optymalizację wydajności, poprawę UX (User Experience), wprowadzanie nowych funkcji i integracji z innymi systemami.
 
