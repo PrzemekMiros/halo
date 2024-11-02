@@ -24,7 +24,7 @@ W tym artykule dowiesz się, czym jest darmowa strona internetowa, jakie są dos
 
 Darmowa strona internetowa to platforma, która pozwala na stworzenie i hostowanie strony bez konieczności płacenia za usługi. Takie rozwiązania często oferują różnorodne szablony, łatwe w użyciu edytory oraz wbudowane narzędzia, które umożliwiają dostosowanie wyglądu i funkcji strony. 
 
-Zazwyczaj darmowe strony są dostępne pod subdomenami, co oznacza, że adres URL nie zawiera własnej domeny (np. twojanazwa.wixsite.com).
+**Zazwyczaj darmowe strony są dostępne pod subdomenami, co oznacza, że adres URL nie zawiera własnej domeny (np. twojanazwa.wixsite.com).**
 
 {% lineStatic %}
 
@@ -106,11 +106,19 @@ Webnode to łatwy w użyciu kreator, który pozwala na szybkie stworzenie strony
 
 ### Mozello – darmowy kreator z opcją małego sklepu internetowego
 
+![](/content/posts/img/darmowa-strona-mozello.png)
+
 Mozello to kreator, który pozwala na stworzenie darmowej strony oraz małego sklepu internetowego. Dzięki prostemu interfejsowi oraz opcji wielojęzyczności, Mozello jest idealnym rozwiązaniem dla lokalnych przedsiębiorstw, które chcą dotrzeć do szerszej grupy klientów.
+
+<https://www.mozello.pl/>
 
 ### GetResponse – kreator stron zintegrowany z e-mail marketingiem
 
+![](/content/posts/img/darmowa-strona-getresponse.png)
+
 GetResponse to platforma, która łączy możliwości tworzenia stron internetowych z funkcjami e-mail marketingu. Dzięki tej integracji możesz łatwo zbierać adresy e-mail, prowadzić kampanie i analizować wyniki.
+
+<https://www.getresponse.pl/>
 
 ### Webador – szybkie tworzenie prostych stron
 
