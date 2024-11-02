@@ -15,8 +15,6 @@ Tworzenie stron internetowych to proces wymagający nie tylko pracy i zaangażow
 
 Opiszę szczegółowo, ile kosztuje wykonanie strony internetowej oraz jakie są czynniki wpływające na cenę, w tym także strony internetowe dla firm. Jeśli interesuje Cię stworzenie strony www lub masz pytania, [skontaktuj się ze mną.](/kontakt/)
 
-{% lineStatic %}
-
 ## Typ strony internetowej
 
 Pierwszym czynnikiem wpływającym na koszt wykonania strony internetowej jest typ strony. Różne rodzaje stron mają różne wymagania i funkcjonalności, co wpływa na ostateczny koszt. Oto kilka typów stron internetowych i ich specyfika:
