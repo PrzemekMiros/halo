@@ -29,7 +29,8 @@ video {
 }
 
 p img {
-  border-radius: var(--radius-2)
+  border: 1px solid #9995;
+  border-radius: var(--radius-2);
 }
 
 .blur-load {
