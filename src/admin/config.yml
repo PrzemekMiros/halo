@@ -10,14 +10,12 @@ local_backend: true
 media_folder: "src/assets/img/"
 public_folder: "/assets/img/"
 
-publish_mode: editorial_workflow
-
 collections:
   - name: "posts"
     label: "Blog" 
-    folder: "src/content/posts"
+    folder: "src/content/blog"
     media_folder: "img/"
-    public_folder: "/content/posts/img/"
+    public_folder: "/content/blog/img/"
     create: true
     slug: "{{slug}}"
     fields:
@@ -28,16 +26,13 @@ collections:
       - {label: "Data", name: "date", widget: "datetime"}
       - {label: "Kategoria", name: "tags", widget: "list"}
       - {label: "Obrazek", name: "thumbnail", widget: "image"}
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        editor_components: ["lineStatic"]
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "works"
     label: "Realizacje"
-    folder: "src/content/works"
+    folder: "src/content/realizacje"
     media_folder: "img/"
-    public_folder: "/content/works/img/"
+    public_folder: "/content/realizacje/img/"
     create: true
     slug: "{{slug}}"
     fields:
@@ -55,7 +50,7 @@ collections:
 
   - name: "towns"
     label: "Miasta"
-    folder: "src/content/towns"
+    folder: "src/content/miasta"
     create: true
     slug: "{{slug}}"
     fields:
@@ -66,6 +61,8 @@ collections:
       - {label: "Opis", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+
+ # Faq
   - label: "FAQ"
     name: "faq"
     folder: "src/content/faq"
@@ -73,5 +70,3 @@ collections:
     fields:
       - {label: "Pytanie", name: "title", widget: "string"}
       - {label: "Odpowiedź", name: "answer", widget: "markdown"}
-
-  

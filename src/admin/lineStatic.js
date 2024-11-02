@@ -4,7 +4,7 @@ CMS.registerEditorComponent({
     label: "Static Line",
     fields: [],
     pattern: /^{% lineStatic %}$/,
-    fromBlock: function(match) {
+    fromBlock: function() {
       return {};
     },
     toBlock: function() {
