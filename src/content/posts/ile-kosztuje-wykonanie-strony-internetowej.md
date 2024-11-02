@@ -28,11 +28,18 @@ Pierwszym czynnikiem wpływającym na koszt wykonania strony internetowej jest t
 
 Kolejnym kluczowym czynnikiem wpływającym na koszt wykonania strony internetowej jest projektowanie i programowanie. Proces ten obejmuje kilka etapów:
 
-1. **Analiza i planowanie** – Na tym etapie określa się cele strony internetowej, grupy docelowe, funkcje i wymagania techniczne. Ważne jest, aby dokładnie przeanalizować potrzeby i cele, które chcemy osiągnąć za pomocą strony internetowej, aby wybrać najlepsze rozwiązanie.
-2. **Projekt graficzny** – Projektowanie stron www obejmuje tworzenie wizualnego wyglądu strony, który jest estetyczny, funkcjonalny i zgodny z wizerunkiem firmy. Projekt graficzny musi być responsywny, czyli dostosowany do wyświetlania na urządzeniach mobilnych, takich jak smartfony i tablety.
-3. **Programowanie front-end** – Etap, na którym projekt graficzny przekształcany jest w działającą stronę internetową za pomocą technologii takich jak HTML, CSS i JavaScript. Programowanie front-end zapewnia interaktywność i atrakcyjność wizualną strony.
-4. **Programowanie back-end** – Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony internetowej, takie jak zarządzanie użytkownikami, przetwarzanie zamówień, integracja z systemami zewnętrznymi itp. Programowanie back-end jest kluczowe dla funkcjonalności i bezpieczeństwa strony internetowej.
-5. **Testowanie i optymalizacja** – Przed uruchomieniem strony internetowej przeprowadza się testy w celu wykrycia i naprawienia błędów, optymalizacji wydajności i zapewnienia zgodności z różnymi przeglądarkami i urządzeniami.
+![](/content/posts/img/planowanie-strony-www.jpg)
+
+### Analiza i planowanie
+
+Na tym etapie określa się cele strony internetowej, grupy docelowe, funkcje i wymagania techniczne. Ważne jest, aby dokładnie przeanalizować potrzeby i cele, które chcemy osiągnąć za pomocą strony internetowej, aby wybrać najlepsze rozwiązanie.
+
+![](/content/posts/img/projekt-graficzny-strony.jpg)
+
+1. **Projekt graficzny** – Projektowanie stron www obejmuje tworzenie wizualnego wyglądu strony, który jest estetyczny, funkcjonalny i zgodny z wizerunkiem firmy. Projekt graficzny musi być responsywny, czyli dostosowany do wyświetlania na urządzeniach mobilnych, takich jak smartfony i tablety.
+2. **Programowanie front-end** – Etap, na którym projekt graficzny przekształcany jest w działającą stronę internetową za pomocą technologii takich jak HTML, CSS i JavaScript. Programowanie front-end zapewnia interaktywność i atrakcyjność wizualną strony.
+3. **Programowanie back-end** – Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony internetowej, takie jak zarządzanie użytkownikami, przetwarzanie zamówień, integracja z systemami zewnętrznymi itp. Programowanie back-end jest kluczowe dla funkcjonalności i bezpieczeństwa strony internetowej.
+4. **Testowanie i optymalizacja** – Przed uruchomieniem strony internetowej przeprowadza się testy w celu wykrycia i naprawienia błędów, optymalizacji wydajności i zapewnienia zgodności z różnymi przeglądarkami i urządzeniami.
 
 ## Hosting i domena
 
