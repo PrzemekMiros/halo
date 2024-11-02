@@ -1,6 +1,8 @@
 ---
 title: Dlaczego użytkownicy opuszczają Twoja stronę?
-description: Design ma znaczenie. Jeśli więc Twoja witryna nadal wygląda na pochodzącą z ery lat 90-tych, to zdecydowanie jest to idealny moment na ulepszenie wyglądu witryn
+description: Design ma znaczenie. Jeśli więc Twoja witryna nadal wygląda na
+  pochodzącą z ery lat 90-tych, to zdecydowanie jest to idealny moment na
+  ulepszenie wyglądu witryn
 author: Przemek
 date: 2022-02-09
 tags:
@@ -13,9 +15,13 @@ To niefortunna prawda, ale wszyscy oceniamy książki po okładkach. W badaniu p
 
 Design ma znaczenie. Jeśli więc Twoja witryna nadal wygląda na pochodzącą z ery lat 90-tych, to zdecydowanie jest to moment na ulepszenie wyglądu strony.
 
+{% lineStatic %}
+
 ## Twoja strona nie ma osobowości
 
 Osobowość marki ma znaczenie w Twojej witrynie i kampaniach marketingowych. Agencja Millward Brown odkryła, że ​​„istnieje związek między sposobem wyrażania się marek w różnych krajach a siłą relacji konsumenckich, które generują”.
+
+{% lineStatic %}
 
 ## Twoja witryna wolno się ładuje
 
@@ -25,7 +31,11 @@ Badania z raportów KISSmetrics, które pokazują, że czas ładowania strony ma
 
 ## Twoja strona nie jest responsywna
 
-Jeśli Twoja witryna nie dopasowuje się do urządzeń mobilnych, prawdopodobnie znacznie stracisz w rankingach naturalnych wyników wyszukiwania. Ale to nie wszystko: według badań zebranych przez Mobify „30% kupujących na urządzeniach mobilnych rezygnuje z transakcji, jezeli strona nie jest zoptymalizowana pod kątem urządzeń mobilnych”. Przejście na responsywny projekt może być uciążliwe, ale czy naprawdę możesz sobie pozwolić na przegapienie całego ruchu i sprzedaży?
+Jeśli Twoja witryna nie dopasowuje się do urządzeń mobilnych, prawdopodobnie znacznie stracisz w rankingach naturalnych wyników wyszukiwania. Ale to nie wszystko: według badań zebranych przez Mobify „30% kupujących na urządzeniach mobilnych rezygnuje z transakcji, jezeli strona nie jest zoptymalizowana pod kątem urządzeń mobilnych”. 
+
+**Przejście na responsywny projekt może być uciążliwe, ale czy naprawdę możesz sobie pozwolić na przegapienie całego ruchu i sprzedaży?**
+
+{% lineStatic %}
 
 ## Twoje treści są trudne do odczytania
 
