@@ -71,6 +71,8 @@ Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony int
 
 Przed uruchomieniem strony internetowej przeprowadza się testy w celu wykrycia i naprawienia błędów, optymalizacji wydajności i zapewnienia zgodności z różnymi przeglądarkami i urządzeniami.
 
+{% lineStatic %}
+
 ## Hosting i domena
 
 Koszt wykonania strony internetowej może również zależeć od hostingu i domeny. Hosting to usługa, która pozwala na przechowywanie strony internetowej na serwerze, a domena to adres, pod którym można znaleźć stronę. Istnieje wiele rodzajów hostingu, w tym:
@@ -93,6 +95,8 @@ Nowoczesne rozwiązanie, które pozwala na elastyczne skalowanie zasobów w zale
 
 Domena to adres internetowy, pod którym znajduje się strona. Wybór odpowiedniej domeny jest kluczowy dla rozpoznawalności i marketingu strony. Koszt domeny zależy od jej popularności i rozszerzenia (np. .com, .pl, .net).
 
+{% lineStatic %}
+
 ## Treść i SEO
 
 Kolejnym czynnikiem wpływającym na koszt wykonania strony internetowej jest treść i SEO (Optymalizacja strony pod kątem silników wyszukiwarek). Tworzenie wartościowej treści i optymalizacja strony internetowej pod kątem wyszukiwarek są niezbędne, aby twoja strona internetowa była widoczna w Google. Oto kilka elementów, które wpływają na koszt związany z treścią i SEO:
@@ -108,6 +112,8 @@ Proces optymalizacji strony internetowej pod kątem wyszukiwarek obejmuje wybór
 **Content marketing** 
 
 Strategia marketingowa polegająca na tworzeniu i dystrybucji wartościowych treści, które przyciągną i zaangażują grupę docelową. Content marketing wspiera SEO i buduje autorytet marki w internecie.
+
+{% lineStatic %}
 
 ## Aktualizacje i konserwacja
 
@@ -129,11 +135,11 @@ Usługi wsparcia technicznego, które pomagają w rozwiązywaniu problemów tech
 
 Ciągłe doskonalenie strony internetowej poprzez optymalizację wydajności, poprawę UX (User Experience), wprowadzanie nowych funkcji i integracji z innymi systemami.
 
-## Podsumowanie
+{% lineStatic %}
 
 Koszt wykonania strony internetowej zależy od wielu czynników, takich jak typ strony, projektowanie i programowanie, hosting i domena, treść i SEO oraz aktualizacje i konserwacja. Ważne jest, aby przed podjęciem decyzji dokładnie przeanalizować potrzeby i cele, które chcemy osiągnąć za pomocą strony internetowej. Inwestycja w dobrze wykonaną stronę internetową może przynieść znaczące korzyści, w tym zwiększenie widoczności firmy w sieci, pozyskanie nowych klientów oraz zwiększenie sprzedaży produktów lub usług.
 
-Przekonaj się, jak ważne jest inwestowanie w stronę internetową, która nie tylko spełnia oczekiwania, ale także przynosi realne korzyści finansowe.
+> Przekonaj się, jak ważne jest inwestowanie w stronę internetową, która nie tylko spełnia oczekiwania, ale także przynosi realne korzyści finansowe.
 
 Zawsze warto porównać oferty różnych firm zajmujących się tworzeniem stron internetowych oraz przedyskutować szczegóły projektu, takie jak złożoność i ilość elementów graficznych, potrzeby w zakresie treści i optymalizacji pod kątem wyszukiwarek, hosting i konserwacja, aby wybrać najlepszą ofertę. Ostatecznie, koszt wykonania strony internetowej może wynosić od kilku tysięcy złotych do kilkunastu lub nawet kilkudziesięciu tysięcy złotych, w zależności od wymagań i potrzeb.
 
