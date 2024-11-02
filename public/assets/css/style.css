@@ -4243,6 +4243,9 @@ video {
   height: auto;
   background-size: cover;
   background-position: center;
+}
+
+p img {
   border-radius: var(--radius-2);
 }
 
