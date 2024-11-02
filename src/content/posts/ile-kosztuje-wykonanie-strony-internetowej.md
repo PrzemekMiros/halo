@@ -40,9 +40,15 @@ Na tym etapie określa się cele strony internetowej, grupy docelowe, funkcje i 
 
 ![](/content/posts/img/programowanie-frontend-strony.jpg)
 
-1. **Programowanie front-end** – Etap, na którym projekt graficzny przekształcany jest w działającą stronę internetową za pomocą technologii takich jak HTML, CSS i JavaScript. Programowanie front-end zapewnia interaktywność i atrakcyjność wizualną strony.
-2. **Programowanie back-end** – Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony internetowej, takie jak zarządzanie użytkownikami, przetwarzanie zamówień, integracja z systemami zewnętrznymi itp. Programowanie back-end jest kluczowe dla funkcjonalności i bezpieczeństwa strony internetowej.
-3. **Testowanie i optymalizacja** – Przed uruchomieniem strony internetowej przeprowadza się testy w celu wykrycia i naprawienia błędów, optymalizacji wydajności i zapewnienia zgodności z różnymi przeglądarkami i urządzeniami.
+**Programowanie front-end** – Etap, na którym projekt graficzny przekształcany jest w działającą stronę internetową za pomocą technologii takich jak HTML, CSS i JavaScript. Programowanie front-end zapewnia interaktywność i atrakcyjność wizualną strony.
+
+![](/content/posts/img/backend-strony-www.jpg)
+
+**Programowanie back-end** – Obejmuje tworzenie systemów i baz danych, które obsługują funkcje strony internetowej, takie jak zarządzanie użytkownikami, przetwarzanie zamówień, integracja z systemami zewnętrznymi itp. Programowanie back-end jest kluczowe dla funkcjonalności i bezpieczeństwa strony internetowej.
+
+![](/content/posts/img/testowanie-strony-www.jpg)
+
+**Testowanie i optymalizacja** – Przed uruchomieniem strony internetowej przeprowadza się testy w celu wykrycia i naprawienia błędów, optymalizacji wydajności i zapewnienia zgodności z różnymi przeglądarkami i urządzeniami.
 
 ## Hosting i domena
 
