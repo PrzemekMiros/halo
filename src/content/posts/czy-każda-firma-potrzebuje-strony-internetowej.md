@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Czy każda firma potrzebuje strony www?
 description: W dzisiejszym świecie, gdzie wszystko jest coraz bardziej
   zdigitalizowane, strona internetowa jest jednym z najważniejszych elementów

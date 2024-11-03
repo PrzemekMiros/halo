@@ -14,7 +14,29 @@ function animationMain() {
   infinite: false,
   autoResize: true
   });
-  
+  function scrollToSection(targetPosition) {
+        lenis.scrollTo(targetPosition);
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY; // Oblicz pozycję elementu
+            const currentScroll = window.scrollY; 
+            let offsetPosition;
+
+            if (elementPosition > currentScroll) {
+                offsetPosition = elementPosition - 35; 
+            } else {
+                offsetPosition = elementPosition - 115; 
+            }
+            scrollToSection(offsetPosition); 
+        }
+    });
+});
 
   lenis.on('scroll', ScrollTrigger.update)
   
@@ -22,7 +44,6 @@ function animationMain() {
     lenis.raf(time * 1000)
   });
   
-
   if (window.matchMedia("(min-width: 767px)").matches) {
 
   // Paragraph --------------------------------------------------------------

@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Senuto - Kompleksowe narzędzie do skutecznego pozycjonowania stron
 description: To narzędzie, które umożliwia szeroką analizę widoczności w
   wyszukiwarce Google, optymalizację treści oraz śledzenie wyników działań SEO.

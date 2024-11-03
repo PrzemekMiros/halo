@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Strona internetowa za darmo - Jakie masz opcje?
 description: W dzisiejszym cyfrowym świecie posiadanie własnej strony
   internetowej to niemal konieczność. Niezależnie od tego, czy chcesz założyć

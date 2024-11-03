@@ -152,7 +152,7 @@
       }
     </style>
   </head>
-  <body class="page-{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %}">
+<body class="{% if 'blog' in page.url %}blog{% else %}page{% endif %}">
     <div class="h-100h">
       <div class="preloader">
         <div class="preloader_inner">
@@ -207,7 +207,7 @@
                   </li>
                   <li>
                     <span>Przeczytaj</span>
-                    <a href="/blog/" class="link-hover" title="Porady">
+                    <a href="/porady/" class="link-hover" title="Porady">
                       Porady 
                     </a>
                   </li>
@@ -276,7 +276,7 @@
                     </li>
                     <div class="line-xh lx-op"></div>
                     <li>
-                      <a href="/blog/" title="Porady">Porady</a>
+                      <a href="/porady/" title="Porady">Porady</a>
                     </li>
                     <div class="line-xh lx-op"></div>
                     <li>

@@ -1,6 +1,10 @@
 const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 const Image = require('@11ty/eleventy-img');
 const codeStyleHooks = require("eleventy-plugin-code-style-hooks");
+const { parse } = require('node-html-parser');
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+const slugify = require("slugify"); 
 
 module.exports = function(eleventyConfig) {
 
@@ -16,6 +20,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget("src/assets/sass");
 
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
+    
+    eleventyConfig.addFilter("extractHeaders", function(content) {
+      const root = parse(content);
+      const headers = root.querySelectorAll('h2');
+      return headers.map(header => header.innerText);
+    });
 
         // Collections portfolio
         eleventyConfig.addCollection('works', (collection) => {
@@ -193,6 +203,24 @@ module.exports = function(eleventyConfig) {
           }
         }, 
       });
+
+
+      let md = markdownIt({
+        html: true,
+        breaks: true,
+        linkify: true
+    }).use(markdownItAnchor, {
+        level: 2, // Umożliwia dodawanie anchorów tylko do nagłówków h2
+        slugify: function(str) {
+            return slugify(str, {
+                lower: true, // Zamienia na małe litery
+                strict: true // Usuwa znaki spoza zakresu
+            });
+        }
+    });
+
+    eleventyConfig.setLibrary("md", md);
+    
 
     // Return your Object options:
     return {

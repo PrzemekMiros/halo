@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Page Speed Insight - szybkość ładowania strony
 description: Czy wiesz, że szybkość ładowania strony jest jednym z kluczowych
   czynników wpływających na pozycjonowanie w Google? Im szybciej strona się

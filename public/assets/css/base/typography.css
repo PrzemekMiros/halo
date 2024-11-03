@@ -138,11 +138,9 @@ small,
 }
 
 .subheading {
-  margin-bottom: 1em;
   font-size: 16px;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  line-height: 1.45;
 }
 
 @media (min-width: 459px) {
@@ -184,10 +182,13 @@ small,
   }
   small,
   .small {
-    font-size: clamp(10px, 0.9vw, 12px);
+    font-size: clamp(10px, 0.8vw, 12px);
   }
   .large {
     font-size: clamp(18px, 1.4vw, 21px);
+  }
+  .subheading {
+    font-size: clamp(12px, 0.9vw, 15px);
   }
 }
 blockquote p {

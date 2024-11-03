@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Pozycjonowanie strony - wyszukiwanie słów kluczowych
 description: Ważne jest, aby Twoja strona internetowa była widoczna na
   pierwszych pozycjach w wynikach wyszukiwania. Aby to osiągnąć, musisz

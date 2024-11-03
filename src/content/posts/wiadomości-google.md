@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Wiadomości Google - Jak skonfigurować
 description: Najlepszym miejscem do śledzenia najnowszych wiadomości krajowych i
   międzynarodowych jest obecnie wyszukiwarka Google. Dzięki Wiadomościom Google
@@ -15,7 +14,7 @@ Najlepszym miejscem do śledzenia najnowszych wiadomości krajowych i międzynar
 
 Google, dostępne o każdej porze, umożliwia łatwy dostęp do bieżących wydarzeń. Możemy zobaczyć, co dzieje się zarówno w kraju, jak i na świecie, dzięki czemu mamy pełen przegląd informacji z różnych dziedzin, takich jak sport, gospodarka czy polityka.
 
-### Jak dodać stronę do Wiadomości Google?
+## Jak dodać stronę do Wiadomości Google?
 
 Aby dodać serwis internetowy do Wiadomości Google, warto postępować według poniższych kroków:
 
@@ -27,11 +26,11 @@ Aby dodać serwis internetowy do Wiadomości Google, warto postępować według 
 
 Gdy serwis zostanie zaakceptowany, Google będzie automatycznie indeksować jego nowe artykuły w Wiadomościach Google. Kluczowe jest regularne publikowanie aktualnych materiałów, aby utrzymać widoczność w serwisie.
 
-### Popularność wiadomości Google
+## Popularność wiadomości Google
 
 Wielu użytkowników wybiera Google News, ponieważ wiadomości tam prezentowane są zawsze aktualne. Umożliwia to dostęp do najnowszych informacji, nie tylko z kraju, ale i z całego świata, bez ograniczeń tematycznych, co jest szczególnie istotne, gdy chcemy dowiedzieć się czegoś o wybranej dziedzinie. Wiadomości Google dostarczają przekaz z różnych źródeł, co pozwala na czytanie wiadomości z rozmaitych perspektyw.
 
-### Korzystanie z wiadomości Google na telefonie
+## Korzystanie z wiadomości Google na telefonie
 
 Aby korzystać z Wiadomości Google na urządzeniu mobilnym, należy:
 
@@ -43,7 +42,7 @@ Aby korzystać z Wiadomości Google na urządzeniu mobilnym, należy:
 
 Po skonfigurowaniu aplikacji użytkownik ma natychmiastowy dostęp do najnowszych wiadomości, które można przeglądać w dowolnym miejscu i czasie.
 
-### Dlaczego wiadomości Google nie wyświetlają się?
+## Dlaczego wiadomości Google nie wyświetlają się?
 
 Czasami Google może nie pokazywać wiadomości z konkretnej strony. Powody mogą być różne:
 

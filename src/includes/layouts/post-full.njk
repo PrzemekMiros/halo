@@ -2,109 +2,158 @@
 
 <section class="pb-small" data-scroll-section>
 
+    <div class="hero-post pt-xlarge pt-md-xxlarge pb-medium pb-md-large">
 
-        <div class="hero-post">
+        <div class="hero-post-image-wrap">
 
-            <div class="hero-post-image-wrap aspect_16-9 fade-in">
-                {% blogImage "src/" + thumbnail, title, "hero-post-image img-fluid" %}
-            </div>
-            <div class="container">
-                 <div class="p-relative offset-md-3 col-md-6">
-                 <div class="single-post-title-wrap pt-xlarge pb-medium">
-                    <div class="breadcrumbs small mt-3 fade-in">
-                        <a href="/" title="Strona główna">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="p-relative col-md-6">
+                    <div class="single-post-title-wrap">
+                        <div class="breadcrumbs small fade-in">
+                            <a href="/" title="strona główna">
                             Główna
                         </a>
-                        <span>
+                            <span>
                             |
                         </span>
-                        <a href="/blog" title="Blog">
+                            <a href="/blog" title="blog">
                             Blog
                         </a>
-                        <span>
+                            <span>
                             |
                         </span>
-                        <span>
+                            <span>
+                                {{ title }}
+                            </span>
+                        </div>
+                        <h1 class="single-post-title color-light split-lines my-3">
                             {{ title }}
-                        </span>
-                    </div>
-                    <h1 class="single-post-title split-lines my-3">
-                        {{ title }}
-                    </h1>
-                    <div class="breadcrumbs small fade-in">
-                        <span>
+                        </h1>
+                        <div class="breadcrumbs small fade-in">
+                            <span>
                             Kategoria:
                         </span>
-                        <span>
-                             {{ tags }}
-                        </span>
-                        <span>
+                            <span>
+                                {{ tags }}
+                            </span>
+                            <span>
                               |
                         </span>
-                        <span> 
+                            <span> 
                             Opublikowano: 
                         </span>
-                        <span>
-                             {{ date | dateDisplay }}
-                        </span>
+                            <span>
+                                {{ date | dateDisplay }}
+                            </span>
+                        </div>
                     </div>
                 </div>
-                 </div>
             </div>
         </div>
+    </div>
 
-    <div class="pt-medium">
-    <div class="container">
-        <div class="content row fade-in" id="pinShare">
-            <div class="offset-md-2 offset-xl-3 col-md-8 col-xl-6">
-                {{ content | safe}}
-            </div>
-        </div>
-
-        <div class="pt-small pt-md-medium fade-in">
-            <div class="line-x lx-op"></div>
-        </div>
-
-        <div class="row g-0">
-            <div class="col-md-12">
-                <div class="post-navigation pt-xsmall">
-                    {%- if collections.blog %}
-                    {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
-                    {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-                    {%- if nextPost or previousPost %}
-                    <ul class="d-flex flex-wrap fade-in">
-                        {%- if previousPost %}
-                        <li class="col-md-6 prev d-none d-md-block">
-                            <p class="mb-4">
-                                <small class="color-accent-1 bold">
-                                    Poprzedni:
-                                </small>
-                            </p>
-                            <a href="{{ previousPost.url | url }}" title="{{ previousPost.data.client }}"
-                                class="h3">{{ previousPost.data.title }}
-                            </a>
-                        </li>
-                        {% endif %}
-                        {%- if nextPost %}
-                        <li class="col-md-6 next">
-                            <p class="mb-4">
-                                <small class="color-accent-1 bold">
-                                    Kolejny:
-                                </small>
-                            </p>
-                            <a href="{{ nextPost.url | url }}" title="{{ nextPost.data.client }}"
-                                class="h3">{{ nextPost.data.title }}
-                            </a>
-                        </li>
-                        {% endif %}
-                    </ul>
-                    {%- endif %}
-                    {%- endif %}
+    <div class="pt-xsmall pt-md-medium">
+        <div class="container">
+            <div class="content row g-5 fade-in" id="pinshare">
+                <div class="col-md-3">
+                    <div class="post-sidebar sticky mb-md-5">
+                        <div class="post-list-items p-4 mb-4 border">
+                            <h3 class="mt-3 mb-4">Spis treści</h3>
+                            <div class="line-x lx-1"></div>
+                            <ul class="without-dot mt-4">
+                                {% set headers = content | extractHeaders %}
+                                {% for header in headers %}
+                                    {% set anchor = header | slugify %}
+                                    <li class="mb-4">
+                                        <a href="#{{ anchor }}" class="subheading line-clamp-2">{{ header }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="post-author-wrap mt-4">
+                            <img src="/assets/img/hero/avatar.png" width="60" height="60" alt="">
+                            <div>
+                                <span class="post-author-title">Przemek Miros</span><br/>
+                                <span class="post-author-role lx-op-2">Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                <div class="fade-in mt-4 mb-4 border overflow-hidden p-relative">
+                    <svg viewBox="0 0 197 27" xmlns="http://www.w3.org/2000/svg" fill="none" class="works-grid-svg"><path d="M0 0V25.9811C0 25.9811 1.7066 17.82 14.6419 17.82C27.5772 17.82 132.578 17.82 152.113 17.82C171.648 17.82 175.703 0 175.703 0H0Z" fill="var(--color-light-1)"></path><path d="M196.849 0C173.012 0 174.306 11.0537 162.386 14.8985C162.386 14.8985 155.39 0 166.791 0H196.849Z" fill="var(--color-light-1)"></path></svg>
+                    {% blogImage "src/" + thumbnail, title, "single-post-image" %}
+                </div>
+                    {{ content | safe}}
+                </div>
+                <div class="col-md-3">
+                    <div class="post-sidebar sticky mb-5">
+                        <div class="related-posts p-4 border">
+                            <h3 class="mt-3 mb-4">Zobacz również</h3>
+                            <div class="line-x lx-1"></div>
+                            <div class="mb-4">
+                            {% for post in collections.posts.slice(0, 6) %}
+                                {%- if post.url != page.url -%}
+                                     <ul class="without-dot mt-4">
+                                         <li class="mb-3">
+                                        <a href="{{ post.url }}" class="line-clamp-2 subheading" title="{{ post.data.title }}">
+                                            {{ post.data.title }}
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    <div class="line-x lx-1"></div>
+                                {%- endif -%}
+                            {% endfor %}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+            <div class="pt-small pt-md-medium fade-in">
+                <div class="line-x lx-op-2"></div>
+            </div>
+
+            <div class="row g-0">
+                <div class="col-md-12">
+                    <div class="post-navigation pt-xxsmall pt-md-xsmall">
+                        {%- if collections.posts %}
+                            {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+                            {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+                            {%- if nextPost or previousPost %}
+                                <ul class="d-flex flex-wrap fade-in">
+                                    {%- if previousPost %}
+                                        <li class="col-md-6 prev d-none d-md-block">
+                                            <p class="mb-4 color-accent-1 bold">                         
+                                Poprzedni:
+                            </p>
+                                            <a href="{{ previouspost.url | url }}" title="{{ previouspost.data.client }}"
+                                class="h3 link-hover">{{ previousPost.data.title }}
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                    {%- if nextPost %}
+                                        <li class="col-md-6 next">
+                                            <p class="mb-4 color-accent-1 bold">
+                                    Kolejny:
+                            </p>
+                                            <a href="{{ nextpost.url | url }}" title="{{ nextpost.data.client }}"
+                                class="h3 link-hover">{{ nextPost.data.title }}
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                </ul>
+                            {%- endif %}
+                        {%- endif %}
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 </section>
