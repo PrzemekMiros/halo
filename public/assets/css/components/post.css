@@ -75,11 +75,6 @@
   transition: 0.2s ease-in-out;
 }
 
-.post-list-items a:hover,
-.related-posts a:hover {
-  color: var(--color-accent-2);
-}
-
 .post-list-items li {
   margin-bottom: 1.2em;
 }
@@ -88,5 +83,9 @@
   .hero-post {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+  }
+  .post-list-items a:hover,
+  .related-posts a:hover {
+    color: var(--color-accent-2);
   }
 }

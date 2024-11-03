@@ -4856,7 +4856,7 @@ blockquote {
 small,
 .small {
   font-size: 3vw;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .large {
@@ -4970,11 +4970,16 @@ strong,
   overflow: hidden;
 }
 
+.line-clamp-1,
 .line-clamp-2,
 .line-clamp-3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.line-clamp-1 {
+  -webkit-line-clamp: 1;
 }
 
 .line-clamp-2 {
@@ -5884,11 +5889,6 @@ html.lenis, html.lenis body {
   transition: 0.2s ease-in-out;
 }
 
-.post-list-items a:hover,
-.related-posts a:hover {
-  color: var(--color-accent-2);
-}
-
 .post-list-items li {
   margin-bottom: 1.2em;
 }
@@ -5897,6 +5897,10 @@ html.lenis, html.lenis body {
   .hero-post {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+  }
+  .post-list-items a:hover,
+  .related-posts a:hover {
+    color: var(--color-accent-2);
   }
 }
 .client-card {

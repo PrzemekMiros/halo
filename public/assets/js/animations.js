@@ -60,7 +60,7 @@ function animationMain() {
       });
       gsap.from(mySplitText.lines, {
         duration: .65,
-        delay: .6,
+        delay: .4,
         stagger: 0.05,
         yPercent: 105,
         ease: "power1.out",
@@ -115,7 +115,7 @@ function animationMain() {
       autoAlpha: 0, 
       y: 30}, {
         duration: .75, 
-        delay: .5,
+        delay: .4,
         autoAlpha: 1, 
         y: 0
       });
@@ -132,7 +132,7 @@ function animationMain() {
     gsap.from(lineXItem, {
       width: "0",
       duration: .75,
-      delay: .5,
+      delay: .4,
       ease: Power2.easeInOut,
       scrollTrigger: {
         trigger: '.line-x',
@@ -235,8 +235,6 @@ function animationMain() {
        }
      });
      };
-
-    // End if window min 767px
     };
 
 

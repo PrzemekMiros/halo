@@ -62,7 +62,7 @@ module.exports = function(eleventyConfig) {
         eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
         eleventyConfig.addShortcode("lineStatic", function() {
-          return `<div class="line-x-static lx-op-2"></div>`;
+          return `<div class="line-x-static lx-op-2 my-5"></div>`;
         });
 
         eleventyConfig.addNunjucksAsyncShortcode('Image', async (src, alt) => {
