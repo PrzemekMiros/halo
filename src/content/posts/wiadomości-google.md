@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Wiadomości Google
+title: Wiadomości Google - Jak skonfigurować
 description: Najlepszym miejscem do śledzenia najnowszych wiadomości krajowych i
   międzynarodowych jest obecnie wyszukiwarka Google. Dzięki Wiadomościom Google
   użytkownicy mogą w szybki sposób uzyskać dostęp do potrzebnych informacji,
