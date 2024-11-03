@@ -79,9 +79,9 @@ pagination:
         </a>
       </div>
     </div>
-    <div class="row gx-4"> 
+    <div class="row gx-4 fade-in"> 
       {% for post in blog %} 
-      <div class="col-md-4 pb-small fade-in">
+      <div class="col-md-4 pb-small">
         <a href="{{ post.url }}" title="{{ post.data.title }}">
           <div class="post-thumb">
             <svg class="post-thumb-svg" viewBox="0 0 197 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@ pagination:
           {{ post.data.tags }}
         </p>
         <a href="{{ post.url }}" title="{{ post.data.title }}">
-          <h3 class="split-text-lines line-clamp-2 mt-0 mb-4">
+          <h3 class="line-clamp-2 mt-0 mb-4">
             {{ post.data.title }}
           </h3>
         </a>

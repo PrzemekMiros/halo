@@ -124,7 +124,7 @@
   cursor: pointer;
 }
 
-.blog:not(.menu-open) .menu-toggle {
+.blog:not(.menu-open) .site-header:not(.scrolled) .menu-toggle {
   background: #fff;
 }
 
@@ -147,7 +147,7 @@
   transition: 0.6s ease-in-out;
 }
 
-.blog:not(.menu-open) .burger-line {
+.blog:not(.menu-open) .site-header:not(.scrolled) .burger-line {
   background-color: #111;
 }
 
@@ -233,8 +233,8 @@
 }
 
 .main-menu li {
-  margin-top: 1.4em;
-  margin-bottom: 1.3em;
+  margin-top: 1.3em;
+  margin-bottom: 1.1em;
   width: 100%;
   overflow: hidden;
   transition: transform 0.3s ease-in-out 0s;

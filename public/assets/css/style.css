@@ -4114,7 +4114,7 @@
   --color-dark-1: #080714;
   --color-dark-2: #131227;
   --color-light-1: #f5f5f9;
-  --color-light-2: #f1f1f6;
+  --color-light-2: #ebebf0;
   --color-light-3: #fdfdfd;
   --color-heading: #101b2b;
   --color-text: #5e6265;
@@ -4839,7 +4839,7 @@ li {
   position: relative;
   margin-bottom: 2em;
   font-family: var(--font-primary);
-  font-size: 4.5vw;
+  font-size: 4.75vw;
   font-weight: 400;
   line-height: 1.7;
   color: var(--color-text);
@@ -4867,7 +4867,7 @@ small,
 }
 
 .subheading {
-  font-size: 16px;
+  font-size: 4.5vw;
   font-weight: 500;
   line-height: 1.45;
 }
@@ -5321,7 +5321,7 @@ html.lenis, html.lenis body {
   cursor: pointer;
 }
 
-.blog:not(.menu-open) .menu-toggle {
+.blog:not(.menu-open) .site-header:not(.scrolled) .menu-toggle {
   background: #fff;
 }
 
@@ -5344,7 +5344,7 @@ html.lenis, html.lenis body {
   transition: 0.6s ease-in-out;
 }
 
-.blog:not(.menu-open) .burger-line {
+.blog:not(.menu-open) .site-header:not(.scrolled) .burger-line {
   background-color: #111;
 }
 
@@ -5430,8 +5430,8 @@ html.lenis, html.lenis body {
 }
 
 .main-menu li {
-  margin-top: 1.4em;
-  margin-bottom: 1.3em;
+  margin-top: 1.3em;
+  margin-bottom: 1.1em;
   width: 100%;
   overflow: hidden;
   transition: transform 0.3s ease-in-out 0s;
