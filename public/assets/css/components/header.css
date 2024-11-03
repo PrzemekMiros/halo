@@ -49,6 +49,7 @@
 
 .logo {
   display: inline-block;
+  transition: filter 0.5s ease-in-out;
 }
 
 .logo:focus-visible {
@@ -103,6 +104,10 @@
   color: #ddd;
 }
 
+.blog.menu-open .site-header .logo {
+  filter: invert(0);
+}
+
 @media (prefers-color-scheme: dark) {
   .blog .site-header:not(.scrolled) .logo {
     filter: invert(0);
@@ -115,7 +120,12 @@
   background: var(--color-dark-2);
   border: none;
   pointer-events: all;
+  transition: 0.6s ease-in-out;
   cursor: pointer;
+}
+
+.blog:not(.menu-open) .menu-toggle {
+  background: #fff;
 }
 
 .menu-toggle-wrap {
@@ -135,6 +145,10 @@
   height: 1px;
   background-color: var(--color-light-1);
   transition: 0.6s ease-in-out;
+}
+
+.blog:not(.menu-open) .burger-line {
+  background-color: #111;
 }
 
 .bl-1 {

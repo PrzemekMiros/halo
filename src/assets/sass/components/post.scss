@@ -1,8 +1,8 @@
 .hero-post {
     position: relative;
     overflow: hidden;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .hero-post::before {
@@ -82,4 +82,11 @@
 
 .post-list-items li {
     margin-bottom: 1.2em;
+}
+
+@media(min-width:767px) {
+    .hero-post {
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
 }
