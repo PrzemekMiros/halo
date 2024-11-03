@@ -1,6 +1,6 @@
 ---
 title: Przydatne snippety do Woocommerce
-description: Opis
+description: Przydatne snippety do użycia we wtyczce na Wordpressa - Woocommerce
 author: Przemek Miros
 date: 2023-05-23T11:53:45.446Z
 tags:
@@ -134,6 +134,10 @@ function woo_add_my_country( $country ) {
  return $country;
 }add_filter( ‘woocommerce_countries’, ‘woo_add_my_country’, 10, 1 );
 ```
+
+{% lineStatic %}
+
+## Strona sklepu
 
 **Usuń okruszki**
 
@@ -320,6 +324,10 @@ function woo_archive_custom_cart_button_text() {
 	return __('Add to cart', 'woocommerce');
 }
 ```
+
+{% lineStatic %}
+
+## Kategorie i produkty
 
 **Ukryj liczbę produktów w widoku kategorii**
 
@@ -572,6 +580,8 @@ add_action( 'woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_
     }
 }
 ```
+
+## Kasa i zamówienie
 
 **Dodaj treść pod przyciskiem „Złóż zamówienie” w kasie WooCommerce**
 
