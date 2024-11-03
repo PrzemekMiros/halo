@@ -73,7 +73,6 @@ function animationMain() {
     });
   };
 
-
   const textHighlights = document.querySelectorAll(".text-highlight");
   textHighlights.forEach((textHighlight) => {
     const splitText = new SplitText(textHighlight, {
@@ -222,7 +221,6 @@ function animationMain() {
     }
   }; 
 
-
      // Scroll progress
      if (window.matchMedia("(min-width: 767px)").matches) {
       gsap.to(".scrollprogress", {
@@ -243,7 +241,6 @@ function animationMain() {
 
 
     function filter() {
-
       var projects = document.querySelectorAll('.project');
       var startHeight = gsap.getProperty(".projects-inner", "height");
       var state = Flip.getState('.project, .empty');

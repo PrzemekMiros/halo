@@ -319,15 +319,11 @@ function appMain() {
 			});
 		}
 	}
-
 	handleSubmit('briefForm', '/wyslano-formularz');
 	handleSubmit('contactForm', '/wyslano-formularz');
 
 
-
-
 	const modals = document.querySelectorAll("[data-modal]");
-
 	modals.forEach(function(trigger) {
 		trigger.addEventListener("click", function(event) {
 			event.preventDefault();
@@ -341,17 +337,12 @@ function appMain() {
 				exit.addEventListener("click", function(event) {
 					event.preventDefault();
 					modal.classList.remove("open");
-					// Pauzuj wideo po zamknięciu popupu
 					video.pause();
 				});
 			});
-
-			// Startuj wideo po otwarciu popupu
 			video.play();
 		});
 	});
 
-
-
-
+// End
 };
