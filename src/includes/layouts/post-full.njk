@@ -62,15 +62,15 @@
                         <div class="post-list-items p-4 mb-4 border">
                             <h3 class="mt-3 mb-4">Spis treści</h3>
                             <div class="line-x lx-1"></div>
-                            <ul class="without-dot mt-4">
+                            <ol class="without-dot mt-4">
                                 {% set headers = content | extractHeaders %}
                                 {% for header in headers %}
                                     {% set anchor = header | slugify %}
-                                    <li class="mb-4">
-                                        <a href="#{{ anchor }}" class="subheading line-clamp-2">{{ header }}</a>
+                                    <li class="subheading mb-4">
+                                        <a href="#{{ anchor }}" class="line-clamp-2">{{ header }}</a>
                                     </li>
                                 {% endfor %}
-                            </ul>
+                            </ol>
                         </div>
                         <div class="post-author-wrap mt-4">
                             <img src="/assets/img/hero/avatar.png" width="60" height="60" alt="">
