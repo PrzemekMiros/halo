@@ -10,7 +10,7 @@ author: Przemek
 date: 2024-11-02T18:34:47.485Z
 tags:
   - strony www
-thumbnail: /content/posts/img/darmowa-strona.jpg
+thumbnail: /content/posts/img/strona-www-za-darmo.jpg
 ---
 W dzisiejszym cyfrowym świecie posiadanie własnej strony internetowej to niemal konieczność. Niezależnie od tego, czy chcesz założyć bloga, stworzyć wizytówkę dla swojej firmy, czy uruchomić mały sklep internetowy, dostępnych jest wiele darmowych narzędzi, które ułatwią Ci to zadanie. 
 
