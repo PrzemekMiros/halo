@@ -1,6 +1,6 @@
 {% include "partials/header.njk" %}
 
-<section class="pb-small" data-scroll-section>
+<section class="pb-xxsmall" data-scroll-section>
 
     <div class="hero-post pt-xlarge pt-md-xxlarge pb-small pb-md-large">
         <div class="hero-post-image-wrap"></div>
@@ -64,7 +64,7 @@
                                 {% set headers = content | extractHeaders %}
                                 {% for header in headers %}
                                     {% set anchor = header | slugify %}
-                                    <li class="subheading mb-4">
+                                    <li class="subheading mb-3 mb-md-4">
                                         <a href="#{{ anchor }}" class="line-clamp-2">{{ header }}</a>
                                     </li>
                                 {% endfor %}
@@ -115,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="pt-small pt-md-medium fade-in">
+            <div class="pt-xsmall pt-md-medium fade-in">
                 <div class="line-x lx-op-2"></div>
             </div>
 

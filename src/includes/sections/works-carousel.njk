@@ -1,4 +1,4 @@
-<section class="pt-small pb-small pb-md-large" data-scroll-section>
+<section class="pt-xsmall pt-md-small pb-small pb-md-large" data-scroll-section>
     <div class="container-md">
         <svg class="service-wrap-svg" width="1359" height="67" viewBox="0 0 1359 67" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3617_58)">
@@ -6,7 +6,7 @@
             </g>
         </svg>
         <div class="service-wrap p-3 p-md-5 pt-md-0 pb-md-5 bg-light-3">
-            <h2 class="xl split-lines mt-md-0 mb-md-5">Realizacje</h2>
+            <h2 class="xl split-lines mt-md-0 mb-4 mb-md-5">Realizacje</h2>
             <div class="swiper swiper-works">
                 <div class="swiper-wrapper"> {% for post in collections.works %} <div class="swiper-slide">
                         <div class="works-grid-item border bg-light-1 row g-0 flex-md-row-reverse align-items-center">
@@ -35,10 +35,10 @@
                                 <p class="color-dark-2 mt-3 mt-md-0 mb-2 fade-in">
                                     {{ post.data.title }}
                                 </p>
-                                <h3 class="archive-post-title h1 my-3 fade-in">
+                                <h3 class="archive-post-title h1 my-1 my-md-3 fade-in">
                                     {{ post.data.client }}
                                 </h3>
-                                <p class="line-clamp-3 mt-4 mb-4 split-lines">
+                                <p class="line-clamp-3 mt-3 mt-md-4 mb-4 split-lines">
                                     {{ post.data.description }}
                                 </p>
                                 <a href="{{ post.data.link }}" title="{{ post.data.title }}" class="button-anim magnetic fade-in" data-strength="60" target="_blank">
