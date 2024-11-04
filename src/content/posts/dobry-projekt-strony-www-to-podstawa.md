@@ -13,7 +13,7 @@ thumbnail: /content/posts/img/blog-web-design.jpg
 
 **Twoja obecność w sieci jest więc zdecydowanie priorytetem. Ale obecność to za mało - lepiej żeby dobrze wyglądała.**
 
-### Strona www to Twoje pierwsze wrażenie
+## Strona www to Twoje pierwsze wrażenie
 
 Masz tylko jedną szansę, aby zrobić pierwsze wrażenie. Podobnie jak w naszym codziennym życiu, oceniamy ludzi na podstawie ich pierwszego wrażenia. Jeśli Twoja witryna wygląda nieprofesjonalnie lub jest zawiła, to takie wrażenie będą mieli użytkownicy o Twojej firmie. 
 
@@ -21,7 +21,7 @@ Innymi słowy, dobry projekt projektu strony internetowej, który uwzględnia un
 
 > Niedawno badania zaczęły wykazywać, że walory estetyczne, takie jak kolor, grafika i układ strony internetowej, mogą odgrywać ważną rolę w polepszaniu doświadczeń zakupowych konsumentów. Z perspektywy teoretycznej, nasze ustalenia nie tylko określają wartość zakupów konsumenckich jako kluczową wartość biznesową estetyki witryny internetowej, ale także wzbogacają aktualną wiedzę na temat warunkowego wpływu estetyki witryny internetowej na produkty użytkowe i hedoniczne
 
-### Dlaczego dobra obecność w sieci jest niezbędna?
+## Dlaczego dobra obecność w sieci jest niezbędna?
 
 Dobra obecność w sieci jest niezbędna do udanego przedsięwzięcia online. Tak jak posiadanie wysokiej jakości CV jest niezbędne dla osoby poszukującej pracy, tak posiadanie wysokiej jakości profesjonalnej strony internetowej jest niezbędne do uzyskania pierwszego kontaktu od potencjalnego klienta. 
 
