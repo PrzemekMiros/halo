@@ -4,7 +4,7 @@ description: Czy wiesz, że szybkość ładowania strony jest jednym z kluczowyc
   czynników wpływających na pozycjonowanie w Google? Im szybciej strona się
   ładuje, tym większa szansa na wysoką pozycję w wynikach wyszukiwania.
 author: Przemek Miros
-date: 2023-02-30T14:03:57.668Z
+date: 2023-03-02T14:03:57.668Z
 tags:
   - pozycjonowanie
 thumbnail: /content/posts/img/page-speed.png
@@ -13,9 +13,13 @@ thumbnail: /content/posts/img/page-speed.png
 
 Czy wiesz, że szybkość ładowania strony jest jednym z kluczowych czynników wpływających na pozycjonowanie w Google? Im szybciej strona się ładuje, tym większa szansa na wysoką pozycję w wynikach wyszukiwania. W tym artykule opiszemy, co to jest Page Speed Insight i jak wpływa na szybkość ładowania strony oraz pozycjonowanie w Google.
 
+{% lineStatic %}
+
 ## Czym jest Page Speed Insight?
 
 Page Speed Insight to narzędzie stworzone przez Google, które pozwala na analizowanie szybkości ładowania strony. Narzędzie to ocenia różne aspekty ładowania strony, w tym czas pierwszego buforowania, szybkość interakcji użytkownika oraz ogólną szybkość ładowania. Na podstawie wyników analizy Page Speed Insight można poprawić szybkość ładowania strony i tym samym poprawić jej pozycję w wynikach wyszukiwania.
+
+{% lineStatic %}
 
 ## Jak szybkość strony wpływa na pozycjonowanie?
 
@@ -24,6 +28,8 @@ Szybkość ładowania strony jest jednym z ważnych czynników wpływających na
 Jednym z najważniejszych aspektów szybkości ładowania strony jest czas pierwszego buforowania (ang. First Contentful Paint - FCP). Jest to czas od momentu, kiedy użytkownik kliknie w link do strony, do momentu, kiedy pojawia się pierwszy element strony. Im krótszy czas FCP, tym lepiej. Google uważa, że strony z czasem FCP poniżej 2 sekund są szybkie, natomiast strony z czasem powyżej 3 sekund są wolne.
 
 Innym ważnym aspektem szybkości ładowania strony jest szybkość interakcji użytkownika (ang. Time to Interactive - TTI). Jest to czas, który upływa od momentu, kiedy użytkownik kliknie w link do strony, do momentu, kiedy strona jest w pełni interaktywna i użytkownik może zacząć korzystać z jej funkcjonalności. Im krótszy czas TTI, tym lepiej.
+
+{% lineStatic %}
 
 ## Jak poprawić szybkość ładowania strony?
 
@@ -35,7 +41,7 @@ Na podstawie wyników analizy Page Speed Insight można poprawić szybkość ła
 4. Używanie CDN - sieć dostarczania treści (CDN) umożliwia dostarczanie treści z najbliższego serwera użytkownikowi, co przyspiesza ładowanie strony.
 5. Wykorzystanie kompresji - skompresowanie plików CSS i JavaScript może pomóc w przyspieszeniu ładowania strony.
 
-## Podsumowanie
+{% lineStatic %}
 
 Szybkość ładowania strony jest kluczowym czynnikiem wpływającym na pozycjonowanie w Google. Page Speed Insight to narzędzie stworzone przez Google, które pozwala na analizowanie szybkości ładowania strony. Na podstawie wyników analizy można poprawić szybkość ładowania strony i tym samym poprawić jej pozycję w wynikach wyszukiwania. 
 
