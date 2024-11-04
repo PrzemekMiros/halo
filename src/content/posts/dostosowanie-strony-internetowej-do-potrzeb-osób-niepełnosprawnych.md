@@ -14,6 +14,8 @@ Dostosowanie strony internetowej do potrzeb osób niepełnosprawnych jest ważny
 
 **To nie tylko kwestia etyczna, ale także biznesowa, ponieważ może przyczynić się do zwiększenia ruchu na stronie i lepszego jej pozycjonowania w wynikach wyszukiwania**
 
+{% lineStatic %}
+
 ## Korzyści z dostosowania strony www do potrzeb osób niepełnosprawnych
 
 **Zwiększenie liczby użytkowników** - około 15% ludności świata żyje z niepełnosprawnością, a wiele osób korzysta z Internetu jako głównego źródła informacji. Dostosowanie strony www do potrzeb osób niepełnosprawnych pozwala na zwiększenie liczby użytkowników, którzy będą mogli korzystać z treści i funkcjonalności strony.
@@ -21,6 +23,8 @@ Dostosowanie strony internetowej do potrzeb osób niepełnosprawnych jest ważny
 **Lepsza pozycja w wynikach wyszukiwania** - pozwala na lepszą optymalizację strony pod kątem pozycji w wynikach wyszukiwania. Wyszukiwarki uwzględniają kwestie dostępności i użyteczności strony dla osób z niepełnosprawnościami w swoich algorytmach rankingowych, co może wpłynąć na pozycje strony.
 
 **Lepsza reputacja firmy** - to także kwestia etyczna. Wdrażanie takich rozwiązań pokazuje, że firma jest świadoma potrzeb różnych grup użytkowników i dąży do zapewnienia im równego dostępu do informacji i usług. Takie podejście może przyczynić się do poprawy wizerunku firmy wśród klientów i partnerów biznesowych.
+
+{% lineStatic %}
 
 ## Jak dostosować stronę internetową do potrzeb osób z niepełnosprawnością?
 
@@ -34,7 +38,7 @@ Dostosowanie strony internetowej do potrzeb osób niepełnosprawnych jest ważny
 
 **Wykorzystaj technologie asystujące** - trzeba uwzględnić różne technologie asystujące, takie jak czytniki ekranowe, klawiatury skanujące, powiększające lub wibracyjne urządzenia. Konieczne jest przetestowanie strony www pod kątem różnych technologii asystujących, aby upewnić się, że jest ona w pełni dostępna dla osób z niepełnosprawnościami.
 
-## Podsumowanie
+{% lineStatic %}
 
 Dostosowanie strony internetowej do potrzeb osób niepełnosprawnych to ważny aspekt tworzenia stron www. Dzięki temu można zwiększyć liczbę użytkowników, poprawić pozycjonowanie strony w wynikach wyszukiwania oraz poprawić wizerunek firmy. 
 
