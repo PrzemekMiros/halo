@@ -27,7 +27,7 @@ Główne moduły narzędzia to analiza widoczności, baza słów kluczowych, mon
 
 ## Kluczowe funkcje i moduły
 
-![](/content/posts/img/senuto-analiza-widocznosci.png)
+![Senuto - Analiza widoczności](/content/posts/img/senuto-analiza-widocznosci.png)
 
 ### Analiza widoczności
 
@@ -41,7 +41,7 @@ Moduł analizy widoczności to podstawowa funkcja Senuto, która umożliwia moni
 
 {% lineStatic %}
 
-![](/content/posts/img/senuto-baza-slow.png)
+![Senuto - Baza słów kluczowych](/content/posts/img/senuto-baza-slow.png)
 
 ### Baza słów kluczowych
 
@@ -55,7 +55,7 @@ Moduł baza słów kluczowych to narzędzie do analizy i odkrywania nowych słó
 
 {% lineStatic %}
 
-![](/content/posts/img/senuto-monitoring.png)
+![Senuto - Monitoring pozycji](/content/posts/img/senuto-monitoring.png)
 
 ### Monitoring pozycji
 
@@ -69,7 +69,7 @@ Monitoring pozycji umożliwia śledzenie zmian pozycji słów kluczowych dla kon
 
 {% lineStatic %}
 
-![](/content/posts/img/senuto-content-marketing.png)
+![Senuto - Content marketing](/content/posts/img/senuto-content-marketing.png)
 
 ### Content marketing
 
