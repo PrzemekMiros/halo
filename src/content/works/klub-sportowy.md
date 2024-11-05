@@ -1,5 +1,4 @@
 ---
-layout: layouts/case.njk
 client: Victoria Grochów
 description: Strona www dla klubu sportowego w Warszawie. Indywidualny projekt
   graficzny, CMS Wordpress, zoptymalizowana pod wyszukiwarki.

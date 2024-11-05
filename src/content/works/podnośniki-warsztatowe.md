@@ -1,5 +1,4 @@
 ---
-layout: layouts/case.njk
 client: Ideal Lift
 description: Strona www dla firmy zajmującej się dystrybucją i serwisów
   podnośników warsztatowych. Indywidualny projekt graficzny, CMS Wordpress,

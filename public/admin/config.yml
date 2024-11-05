@@ -20,7 +20,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Opis", name: "description", widget: "text"}
       - {label: "Autor", name: "author", widget: "string"}
@@ -37,7 +36,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/case.njk"}
       - {label: "Klient", name: "client", widget: "string"}
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Opis", name: "description", widget: "text"}
@@ -55,7 +53,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/town.njk"}
       - {label: "Miasto", name: "town", widget: "string"}
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Mapa", name: "maplink", widget: "text"}
