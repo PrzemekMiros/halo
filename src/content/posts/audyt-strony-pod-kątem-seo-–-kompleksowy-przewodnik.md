@@ -127,7 +127,7 @@ Aby skutecznie przeprowadzić audyt SEO, warto korzystać z takich narzędzi jak
 
 * **Google Search Console**: Monitorowanie wydajności strony w wyszukiwarce Google.
 * **Screaming Frog SEO Spider**: Narzędzie do skanowania witryny i wykrywania błędów.
-* **Ahrefs, SEMrush, Moz**: Narzędzia do analizy słów kluczowych, profilu linków oraz konkurencji.
+* **Ahrefs, SEMrush, Senuto**: Narzędzia do analizy słów kluczowych, profilu linków oraz konkurencji.
 * **Google Analytics**: Analiza ruchu i zachowania użytkowników.
 
 {% lineStatic %}
