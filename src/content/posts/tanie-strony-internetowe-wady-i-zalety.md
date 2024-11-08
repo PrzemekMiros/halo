@@ -16,7 +16,7 @@ Niska cena bywa pociągająca, ale i obciążona pewnymi kompromisami. W tym art
 
 {% lineStatic %}
 
-## Co to jest "tania strona internetowa"?
+## Co to jest tania strona internetowa
 
 Zanim przejdziemy do szczegółów, warto zdefiniować, czym dokładnie jest tania strona internetowa. Jest to zazwyczaj **strona wykonana przy ograniczonym budżecie**, często za pomocą kreatorów stron, gotowych szablonów lub przy minimalnym zaangażowaniu programistów. Takie rozwiązania pozwalają znacząco zredukować koszty, ale wiążą się z określonymi ograniczeniami.
 
