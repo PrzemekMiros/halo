@@ -136,8 +136,8 @@ Audyt SEO to nie jednorazowa czynność, ale proces, który należy regularnie p
 
 Regularne audyty SEO pomagają nie tylko utrzymać się na szczycie wyników wyszukiwania, ale także odpowiednio dostosowywać strategię SEO w miarę zmieniających się algorytmów wyszukiwarek i trendów rynkowych.
 
-{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/assets/img/about/cons1.jpg" %}
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
 
 Przeprowadzenie szczegółowego audytu SEO i wdrożenie rekomendacji pozwoli skutecznie zwiększyć zasięgi i przyciągnąć wartościowy ruch do witryny.
 
-{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "undefined" %}
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
