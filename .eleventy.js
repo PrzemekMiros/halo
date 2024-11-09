@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/admin");
     eleventyConfig.addWatchTarget("src/assets/sass");
 
-    eleventyConfig.addShortcode("banner", banner);
+    eleventyConfig.addShortcode("bannerStatic", banner);
     eleventyConfig.addShortcode("lineStatic", lineStatic);
     eleventyConfig.addNunjucksAsyncShortcode("Image", siteImage);
     eleventyConfig.addNunjucksAsyncShortcode("blogImage", blogImage);
