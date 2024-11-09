@@ -3,9 +3,9 @@ CMS.registerEditorComponent({
     id: "bannerStatic",
     label: "Banner",
     fields: [
-      { name: "headerText", label: "Text", widget: "string" },
-      { name: "contentText", label: "Text", widget: "string" },
-      { name: "imageUrl", label: "Image URL", widget: "image" }
+      { name: "headerText", label: "Tytuł", widget: "string" },
+      { name: "contentText", label: "Opis", widget: "string" },
+      { name: "imageUrl", label: "Obrazek", widget: "image" }
     ],
     pattern: /^{% bannerStatic "(.+)", "(.+)" %}$/,
     fromBlock: function(match) {
