@@ -7,7 +7,7 @@ CMS.registerEditorComponent({
       { name: "contentText", label: "Opis", widget: "string" },
       { name: "imageUrl", label: "Obrazek", widget: "image" }
     ],
-    pattern: /^{% bannerStatic "(.+)", "(.+)" %}$/,
+    pattern: /^{% bannerStatic "(.+)", "(.+)", "(.+)" %}$/,
     fromBlock: function(match) {
       return {
         headerText: match[1],
