@@ -9,3 +9,16 @@ body {
     height: 400px!important; 
     overflow: scroll; 
   }
+
+  .post-banner {
+    margin-bottom: 2.5em;
+    border-radius: 15px;
+    background-color: rgb(59, 1, 217);
+    overflow: hidden;
+}
+
+.post-banner img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
