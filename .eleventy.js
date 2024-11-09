@@ -6,6 +6,12 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require("slugify"); 
 
+const banner = require('./src/shortcodes/banner.js');
+const lineStatic = require('./src/shortcodes/lineStatic.js');
+const siteImage = require('./src/shortcodes/Image.js');
+const blogImage = require('./src/shortcodes/blogImage.js');
+const workImage = require('./src/shortcodes/workImage.js');
+
 module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("src/assets/css");
@@ -18,6 +24,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/static");
     eleventyConfig.addPassthroughCopy("src/admin");
     eleventyConfig.addWatchTarget("src/assets/sass");
+
+    eleventyConfig.addShortcode("banner", banner);
+    eleventyConfig.addShortcode("lineStatic", lineStatic);
+    eleventyConfig.addNunjucksAsyncShortcode("Image", siteImage);
+    eleventyConfig.addNunjucksAsyncShortcode("blogImage", blogImage);
+    eleventyConfig.addNunjucksAsyncShortcode("workImage", workImage);
 
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
     
@@ -61,133 +73,6 @@ module.exports = function(eleventyConfig) {
         eleventyConfig.addFilter('dateDisplay', require('./src/filters/date-display.js'));
         eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-        eleventyConfig.addShortcode("lineStatic", function() {
-          return `<div class="line-x-static lx-op-2 my-5"></div>`;
-        });
-
-        eleventyConfig.addNunjucksAsyncShortcode('Image', async (src, alt) => {
-          if (!alt) {
-            throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-          }
-      
-          let stats = await Image(src, {
-            widths: [25, 320, 640, 960, 1200, 1800 ],
-            formats: ['jpeg', 'webp'],
-            urlPath: '/assets/img/',
-            outputDir: './public/assets/img/',
-          });
-      
-          let lowestSrc = stats['jpeg'][0]; 
-          let largestSrc = stats['jpeg'][1];
-      
-          const srcset = Object.keys(stats).reduce(
-            (acc, format) => ({
-              ...acc,
-              [format]: stats[format].reduce(
-                (_acc, curr) => `${_acc} ${curr.srcset} ,`,
-                '',
-              ),
-            }),
-            {},
-          );
-       
-          const source = `<source type="image/webp" srcset="${srcset['webp']}" >`;
-      
-          const img = `<img
-            decoding="async"
-            loading="lazy"
-            alt="${alt}"
-            src="${lowestSrc.url}"
-            sizes='(min-width: 1024px) 1024px, 100vw'
-            srcset="${srcset['jpeg']}"
-            width="${largestSrc.width}"
-            height="${largestSrc.height}">`;
- 
-          return `<div class="image-wrapper blur-load" >
-                    <img class="placeholder" src="${lowestSrc.url}" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
-        });
-
-        eleventyConfig.addNunjucksAsyncShortcode('workImage', async (src, alt) => {
-          if (!alt) {
-            throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-          }
-        
-          let stats = await Image(src, {
-            widths: [25, 320, 640, 960, 1200, 1800 ],
-            formats: ['jpeg', 'webp'],
-            urlPath: '/content/works/img/',
-            outputDir: './public/content/works/img/',
-          });
-      
-          let lowestSrc = stats['jpeg'][0];
-          let largestSrc = stats['jpeg'][2];
-      
-          const srcset = Object.keys(stats).reduce(
-            (acc, format) => ({
-              ...acc,
-              [format]: stats[format].reduce(
-                (_acc, curr) => `${_acc} ${curr.srcset} ,`,
-                '',
-              ),
-            }),
-            {},
-          ); 
-      
-          const source = `<source type="image/webp" srcset="${srcset['webp']}" >`;
-      
-          const img = `<img
-            loading="lazy"
-            alt="${alt}"
-            src="${lowestSrc.url}"
-            sizes='(min-width: 1024px) 1024px, 100vw'
-            srcset="${srcset['jpeg']}"
-            width="${lowestSrc.width}"
-            height="${lowestSrc.height}">`;
-      
-            return `<div class="image-wrapper blur-load" >
-              <img class="placeholder" src="${lowestSrc.url}" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
-        });
-        
-        eleventyConfig.addNunjucksAsyncShortcode('blogImage', async (src, alt) => {
-          if (!alt) {
-            throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-          }
-      
-          let stats = await Image(src, {
-            widths: [25, 320, 640, 960, 1200, 1800 ],
-            formats: ['jpeg', 'webp'],
-            urlPath: '/content/posts/img/',
-            outputDir: './public/content/posts/img/',
-          });
-      
-          let lowestSrc = stats['jpeg'][0];
-          let largestSrc = stats['jpeg'][2];
-      
-          const srcset = Object.keys(stats).reduce(
-            (acc, format) => ({
-              ...acc,
-              [format]: stats[format].reduce(
-                (_acc, curr) => `${_acc} ${curr.srcset} ,`,
-                '',
-              ),
-            }),
-            {},
-          );
-      
-          const source = `<source type="image/webp" srcset="${srcset['webp']}" >`;
-      
-          const img = `<img
-            loading="lazy"
-            alt="${alt}"
-            src="${lowestSrc.url}"
-            sizes='(min-width: 1024px) 1024px, 100vw'
-            srcset="${srcset['jpeg']}"
-            width="${lowestSrc.width}"
-            height="${lowestSrc.height}">`;
-      
-            return `<div class="image-wrapper blur-load" >
-              <img class="placeholder" src="${lowestSrc.url}" alt="Placeholder" width="${largestSrc.width}" height="${largestSrc.height}"><picture> ${source} ${img} </picture></div>`;
-        });
 
       // Code blocks
       eleventyConfig.addPlugin(codeStyleHooks, {
@@ -210,11 +95,11 @@ module.exports = function(eleventyConfig) {
         breaks: true,
         linkify: true
     }).use(markdownItAnchor, {
-        level: 2, // Umożliwia dodawanie anchorów tylko do nagłówków h2
+        level: 2, 
         slugify: function(str) {
             return slugify(str, {
-                lower: true, // Zamienia na małe litery
-                strict: true // Usuwa znaki spoza zakresu
+                lower: true,  
+                strict: true 
             });
         }
     });
@@ -222,7 +107,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", md);
     
 
-    // Return your Object options:
     return {
       dir: {
         input: "src",

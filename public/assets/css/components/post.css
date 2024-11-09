@@ -79,6 +79,19 @@
   margin-bottom: 1.2em;
 }
 
+.post-banner {
+  margin-bottom: 2.5em;
+  border-radius: var(--radius-2);
+  background-color: var(--color-accent-1);
+  overflow: hidden;
+}
+
+.post-banner img {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
 @media (min-width: 767px) {
   .hero-post {
     border-bottom-left-radius: 35px;
