@@ -26,3 +26,5 @@ Strona www może stanowić dodatkowe źródło przychodów dla firmy. Poprzez mo
 To właśnie strona internetowa jest pierwszym kontaktem potencjalnego klienta z firmą i wpływa na jego postrzeganie. Dlatego też, ważne jest aby strona była estetyczna, przejrzysta i łatwa w nawigacji. 
 
 **Posiadanie strony internetowej jest niezbędne dla każdej firmy**, która chce osiągnąć sukces na rynku. Strona internetowa jest nie tylko narzędziem do promocji i marketingu, ale również ważnym elementem wizerunku firmy i dodatkowym źródłem przychodów.
+
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
