@@ -210,3 +210,5 @@ Własna domena i hosting to inwestycja, która pozwala na pełną kontrolę nad 
 Tworzenie strony internetowej za darmo to proces, który nie wymaga specjalistycznej wiedzy ani dużych nakładów finansowych. Wybierając odpowiedni kreator, dostosowując szablony i optymalizując treści, możesz stworzyć atrakcyjną stronę, która spełni Twoje oczekiwania. 
 
 Zastanów się nad swoimi celami i potrzebami, aby wybrać najlepsze rozwiązanie dla siebie. Pamiętaj, że darmowe opcje są świetnym punktem wyjścia, ale w miarę rozwoju Twojego projektu może być konieczne rozważenie płatnych alternatyw.
+
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
