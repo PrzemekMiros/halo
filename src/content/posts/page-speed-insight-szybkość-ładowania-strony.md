@@ -9,7 +9,7 @@ tags:
   - pozycjonowanie
 thumbnail: /content/posts/img/page-speed.png
 ---
-### Czym jest Page Speed Insight?
+## Czym jest Page Speed Insight?
 
 Page Speed Insight to narzędzie stworzone przez Google, które umożliwia analizę szybkości ładowania strony internetowej oraz dostarcza szczegółowych wskazówek dotyczących jej optymalizacji. Narzędzie analizuje stronę zarówno w wersji mobilnej, jak i desktopowej, co jest istotne, ponieważ Google bierze pod uwagę szybkość ładowania strony na obu urządzeniach przy ustalaniu rankingu wyników wyszukiwania. 
 
@@ -17,7 +17,7 @@ Page Speed Insight ocenia stronę w skali od 0 do 100, gdzie wyższe wartości o
 
 {% lineStatic %}
 
-### Kluczowe wskaźniki w Page Speed Insight
+## Kluczowe wskaźniki w Page Speed Insight
 
 * **First Contentful Paint (FCP)** – czas, jaki upływa od momentu załadowania strony do momentu, kiedy pierwszy element wizualny jest widoczny dla użytkownika. Google preferuje, aby czas FCP był poniżej 2 sekund.
 * **Time to Interactive (TTI)** – czas, po którym strona jest w pełni interaktywna, co oznacza, że użytkownik może w pełni korzystać z jej funkcji. Optymalny czas TTI to poniżej 5 sekund, co zapewnia płynne działanie strony.
@@ -25,7 +25,7 @@ Page Speed Insight ocenia stronę w skali od 0 do 100, gdzie wyższe wartości o
 
 {% lineStatic %}
 
-### Dlaczego szybkość ładowania strony jest ważna dla SEO?
+## Dlaczego szybkość ładowania strony jest ważna dla SEO?
 
 Szybkość ładowania strony jest jednym z ważnych czynników rankingowych, wpływających na pozycję strony w wynikach wyszukiwania Google. Google premiuje strony, które zapewniają użytkownikom pozytywne doświadczenia, a szybka strona to jeden z elementów wpływających na zadowolenie użytkowników. 
 
@@ -43,7 +43,7 @@ Wolna strona internetowa może negatywnie wpływać na konwersję, doświadczeni
 
 {% lineStatic %}
 
-### Jak poprawić szybkość ładowania strony? Najlepsze praktyki optymalizacyjne
+## Jak poprawić szybkość ładowania strony? Najlepsze praktyki 
 
 #### Optymalizacja obrazów
 
@@ -78,7 +78,7 @@ Zminimalizuj kod CSS i JavaScript, usuwając zbędne spacje, komentarze i inne e
 
 {% lineStatic %}
 
-### Podsumowanie
+## Podsumowanie
 
 Szybkość ładowania strony internetowej to czynnik, który wpływa zarówno na pozycjonowanie w Google, jak i na doświadczenie użytkowników. Narzędzie Page Speed Insight pomaga zidentyfikować problemy i dostarcza cennych wskazówek dotyczących poprawy wydajności strony. Kluczowe wskaźniki, takie jak First Contentful Paint, Time to Interactive czy Cumulative Layout Shift, pomagają w monitorowaniu i optymalizacji szybkości strony.
 
