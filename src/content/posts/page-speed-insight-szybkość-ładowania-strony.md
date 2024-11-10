@@ -41,6 +41,8 @@ Wolna strona internetowa może negatywnie wpływać na konwersję, doświadczeni
 * **Spadek konwersji** – wolno ładująca się strona może obniżyć współczynnik konwersji nawet o 20-30%, ponieważ użytkownicy nie chcą czekać na załadowanie strony z formularzem kontaktowym czy procesem zakupowym.
 * **Gorsze pozycjonowanie** – Google, w trosce o komfort użytkowników, premiuje strony szybkie, co oznacza, że wolne witryny mogą spadać w wynikach wyszukiwania.
 
+{% lineStatic %}
+
 ### Jak poprawić szybkość ładowania strony? Najlepsze praktyki optymalizacyjne
 
 #### Optymalizacja obrazów
