@@ -68,8 +68,6 @@ Tanie strony często działają na współdzielonych serwerach, co może obniży
 
 Platformy tanich stron oferują jedynie podstawowe opcje optymalizacji SEO. Brak dostępu do pełnego kodu strony i ograniczone możliwości konfiguracji mogą sprawić, że **pozycjonowanie takiej strony w wyszukiwarkach jest utrudnione**. W rezultacie, właściciele tanich stron mogą mieć trudności z przyciągnięciem ruchu organicznego, co negatywnie wpływa na widoczność w sieci.
 
-![](/content/posts/img/tanie-strony-bezpieczenstwo-2-.jpg)
-
 ### Mniejsze bezpieczeństwo
 
 Tanie strony internetowe mogą być mniej bezpieczne niż dedykowane, droższe rozwiązania. Choć większość platform stosuje standardowe zabezpieczenia, w przypadku rozwiązań tanich trudno liczyć na zaawansowane metody ochrony danych czy wsparcie w przypadku ataków. Firmy, które przetwarzają dane osobowe klientów, powinny zastanowić się, czy takie ryzyko jest dla nich akceptowalne.
