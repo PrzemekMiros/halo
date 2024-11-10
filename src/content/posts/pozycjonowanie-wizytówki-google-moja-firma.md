@@ -18,6 +18,8 @@ Wizytówka Google, zwana również Google My Business (GMB), to darmowe narzędz
 * **Godziny otwarcia** – dostosowane do realnych godzin działalności,
 * **Zdjęcia i opinie** – wizualne przedstawienie oraz rekomendacje klientów.
 
+{% lineStatic %}
+
 **Zalety dobrze zoptymalizowanej wizytówki Google**:
 
 1. **Zwiększenie widoczności w Google Maps i wyszukiwarce** – dobrze zoptymalizowana wizytówka Google pozwala wyróżnić firmę na tle konkurencji.
@@ -36,12 +38,16 @@ Pełne wypełnienie wszystkich dostępnych pól to fundament skutecznej optymali
 * **Kategoria działalności** – Wybierz kategorię najbardziej odpowiadającą Twojej branży. Jeśli działasz w niszowej branży, wybierz jak najbliższą kategorię.
 * **Atrybuty** – Google udostępnia także możliwość dodania atrybutów (np. dostępność Wi-Fi, udogodnienia dla osób niepełnosprawnych). Uzupełnij je, aby zapewnić potencjalnym klientom dodatkowe informacje.
 
+{% lineStatic %}
+
 #### Pozyskuj pozytywne recenzje od klientów
 
 **Recenzje** to jeden z kluczowych czynników wpływających na pozycjonowanie wizytówki Google. Wizytówki z dużą liczbą pozytywnych opinii mają większą szansę na pojawienie się w wynikach wyszukiwania. Aby zdobyć recenzje:
 
 * **Zachęć klientów do oceny Twojej firmy** – po zakończonej transakcji poproś klientów o krótką opinię. Możesz to zrobić bezpośrednio, mailowo lub poprzez media społecznościowe.
 * **Odpowiadaj na opinie** – Google premiuje wizytówki, na których właściciele regularnie odpowiadają na opinie. Każda odpowiedź to sygnał, że zależy Ci na kontakcie z klientami.
+
+{% lineStatic %}
 
 #### Regularnie aktualizuj informacje
 
@@ -50,12 +56,16 @@ Regularne **aktualizowanie danych** o Twojej firmie to sygnał dla Google, że b
 * **Sezonowe godziny otwarcia** – jeśli zmieniasz godziny pracy w zależności od sezonu, zawsze je aktualizuj.
 * **Nowości w ofercie** – jeżeli dodajesz nowe produkty lub usługi, dodaj te informacje do wizytówki, aby klienci byli na bieżąco.
 
+{% lineStatic %}
+
 #### Wykorzystaj słowa kluczowe
 
 Słowa kluczowe to frazy, które klienci wpisują, szukając firm takich jak Twoja. Dodanie odpowiednich fraz do opisu firmy, oferty oraz nazwy (jeśli to możliwe) może pozytywnie wpłynąć na wyniki wyszukiwania:
 
 * **Badanie słów kluczowych** – Zidentyfikuj najważniejsze słowa kluczowe dla swojej branży i lokalizacji, używając narzędzi do analizy słów kluczowych.
 * **Naturalne użycie** – Umieszczaj słowa kluczowe w opisie firmy i usług, ale unikaj przesycenia – treść powinna brzmieć naturalnie i być przyjazna dla użytkowników.
+
+{% lineStatic %}
 
 #### Dodawaj wysokiej jakości zdjęcia
 
@@ -64,12 +74,16 @@ Słowa kluczowe to frazy, które klienci wpisują, szukając firm takich jak Two
 * **Profesjonalne fotografie** – Postaraj się, aby zdjęcia były wysokiej jakości, wyraźne i przedstawiały Twoją firmę w pozytywnym świetle.
 * **Różnorodność** – Dodaj zdjęcia wnętrza, zewnętrznego wyglądu firmy, produktów oraz zespołu. Dzięki temu klienci lepiej poznają Twoją ofertę.
 
+{% lineStatic %}
+
 #### Uzupełnij opis firmy
 
 **Opis firmy** w wizytówce Google to przestrzeń, w której możesz przedstawić kluczowe informacje o swoim biznesie. W opisie warto:
 
 * **Uwzględnić główne słowa kluczowe** – Starannie wplataj słowa kluczowe, opisując swoje usługi, ale zachowując czytelność tekstu.
 * **Zwrócić uwagę na unikalność oferty** – Podkreśl, co wyróżnia Twoją firmę na tle konkurencji.
+
+{% lineStatic %}
 
 #### Promuj swoją wizytówkę Google
 
