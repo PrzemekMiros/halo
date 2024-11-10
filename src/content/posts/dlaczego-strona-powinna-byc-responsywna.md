@@ -83,4 +83,6 @@ Jak już wiesz, responsywność twojej strony internetowej ma bezpośredni wpły
 
 Dlatego warto zainwestować w responsywność, która jest jednym z kluczowych czynników wpływających na pozycjonowanie stron. Jeśli potrzebujesz pomocy w tym zakresie, skontaktuj się ze mną, pomogę Ci zoptymalizować twoją stronę pod kątem wyszukiwarek. 
 
-Dzięki temu twoja strona będzie nie tylko lepiej widoczna, ale także bardziej przyjazna dla użytkowników, co przekłada się na lepsze wyniki biznesowe.
+**Dzięki temu twoja strona będzie nie tylko lepiej widoczna, ale także bardziej przyjazna dla użytkowników, co przekłada się na lepsze wyniki biznesowe.**
+
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
