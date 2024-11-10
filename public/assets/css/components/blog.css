@@ -63,9 +63,37 @@
   aspect-ratio: 5/3;
 }
 
+.post-card {
+  border-radius: var(--radius-2);
+  overflow: hidden;
+}
+
+.post-card-content {
+  padding: 0.5em 1.5em 1.8em;
+  background: var(--color-light-3);
+}
+
+.post-card-content a span {
+  margin-right: 0.5em;
+}
+
+.post-card-content a span,
+.post-card-content a svg {
+  transition: 0.2s ease-in-out;
+}
+
+.post-card-content a:hover span {
+  color: var(--color-accent-1);
+}
+
+.post-card-content a:hover svg {
+  transform: rotate(45deg);
+}
+
 .archive-category {
-  font-size: 85%;
+  font-size: 80%;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 1200px) {

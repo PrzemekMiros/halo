@@ -8,7 +8,7 @@ author: Przemek
 date: 2024-11-05T17:19:42.446Z
 tags:
   - strony www
-thumbnail: /content/posts/img/seo-optimization-www.jpg
+thumbnail: /content/posts/img/optymalizacja-seo-strony-www.jpg
 ---
 ## Czym jest audyt SEO
 

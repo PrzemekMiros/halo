@@ -1,17 +1,17 @@
 --- 
 layout: "layouts/base.njk"
-title: Blog 
+title: Porady
 description: Artykuły i ciekawostki 
 pagination: 
     data: collections.posts 
-    size: 9 
-    alias: blog 
+    size: 12 
+    alias: blog
 --- 
 
 <section class="hero pt-large pt-md-xlarge pb-small pb-md-medium" data-scroll-section>
   <div class="container">
     <div class="row g-4">
-      <div class="col-md-8">
+      <div class="col-md-8 col-xl-7">
         <div class="hero-card hero-card-shape bg-accent-1">
           <svg class="hero-card-shape-svg" viewBox="0 0 691 53" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0V53C0 53 3.96649 35 28.2612 35C52.556 35 570.005 34.98 606.695 34.98C643.385 34.98 651 0 651 0H0Z" fill="var(--color-light-1)" />
@@ -32,7 +32,7 @@ pagination:
           </div>
         </div>
       </div>
-      <div class="col-md-4 d-none d-md-block">
+      <div class="col-md-4 col-xl-5 d-none d-md-block">
         <div class="hero-card bg-dark d-md-flex align-items-center">
           <div class="p-2 fade-in">
             <video autoplay loop poster="/assets/img/video/movie-5-poster.png">
@@ -81,8 +81,9 @@ pagination:
     </div>
     <div class="row gx-4 fade-in"> 
       {% for post in blog %} 
-      <div class="col-md-4 pb-small">
-        <a href="{{ post.url }}" title="{{ post.data.title }}">
+      <div class="col-sm-6 col-lg-4 col-xl-3 pb-xsmall">
+        <div class="post-card">
+                <a href="{{ post.url }}" title="{{ post.data.title }}">
           <div class="post-thumb">
             <svg class="post-thumb-svg" viewBox="0 0 197 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_3772_2)">
@@ -100,11 +101,12 @@ pagination:
             </div>
           </div>
         </a>
-        <p class="archive-category uppercase mt-4 mb-2">
+        <div class="post-card-content">
+        <p class="archive-category uppercase mt-3 mb-2">
           {{ post.data.tags }}
         </p>
         <a href="{{ post.url }}" title="{{ post.data.title }}">
-          <h3 class="line-clamp-2 mt-0 mb-4">
+          <h3 class="h4 line-clamp-2 mt-0 mb-3">
             {{ post.data.title }}
           </h3>
         </a>
@@ -115,6 +117,8 @@ pagination:
             <path d="M3 1H13V11" stroke="var(--color-accent-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </a>
+        </div>
+        </div>
       </div> 
       {% endfor %} 
     </div>

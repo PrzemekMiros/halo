@@ -4246,9 +4246,10 @@ p img {
 .blur-load .placeholder {
   height: inherit;
   width: 100%;
-  filter: blur(5px);
-  transition: opacity 0.5s cubic-bezier(0.79, 0, 0.07, 0.88);
+  filter: blur(8px);
+  transition: opacity 0.2s cubic-bezier(0.79, 0, 0.07, 0.88);
   object-fit: cover;
+  object-position: center;
   z-index: 1;
 }
 
@@ -4262,7 +4263,7 @@ p img {
   left: 0;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   transition: opacity 0.5s cubic-bezier(0.79, 0, 0.07, 0.88);
   opacity: 0;
 }
@@ -7237,9 +7238,37 @@ button.swiper-pagination-bullet {
   aspect-ratio: 5/3;
 }
 
+.post-card {
+  border-radius: var(--radius-2);
+  overflow: hidden;
+}
+
+.post-card-content {
+  padding: 0.5em 1.5em 1.8em;
+  background: var(--color-light-3);
+}
+
+.post-card-content a span {
+  margin-right: 0.5em;
+}
+
+.post-card-content a span,
+.post-card-content a svg {
+  transition: 0.2s ease-in-out;
+}
+
+.post-card-content a:hover span {
+  color: var(--color-accent-1);
+}
+
+.post-card-content a:hover svg {
+  transform: rotate(45deg);
+}
+
 .archive-category {
-  font-size: 85%;
+  font-size: 80%;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 1200px) {

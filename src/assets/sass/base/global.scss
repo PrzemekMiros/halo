@@ -40,9 +40,10 @@ p img {
 .blur-load .placeholder {
   height: inherit;
   width: 100%;
-  filter: blur(5px);
-  transition: opacity .5s cubic-bezier(.79,0,.07,.88);
+  filter: blur(8px);
+  transition: opacity .2s cubic-bezier(.79,0,.07,.88);
   object-fit: cover;
+  object-position: center;
   z-index: 1
 }
 
@@ -56,7 +57,7 @@ p img {
   left: 0;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   transition: opacity .5s cubic-bezier(.79,0,.07,.88);
   opacity: 0
 }
