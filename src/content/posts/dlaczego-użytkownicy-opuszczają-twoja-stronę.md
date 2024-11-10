@@ -44,3 +44,5 @@ W związku z tym weź pod uwagę, że projekt to nie tylko kolory, obrazy i graf
 Nie ma sztywnych reguł dotyczących tego, których fontów należy używać, a których unikać - z wyjątkiem tego, że nigdy, przenigdy nie należy używać Comic Sans. Zamiast tego należy stosować kombinacje kolorów o wysokim kontraście i czyste, pozbawione ozdób czcionki bezszeryfowe, aby uzyskać najlepsze wyniki. 
 
 Jeśli chodzi o rozmiar fontów, trzymaj się większych, aby zapewnić odwiedzającym lepsze wrażenia, niezależnie od tego, czy korzystają z komputera, czy z urządzenia mobilnego. W przypadku nagłówków użyj czcionki o rozmiarze co najmniej 24 pikseli. W przypadku treści trzymaj się co najmniej 14 pikseli.
+
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
