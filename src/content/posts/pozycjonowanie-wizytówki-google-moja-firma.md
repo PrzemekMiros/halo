@@ -20,7 +20,7 @@ Wizytówka Google, zwana również Google My Business (GMB), to darmowe narzędz
 
 {% lineStatic %}
 
-**Zalety dobrze zoptymalizowanej wizytówki Google**:
+## Zalety dobrze zoptymalizowanej wizytówki Google
 
 1. **Zwiększenie widoczności w Google Maps i wyszukiwarce** – dobrze zoptymalizowana wizytówka Google pozwala wyróżnić firmę na tle konkurencji.
 2. **Wzrost zaufania klientów** – wyświetlanie recenzji oraz autentycznych zdjęć buduje zaufanie potencjalnych klientów.
@@ -28,7 +28,7 @@ Wizytówka Google, zwana również Google My Business (GMB), to darmowe narzędz
 
 {% lineStatic %}
 
-### Jak skutecznie zoptymalizować wizytówkę Google?
+## Jak skutecznie zoptymalizować wizytówkę Google?
 
 #### Uzupełnij wszystkie informacje o swojej firmie
 
@@ -95,7 +95,7 @@ Im więcej linków prowadzących do wizytówki Google, tym wyższe szanse na dob
 
 {% lineStatic %}
 
-### Jakie korzyści płyną z pozycjonowania wizytówki Google?
+## Jakie korzyści płyną z pozycjonowania wizytówki Google?
 
 Dobrze wypozycjonowana wizytówka Google to narzędzie, które przyciąga więcej klientów i generuje większy ruch na stronie internetowej firmy. Korzyści to:
 
@@ -105,7 +105,7 @@ Dobrze wypozycjonowana wizytówka Google to narzędzie, które przyciąga więce
 
 {% lineStatic %}
 
-### Podsumowanie
+## Podsumowanie
 
 Wizytówka Google to bezpłatne, ale niezwykle potężne narzędzie do promocji lokalnej. Pamiętaj, aby:
 
