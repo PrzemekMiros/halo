@@ -40,3 +40,5 @@ Kiedy ludzie myślą o marketingu online i wyszukiwarkach, zazwyczaj pierwszą r
 {% lineStatic %}
 
 Budowanie solidnej strategii SEO polega przede wszystkim na doborze odpowiednich słów kluczowych i dostarczeniu wartościowych treści związanych z tymi słowami kluczowymi. W przeszłości SEO było napędzane przez takie czynniki, jak rozmieszczenie słów kluczowych, gęstość słów kluczowych, a nawet to, ile razy słowo kluczowe było używane do linkowania do strony.
+
+{% bannerStatic "Skorzystaj z indywidualnej porady", "Chcesz zwiększyć wyniki firmy? Skorzystaj z mojego wsparcia i poznaj pełnię możliwości Twojej strony.", "/content/posts/img/cons1.jpg" %}
