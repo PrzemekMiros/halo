@@ -9,6 +9,7 @@
     background-size: 300px 300px;
     animation: 250ms steps(10, end) 0s infinite alternate-reverse none running noise-animation;
     pointer-events: none;
+    opacity: 0.3;
     z-index: 9999;
   }
   @-webkit-keyframes noise-animation {
