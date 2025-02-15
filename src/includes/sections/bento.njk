@@ -1,0 +1,132 @@
+<section class="pt-xlarge pb-large" data-scroll-section>
+  <div class="container">
+<div class="bento-grid bento-column">
+         <div class="bento-item schedule">
+          <div class="p-4">
+            <h2 class="color-light-1">
+               Create and schedule content
+               <em class="text-purple">quicker.</em>
+            </h2>
+         </div>
+        </div>
+         <div class="bento-item social">
+          <div class="p-4">
+            <h2 class="color-light">
+               Social Media <span class="text-yellow">10x</span>
+               <em>Faster</em> with AI
+            </h2>
+            <p>Over 4000 5-star reviews.</p>
+         </div>
+           </div>
+         <div class="bento-item timing">
+          <div class="p-4">
+            <h2>
+               Schedule to social media
+            </h2>
+            <p>Optimize post timings to publish content at the perfect time for your audience.</p>
+         </div>
+           </div>
+         <div class="bento-item content">
+          <div class="p-4">
+            <h2 class="color-light-1">
+               Write your content using AI
+            </h2>
+         </div>
+           </div>
+         <div class="bento-item multiple">
+          <div class="p-4">
+            <h2>
+               Manage multiple accounts
+            </h2>
+         </div>
+           </div>
+         <div class="bento-item growth">
+          <div class="p-4">
+            <h2>Faster audience growth</h2>
+         </div>
+           </div>
+         <div class="bento-item consistency">
+            <div class="p-4">
+              <h2 class="color-light-1">
+                Maintain consistent posting
+              </h2>
+            </div>
+         </div>
+         <div class="bento-item follower">
+            <div class="p-4">
+              <h2 class="color-light">
+                Grow followers with non-stop content
+              </h2>
+            </div>
+         </div>
+      </div>
+  </div>
+</section>
+
+<style>
+
+.bento-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "social" "multiple" "consistency" "timing" "follower" "growth" "schedule" "content";
+  gap: 1.25rem;
+}
+
+.bento-item {
+  display: grid;
+  gap: 1.25rem;
+  padding: 0rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.schedule {
+  grid-area: schedule;
+  background-color: var(--color-dark-1);
+}
+
+.social {
+  grid-area: social;
+  background-color: var(--color-accent-1);
+}
+
+.timing {
+  grid-area: timing;
+  background-color: var(--color-light-2);
+}
+
+.content {
+  grid-area: content;
+  background-color: var(--color-dark-2);
+}
+
+.multiple {
+  grid-area: multiple;
+  background-color: var(--color-light-2);
+}
+
+.growth {
+  grid-area: growth;
+  background-color: var(--color-light-2);
+}
+
+.consistency {
+  grid-area: consistency;
+  background-color: var(--color-dark-2);
+}
+
+.follower {
+  grid-area: follower;
+  background-color: var(--color-accent-1);
+}
+
+@media screen and (min-width: 48rem) {
+  .bento-column {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: 1fr 4rem 0.5fr 1fr;
+    grid-template-areas: "schedule social social timing" "schedule multiple consistency timing" "content multiple consistency timing" "content growth follower follower";
+  }
+
+}
+</style>
