@@ -25,8 +25,14 @@
     ]
   });
   swup.hooks.on('page:view', () => {
-       appMain(); animationMain()
-  }, { before: true });
+    window.scrollTo(0, 0); 
+    if (typeof lenis !== 'undefined') {
+        lenis.scrollTo(0, { immediate: true }); 
+    }
+    appMain();
+    animationMain();
+}, { before: true });
+
 </script> 
 <script src="/assets/js/cookieconsent.js" defer></script>
 <script src="/assets/js/cookieconsent-init.js" defer></script>

@@ -4,15 +4,15 @@ function animationMain() {
 
   // Inicjalizacja Lenis do płynnego przewijania
   const lenis = new Lenis({
-    easing: (t) => 1 - Math.pow(1 - t, 3), 
-    lerp: 0.075,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    lerp: 0.1,
     smooth: true,
     smoothTouch: false,
     touchMultiplier: 1.5,
     wheelMultiplier: 1,
     infinite: false,
     autoResize: true
-  }); 
+  });
 
   // Funkcja do przewijania do sekcji
   function scrollToSection(targetPosition) {
