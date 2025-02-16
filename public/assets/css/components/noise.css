@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/assets/img/bg-noise.png");
+    background-image: url("/assets/img/bg-noise.webp");
     background-size: 300px 300px;
     animation: 250ms steps(10, end) 0s infinite alternate-reverse none running noise-animation;
     pointer-events: none;
