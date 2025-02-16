@@ -14,37 +14,38 @@ function appMain() {
 
   // Lazy blur images
   if (document.querySelector(".blur-load")) {
-	const blurImgWrap = document.querySelectorAll(".blur-load");
-
-	const observer = new IntersectionObserver((entries, observer) => {
-		entries.forEach((entry) => {
-			if (entry.isIntersecting) {
-				const item = entry.target;
-				const img = item.querySelector("picture img");
-
-				function loaded() {
-					item.classList.add("loaded");
-				}
-
-				if (img.complete) {
-					loaded();
-				} else {
-					img.addEventListener("load", loaded);
-				}
-
-				// Przestań obserwować element po jego załadowaniu
-				observer.unobserve(item);
-			}
-		});
-	}, {
-		root: null, // Domyślnie okno przeglądarki
-		threshold: 0.1 // Obraz wczytywany, gdy co najmniej 10% elementu jest w widoku
-	});
-
-	blurImgWrap.forEach((item) => {
-		observer.observe(item);
-	});
+		const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+	
+		if (lazyImages.length > 0) {
+			const observer = new IntersectionObserver((entries, observer) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						const img = entry.target;
+	
+						function loaded() {
+							img.classList.add("loaded");
+						}
+	
+						if (img.complete) {
+							loaded();
+						} else {
+							img.addEventListener("load", loaded);
+						}
+	
+						observer.unobserve(img); // Przestań obserwować po załadowaniu
+					}
+				});
+			}, {
+				root: null, // Obserwujemy widoczność w oknie przeglądarki
+				rootMargin: "300px" // Załaduj obraz 300px przed krawędzią ekranu
+			});
+	
+			lazyImages.forEach(img => observer.observe(img));
+		}
+	
 };
+
+
 
 	if (document.querySelector('.swiper-opinion')) {
 		var swiper = new Swiper(".swiper-opinion", {
@@ -124,7 +125,7 @@ function appMain() {
 		});
 	};
 
-
+/*
 	if (document.querySelector('.works-grid-item')) {
 		var worksGridItems = document.querySelectorAll('.works-grid-item');
 		worksGridItems.forEach(function(item) {
@@ -144,6 +145,7 @@ function appMain() {
 			});
 		});
 	}
+*/
 
 	// Greeting
 	if (document.querySelector("#greeting")) {
@@ -217,22 +219,35 @@ function appMain() {
 
 	// Acordion
 	if (document.querySelector(".accordion")) {
-		let t = document.getElementsByClassName("accordion");
-		for (let e = 0; e < t.length; e++)
-			t[e].addEventListener("click", function() {
-				let e = this.nextElementSibling;
-				if (e.style.maxHeight)
-					(e.style.maxHeight = null), this.classList.remove("open");
-				else {
-					for (let a = 0; a < t.length; a++)
-						t[a].classList.remove("open"),
-						(t[a].nextElementSibling.style.maxHeight = null);
-					(e.style.maxHeight = e.scrollHeight + "px"),
-					this.classList.toggle("open");
+		const accordions = document.querySelectorAll(".accordion");
+
+		if (accordions.length > 0) {
+			accordions.forEach((accordion, index) => {
+				accordion.addEventListener("click", function () {
+					const content = this.nextElementSibling;
+	
+					if (content.style.maxHeight) {
+						content.style.maxHeight = null;
+						this.classList.remove("open");
+					} else {
+						accordions.forEach(acc => {
+							acc.classList.remove("open");
+							acc.nextElementSibling.style.maxHeight = null;
+						});
+	
+						content.style.maxHeight = content.scrollHeight + "px";
+						this.classList.add("open");
+					}
+				});
+	
+				// Otwórz pierwszy akordeon domyślnie
+				if (index === 0) {
+					accordion.classList.add("open");
+					accordion.nextElementSibling.style.maxHeight = accordion.nextElementSibling.scrollHeight + "px";
 				}
 			});
+		}
 	};
-
 
 
 	if (document.querySelector('.form-outer')) {
