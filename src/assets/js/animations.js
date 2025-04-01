@@ -48,7 +48,7 @@ function animationMain() {
       new SplitText(element, { type: "lines", linesClass: "line-parent" });
 
       gsap.from(mySplitText.lines, {
-        duration: 0.65,
+        duration: 0.5,
         delay: 0.4,
         stagger: 0.05,
         yPercent: 105,
@@ -78,7 +78,7 @@ function animationMain() {
     // Animacje fade-in
     const boxes = gsap.utils.toArray('.fade-in');
     boxes.forEach(fadeElement => {
-      const anim = gsap.fromTo(fadeElement, { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.75, delay: 0.4 });
+      const anim = gsap.fromTo(fadeElement, { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.5, delay: 0.4 });
       ScrollTrigger.create({ trigger: fadeElement, animation: anim, once: true });
     });
 
@@ -87,7 +87,7 @@ function animationMain() {
     lineX.forEach(lineXItem => {
       gsap.from(lineXItem, {
         width: "0",
-        duration: 0.75,
+        duration: 0.5,
         delay: 0.4,
         ease: "power2.inOut",
         scrollTrigger: { trigger: lineXItem, start: "top 90%" },
